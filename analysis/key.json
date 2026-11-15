@@ -1,0 +1,110 @@
+{
+ "B01": {
+  "question": "W3",
+  "method": "plain"
+ },
+ "B02": {
+  "question": "T3",
+  "method": "crux"
+ },
+ "B03": {
+  "question": "C3",
+  "method": "one_shot"
+ },
+ "B04": {
+  "question": "T2",
+  "method": "plain"
+ },
+ "B05": {
+  "question": "T1",
+  "method": "one_shot"
+ },
+ "B06": {
+  "question": "C2",
+  "method": "one_shot"
+ },
+ "B07": {
+  "question": "T2",
+  "method": "one_shot"
+ },
+ "B08": {
+  "question": "W3",
+  "method": "crux"
+ },
+ "B09": {
+  "question": "C1",
+  "method": "crux"
+ },
+ "B10": {
+  "question": "C3",
+  "method": "crux"
+ },
+ "B11": {
+  "question": "C2",
+  "method": "plain"
+ },
+ "B12": {
+  "question": "W3",
+  "method": "one_shot"
+ },
+ "B13": {
+  "question": "C1",
+  "method": "one_shot"
+ },
+ "B14": {
+  "question": "W1",
+  "method": "plain"
+ },
+ "B15": {
+  "question": "T3",
+  "method": "one_shot"
+ },
+ "B16": {
+  "question": "C3",
+  "method": "plain"
+ },
+ "B17": {
+  "question": "T2",
+  "method": "crux"
+ },
+ "B18": {
+  "question": "W1",
+  "method": "crux"
+ },
+ "B19": {
+  "question": "T1",
+  "method": "crux"
+ },
+ "B20": {
+  "question": "C2",
+  "method": "crux"
+ },
+ "B21": {
+  "question": "W1",
+  "method": "one_shot"
+ },
+ "B22": {
+  "question": "W2",
+  "method": "plain"
+ },
+ "B23": {
+  "question": "W2",
+  "method": "crux"
+ },
+ "B24": {
+  "question": "W2",
+  "method": "one_shot"
+ },
+ "B25": {
+  "question": "T3",
+  "method": "plain"
+ },
+ "B26": {
+  "question": "C1",
+  "method": "plain"
+ },
+ "B27": {
+  "question": "T1",
+  "method": "plain"
+ }
+}

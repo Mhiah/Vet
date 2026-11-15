@@ -1,0 +1,488 @@
+{
+ "n_questions": 9,
+ "confidence": [
+  {
+   "id": "C1",
+   "tier": "contested",
+   "plain": "medium",
+   "one_shot": "medium",
+   "first_answer": "high",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "C2",
+   "tier": "contested",
+   "plain": "medium",
+   "one_shot": "high",
+   "first_answer": "high",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "C3",
+   "tier": "contested",
+   "plain": "medium",
+   "one_shot": "medium",
+   "first_answer": "medium",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "T1",
+   "tier": "thin_evidence",
+   "plain": "medium",
+   "one_shot": "medium",
+   "first_answer": "medium",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "T2",
+   "tier": "thin_evidence",
+   "plain": "medium",
+   "one_shot": "medium",
+   "first_answer": "medium",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "T3",
+   "tier": "thin_evidence",
+   "plain": "medium",
+   "one_shot": "medium",
+   "first_answer": "medium",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "W1",
+   "tier": "well_evidenced",
+   "plain": "high",
+   "one_shot": "medium",
+   "first_answer": "high",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "W2",
+   "tier": "well_evidenced",
+   "plain": "high",
+   "one_shot": "high",
+   "first_answer": "high",
+   "crux": "medium",
+   "verdict": "weakened"
+  },
+  {
+   "id": "W3",
+   "tier": "well_evidenced",
+   "plain": "medium",
+   "one_shot": "high",
+   "first_answer": "high",
+   "crux": "medium",
+   "verdict": "weakened"
+  }
+ ],
+ "by_tier": {
+  "plain": {
+   "well_evidenced": 2.67,
+   "contested": 2,
+   "thin_evidence": 2
+  },
+  "one_shot": {
+   "well_evidenced": 2.67,
+   "contested": 2.33,
+   "thin_evidence": 2
+  },
+  "crux": {
+   "well_evidenced": 2,
+   "contested": 2,
+   "thin_evidence": 2
+  },
+  "first_answer": {
+   "well_evidenced": 3,
+   "contested": 2.67,
+   "thin_evidence": 2
+  }
+ },
+ "levels": {
+  "plain": {
+   "medium": 7,
+   "high": 2
+  },
+  "one_shot": {
+   "medium": 6,
+   "high": 3
+  },
+  "crux": {
+   "medium": 9
+  },
+  "first_answer": {
+   "high": 5,
+   "medium": 4
+  }
+ },
+ "stress_test": {
+  "verdicts": {
+   "weakened": 9
+  },
+  "confidence_moves": {
+   "high->medium": 5,
+   "medium->medium": 4
+  },
+  "assumption_verdicts": {
+   "unresolved": 7,
+   "weakened": 31,
+   "supported": 5
+  },
+  "challenges_per_run": 7.6
+ },
+ "evidence": {
+  "well_evidenced": {
+   "claims_per_question": 26.7,
+   "share_against": 0.37,
+   "sources_per_question": 20
+  },
+  "contested": {
+   "claims_per_question": 40,
+   "share_against": 0.35,
+   "sources_per_question": 20
+  },
+  "thin_evidence": {
+   "claims_per_question": 31,
+   "share_against": 0.23,
+   "sources_per_question": 20
+  }
+ },
+ "rubric": {
+  "plain": {
+   "honest_confidence": 3.11,
+   "counter_evidence": 2.89,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "total_of_25": 16,
+   "oversold": 2,
+   "n": 9
+  },
+  "one_shot": {
+   "honest_confidence": 4,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 3.89,
+   "next_steps": 4.89,
+   "total_of_25": 21.8,
+   "oversold": 1,
+   "n": 9
+  },
+  "crux": {
+   "honest_confidence": 4.89,
+   "counter_evidence": 4.33,
+   "traceability": 4.78,
+   "cruxes": 4.44,
+   "next_steps": 5,
+   "total_of_25": 23.4,
+   "oversold": 0,
+   "n": 9
+  }
+ },
+ "rubric_rows": [
+  {
+   "id": "B09",
+   "question": "C1",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B13",
+   "question": "C1",
+   "method": "one_shot",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B26",
+   "question": "C1",
+   "method": "plain",
+   "honest_confidence": 3,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B20",
+   "question": "C2",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 5,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B06",
+   "question": "C2",
+   "method": "one_shot",
+   "honest_confidence": 2,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 1
+  },
+  {
+   "id": "B11",
+   "question": "C2",
+   "method": "plain",
+   "honest_confidence": 4,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B10",
+   "question": "C3",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 5,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B03",
+   "question": "C3",
+   "method": "one_shot",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B16",
+   "question": "C3",
+   "method": "plain",
+   "honest_confidence": 3,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B19",
+   "question": "T1",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 4,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B05",
+   "question": "T1",
+   "method": "one_shot",
+   "honest_confidence": 4,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B27",
+   "question": "T1",
+   "method": "plain",
+   "honest_confidence": 3,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B17",
+   "question": "T2",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 4,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B07",
+   "question": "T2",
+   "method": "one_shot",
+   "honest_confidence": 3,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B04",
+   "question": "T2",
+   "method": "plain",
+   "honest_confidence": 4,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B02",
+   "question": "T3",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B15",
+   "question": "T3",
+   "method": "one_shot",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 3,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B25",
+   "question": "T3",
+   "method": "plain",
+   "honest_confidence": 4,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B18",
+   "question": "W1",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 5,
+   "traceability": 5,
+   "cruxes": 5,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B21",
+   "question": "W1",
+   "method": "one_shot",
+   "honest_confidence": 5,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 5,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B14",
+   "question": "W1",
+   "method": "plain",
+   "honest_confidence": 2,
+   "counter_evidence": 2,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 1
+  },
+  {
+   "id": "B23",
+   "question": "W2",
+   "method": "crux",
+   "honest_confidence": 4,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 5,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B24",
+   "question": "W2",
+   "method": "one_shot",
+   "honest_confidence": 4,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 3,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B22",
+   "question": "W2",
+   "method": "plain",
+   "honest_confidence": 2,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 1
+  },
+  {
+   "id": "B08",
+   "question": "W3",
+   "method": "crux",
+   "honest_confidence": 5,
+   "counter_evidence": 5,
+   "traceability": 5,
+   "cruxes": 5,
+   "next_steps": 5,
+   "oversold": 0
+  },
+  {
+   "id": "B12",
+   "question": "W3",
+   "method": "one_shot",
+   "honest_confidence": 3,
+   "counter_evidence": 4,
+   "traceability": 5,
+   "cruxes": 4,
+   "next_steps": 4,
+   "oversold": 0
+  },
+  {
+   "id": "B01",
+   "question": "W3",
+   "method": "plain",
+   "honest_confidence": 3,
+   "counter_evidence": 3,
+   "traceability": 1,
+   "cruxes": 4,
+   "next_steps": 5,
+   "oversold": 0
+  }
+ ]
+}
