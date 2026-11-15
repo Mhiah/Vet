@@ -1,0 +1,2801 @@
+{
+  "id": "W2",
+  "tier": "well_evidenced",
+  "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "ran_at": "2026-11-15T15:41:00.000Z",
+  "models": {
+    "plain": "gpt-5.4-mini-2026-03-17",
+    "one_shot": "gpt-5.4-mini-2026-03-17"
+  },
+  "plain": {
+    "final_statement": "Yes—if the app is consumer-facing in Nigeria, build mobile-first before desktop web. That is the best default because smartphone access, mobile data usage, and app-centric behavior are typically stronger than desktop usage for consumer products; the main exception is if your target users are office workers, B2B-like consumers, or tasks that are easier on a large screen and keyboard. The decision depends on your specific audience, use case, and whether you need distribution through app stores versus the web.",
+    "confidence": "high",
+    "confidence_rationale": "This is a strong default strategic recommendation based on broad market patterns in Nigeria and common consumer product behavior. Confidence is high because the answer depends mainly on user context, but the direction is robust unless the startup targets a desktop-heavy segment or a workflow that is materially better on web.",
+    "uncertainties": [
+      "Your exact target segment may be unusually desktop-heavy.",
+      "The product may require low-friction sharing or SEO, which can favor web.",
+      "App-store friction, device storage limits, and data costs may change the optimal launch sequence.",
+      "The product category may be better served by a lightweight web/PWA first approach rather than a native app."
+    ],
+    "next_validation_steps": [
+      {
+        "step": "Interview 15–20 target users in Nigeria about their primary device, app-install willingness, and where they currently solve the problem.",
+        "resolves": "Whether the audience is actually mobile-first or desktop-heavy."
+      },
+      {
+        "step": "Run a low-cost landing page test with both mobile-app and web-first messaging, then compare sign-up conversion by device.",
+        "resolves": "Which channel users are more willing to adopt first."
+      },
+      {
+        "step": "Check analytics from any existing competitors or adjacent products for device share and session patterns in Nigeria.",
+        "resolves": "Whether the category behaves differently from the general market."
+      },
+      {
+        "step": "Prototype the core flow as a mobile web/PWA and measure completion rate on low-end Android devices and poor networks.",
+        "resolves": "Whether web can meet usability and performance needs without a native app."
+      }
+    ]
+  },
+  "one_shot": {
+    "final_statement": "Yes—on the supplied evidence, a new consumer app startup in Nigeria should build mobile-first before desktop web. The strongest support is that Nigeria’s internet and app usage are heavily mobile-oriented, with high smartphone penetration and large mobile subscriber counts, while mobile data is relatively affordable and major consumer apps are already mobile-dominant [C1, C2, C3, C4, C5, C6, C7, C8, C10, C17, C18, C19, C20]. The main caveat is that some Nigerians and businesses still face device, broadband, and digital-literacy constraints, so the best approach is mobile-first rather than mobile-only, with a lightweight web presence or progressive enhancement later [C12, C13, C9].",
+    "confidence": "high",
+    "confidence_rationale": "The claims consistently point in the same direction across multiple evidence types: traffic trends, smartphone adoption, app usage patterns, subscriber counts, and data pricing all favor mobile-first. The main counterclaims describe access barriers, but they do not outweigh the broader mobile usage pattern for a consumer app; they mainly argue for keeping the app lightweight and accessible rather than prioritizing desktop web.",
+    "key_supporting_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C17",
+      "C18",
+      "C19",
+      "C20"
+    ],
+    "key_challenging_claim_ids": [
+      "C12",
+      "C13",
+      "C9"
+    ],
+    "uncertainties": [
+      "How representative the cited smartphone and app-usage figures are across Nigeria beyond urban and higher-income users.",
+      "Whether the startup’s specific consumer category depends on desktop-heavy workflows or shared-device usage.",
+      "How much the target users’ device quality, data costs, and connectivity constraints should shape the first release.",
+      "Whether a web app or desktop companion would materially improve acquisition or retention for this particular product."
+    ],
+    "next_validation_steps": [
+      {
+        "step": "Interview 15-20 target users in Nigeria across at least two income/urbanicity segments about their primary device, data constraints, and preferred app access method.",
+        "resolves": "Whether the target segment is truly mobile-first and how severe access constraints are."
+      },
+      {
+        "step": "Review 5-10 direct competitors or adjacent apps in Nigeria and map their device priorities, onboarding flows, and platform mix.",
+        "resolves": "Whether mobile-first is the market norm for this category and what baseline users expect."
+      },
+      {
+        "step": "Run a low-cost landing-page test with separate mobile and desktop experiences and compare sign-up conversion by device.",
+        "resolves": "Whether desktop web adds meaningful acquisition value for this startup’s audience."
+      },
+      {
+        "step": "Check whether the core use case requires frequent typing, large-screen comparison, or multi-tab workflows.",
+        "resolves": "Whether the product category has a structural reason to prioritize desktop web despite mobile dominance."
+      }
+    ]
+  },
+  "crux": {
+    "id": "982372c4-8476-4096-b00a-3b321ca38441",
+    "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?",
+    "status": "complete",
+    "created_at": "2026-11-15T15:40:02.136Z",
+    "mode": "live",
+    "research": {
+      "queries": [
+        "Nigeria desktop web usage consumer apps decline survey report 2023 2024",
+        "Nigeria consumer app mobile first adoption survey smartphone internet usage 2023 2024 report",
+        "Nigeria mobile app startup failures low adoption desktop web cheaper alternative report",
+        "Nigeria mobile internet users vs desktop web usage consumer apps data report GSMA ITU 2023 2024",
+        "Nigeria consumer internet access barriers smartphone costs data plans desktop web usage report Nigeria 2023 2024",
+        "Nigeria app usage mobile vs web consumer behavior survey report 2023 2024",
+        "Nigeria regulation connectivity outages device affordability complaints mobile app adoption report",
+        "Nigeria smartphone penetration and mobile broadband adoption official statistics 2023 2024"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices",
+          "title": "Mobile web traffic share worldwide 2026 | Statista",
+          "publisher": "statista.com",
+          "published_date": null,
+          "excerpt": "## Mobile traffic\n\nDue to low infrastructure and financial restraints, many emerging digital markets skipped the desktop internet phase entirely and moved straight onto mobile internet via smartphone and tablet devices. India is a prime example of a market with a significant mobile-first online population. Other countries with a significant share of mobile internet traffic include Nigeria, Ghana, and Kenya. In most African markets, mobile accounts for more than half of the web traffic. By contrast, mobile makes up less than half of the web traffic in the United States.\n\n## Mobile usage",
+          "relevance": 0.1831549,
+          "kind": "industry_report",
+          "flags": []
+        },
+        {
+          "id": "S2",
+          "url": "https://assets.kpmg.com/content/dam/kpmgsites/ng/pdf/2026/09/Nigeria%20Smartphone%20Study%20-%20Orange%20Group%20and%20KPMG.pdf.coredownload.inline.pdf",
+          "title": "Nigeria Smartphone Study 2025",
+          "publisher": "assets.kpmg.com",
+          "published_date": null,
+          "excerpt": "Demographics GENDER 7023 6228 AGE RANGE AB:1 % C1:4 % C2:18% D: 59% E:18% SOCIO- ECONOMIC CLASS 15 –17 years: 723 18 –25 years: 4036 26 –35 years: 4568 36 –45 years: 2634 46 –55 years: 942 56 –65 years: 258 65+ years: 90 Sample size by locations (n=13,251) Lagos 1,983 Ibadan 1,030 Ilorin 1,007 Onitsha 1,021 Aba 1,023 Port Harcourt 1,010 Owerri 1,001 Benin City 1,067 Abuja 1,000 Jos 1,069 Kaduna 1,032 Kano 1,008 Detailed Findings Nigeria Smartphone Study 2025 12 Nigeria Smartphone Study 2025 12 Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% (from 64% in 2023), accelerating the shift from feature phones to app-driven digital services. [...] The study identifies WhatsApp, Facebook, and TikTok as the leading social and communication apps among Nigerian smartphone users, reflecting their strong role in everyday digital interaction.\nWhatsApp continues to dominate the messaging space due to its simplicity, low data consumption, and wide adoption across both personal and business communication.\n2023 2025 Facebook TikTok Instagram Snapchat Twitter (X) LinkedIn Threads 77% 87% 39% 70% 36% 51% 29% 49% 19% 24% 4% 5% 3% Nigeria Smartphone Study 2025 33 Music streaming is increasingly mobile-first in Nigeria, with Audiomack (45%) and Boomplay (40%) leading digital entertainment consumption. [...] Lawrence Amadi Partner & Head, Technology, Media & Telecommunications, KPMG Africa Nigeria Smartphone Study 2025 5 The Nigeria Smartphone and Application Penetration Study was launched in 2019 to understand how Nigerians interact with smartphones and digital services in an increasingly technology-driven economy.\nThe first edition of the study was conducted exclusively in Lagos, Nigeria’s commercial hub, providing early insights into smartphone ownership and digital application usage among urban consumers.\nRecognizing the rapid evolution of Nigeria’s digital landscape, the study was expanded in 2023 to cover multiple cities nationwide.",
+          "relevance": 0.4704325,
+          "kind": "industry_report",
+          "flags": []
+        },
+        {
+          "id": "S3",
+          "url": "https://www.ncc.gov.ng/sites/default/files/2024-11/Consultancy-Study-on-Developing-Sustainable-Digital-Entrepreneurship-Business-Model-in-a-Digital-Nigeria.pdf",
+          "title": "FINAL REPORT",
+          "publisher": "ncc.gov.ng",
+          "published_date": null,
+          "excerpt": "57. Mentorship & Advisory Issues 58. Operational and Running Costs 59. Competition 60. Digital Literacy Issues 61. Business Management Issues 62. Low trust score for digital businesses by consumers 63. Multiple Taxation 64. Cybersecurity Issues Section E: Reasons for Failure of Digital Businesses in Nigeria Kindly indicate how the prevalence of the following factors have influenced and led to the failure of startups and digital businesses in Nigeria. SN Factor Very High High Average Low Very Low 65. Lack of Consumer patronage; Low Profit margin 66. Wrong choice of product/service 67. High operational and running cost 68. Lack of good national infrastructure 69. Poor Business Management and Leadership 70. Incompatible Founders 71. Lack of Funding 72. Funds Mismanagement 73. Stiff [...] Reasons for Startup Failure in Nigeria: The top 5 causes of Startup failure in Nigeria are cybercrime, economic instability, unfavourable government policies, high operational/running costs and lack of funding. 6 in 10 Nigerian Startups (60%) fail within the first one to five years of commencing operations. SWOT Analysis of Digital Entrepreneurship and Business Landscape in Nigeria Strengths Large youthful population of entrepreneurs; Strong social media presence; Good teledensity indices (115.70% as of July 2023); Honeypot for sponsorship of tech-based innovations by international VCs; Healthy competition; Large customer base; Ease of registering a business; Strong presence of technology hubs, incubators and accelerators; Presence of enabling policies. Weaknesses Slow implementation of [...] that over 55% of respondents rated the following (in order of most severity) as the top challenges faced by digital entrepreneurs and businesses in Nigeria: a. Access to funding b. Inflation effects c. Operational and running costs d. Competition e. Cybersecurity issues f. Buying power and patronage g. Access to foreign exchange h. Low trust score for digital businesses by consumers i. High import duties and tariffs j. Electricity supply k. Poor national infrastructure (roads, railway, water, etc.) l. Insecurity m. Multiple taxation n. Business management issues 3.4 Reasons for Startup Failure in Nigeria A myriad of factors influence and affect Startups' ability to thrive and succeed in Nigeria. The average Nigerian digital Startup business has to deal with issues such as access to",
+          "relevance": 0.5140115,
+          "kind": "government",
+          "flags": []
+        },
+        {
+          "id": "S4",
+          "url": "https://www.trade.gov/country-commercial-guides/nigeria-digital-economy",
+          "title": "Nigeria - Digital Economy",
+          "publisher": "trade.gov",
+          "published_date": null,
+          "excerpt": "Though the oil/gas and agricultural sectors contribute much of Nigeria’s revenue, the ICT industry has remained buoyant despite recent economic volatility, as it benefitted from medium- and long-term economic development policies accentuating investments in infrastructure by telecom operators (Telcos). Nigeria has Africa’s largest mobile market, with about 157 million subscribers, as recently announced by the Nigerian Communications Commission (NCC), achieving a teledensity of 101.16%. As of March 2024, more than 163 million Nigerians had internet access because of the growth of broadband mobile networks, the launch of affordable data plans, and a broadband penetration of 43.5 percent. Nigeria’s major ICT players comprise four activities: Telecommunications and Information Services;",
+          "relevance": 0.60288024,
+          "kind": "government",
+          "flags": []
+        },
+        {
+          "id": "S5",
+          "url": "https://pdfs.semanticscholar.org/83b8/fddef92f23771b23c39944b19c5142cead20.pdf",
+          "title": "An Empirical Investigation on the Variables Affecting Electronic ...",
+          "publisher": "pdfs.semanticscholar.org",
+          "published_date": null,
+          "excerpt": "This article explores the factors influencing consumers' adoption of e-commerce in Nigeria. As part of an empirical study, an online questionnaire was",
+          "relevance": 0.1431877,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S6",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6102406.pdf?abstractid=6102406&mirid=1&type=2",
+          "title": "MOBILE BROADBAND INTERNET AND HOUSEHOLD ...",
+          "publisher": "papers.ssrn.com",
+          "published_date": null,
+          "excerpt": "2The 2017 After Access Survey indicates that mobile and internet penetration rates in Nigeria were 64% and 30%, respectively. And 89.8% of the inhabitants",
+          "relevance": 0.31195065,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S7",
+          "url": "https://www.academia.edu/122527077/Digital_Technology_Adoption_by_Microenterprises_Nigeria_Report",
+          "title": "Digital Technology Adoption by Microenterprises: Nigeria Report (PDF) | Academia",
+          "publisher": "academia.edu",
+          "published_date": null,
+          "excerpt": "## FAQs\n\nsparkles\n\nAI\n\nWhat explains the low internet usage among Nigerian microenterprises despite high mobile ownership?add\n\nThe study reveals that only 13% of microenterprises utilize the internet for business activities, despite 81% owning mobile phones, highlighting substantial barriers to digitalization.\n\nHow does education level influence digital technology adoption in Nigerian microenterprises?add\n\nThe paper finds a 15% increase in smartphone ownership and a 10% rise in internet usage among microenterprises when the owner has completed secondary education compared to those with lesser education.\n\nWhat are the identified barriers to digital technology adoption for microenterprises in Nigeria?add [...] Figure 53: Comparison of what is needed to enhance internet access and more extensive use of the internet Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile). Whilst this is significantly more than countries such as Ghana (USD 1.09) and Ethiopia (USD 1.15), Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67. The highest price recorded is an exorbitant USD 18.19 in the Seychelles (RIA, 2024). The current price in Nigeria also falls within the affordable access [...] Figure 53: Comparison of what is needed to enhance internet access and more extensive use of the internet  Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile). Whilst this is significantly more than countries such as Ghana (USD 1.09) and Ethiopia (USD 1.15), Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67. The highest price recorded is an exorbitant USD 18.19 in the Seychelles (RIA, 2024). The current price in Nigeria also falls within the affordable access",
+          "relevance": 0.46004632,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S8",
+          "url": "https://link.springer.com/article/10.1007/s43545-026-01749-2",
+          "title": "Mobile-based digital technology adoption, gender, livelihood diversification, and poverty reduction in the Global South: a scoping review | SN Social Sciences | Springer Nature Link",
+          "publisher": "link.springer.com",
+          "published_date": null,
+          "excerpt": "Fig. 6\n\nMobile phone ownership and internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \")) [...] Fig. 8\n\nRural-urban gaps in mobile internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \"))\n\n### Value chain, communication, and transaction aspects of mobile-based digital technologies [...] Fig. 7\n\nGender gap in mobile internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \"))",
+          "relevance": 0.17909943,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S9",
+          "url": "https://africa.businessinsider.com/local/careers/orbit-survey-reveals-nigerias-top-smartphone-apps-and-key-trends/wf3dqbt?op=1",
+          "title": "ORBIT survey reveals Nigeria's top smartphone apps and key trends | Business Insider Africa",
+          "publisher": "africa.businessinsider.com",
+          "published_date": null,
+          "excerpt": "ORBIT conducted a study on smartphone and app usage in Nigeria, surveying 13,340 respondents in 12 cities.\n WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular.\n Regional apps Boomplay, OPay, and PalmPay led in their respective categories, while cryptocurrency apps remained niche. [...] As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant. Orange Business Intelligence Technology (ORBIT) recently conducted a Smartphone & Application Penetration Study across Nigeria to ascertain which apps were used with smartphones in the country. The survey was conducted through natural fallout and on-sight confirmation of phone types and applications downloaded. ORBIT's team of 55 interviewers and eight supervisors surveyed a total of 13,340 respondents in 12 cities, shortlisting 51 apps that were commonly downloaded.\n\n#### Read Also\n\n## WhatsApp and Facebook Remain Top Apps [...] #### Read Also\n\n## WhatsApp and Facebook Remain Top Apps\n\nORBIT found that WhatsApp and Facebook had over 90% penetration across the survey set, indicating their popularity among Nigerian smartphone users. Xender, a file-sharing app that allows users to share large files and synchronise smartphone applications with other users offline, was also popular. Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used.\n\n## Boomplay, OPay, and PalmPay Lead Regional Apps",
+          "relevance": 0.2718312,
+          "kind": "news",
+          "flags": []
+        },
+        {
+          "id": "S10",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12797844",
+          "title": "Beyond seed funding: why Nigerian digital health startups struggle to grow",
+          "publisher": "pmc.ncbi.nlm.nih.gov",
+          "published_date": null,
+          "excerpt": "Another facet of market adoption is willingness to pay. Even if people trust a service, can they afford it, and do they prioritize it? Out-of-pocket healthcare costs in Nigeria are high , yet paradoxically, most people only spend on healthcare when critically ill, not on preventative services. Digital health offerings often sit in a tricky space: they might save money in aggregate, but they can appear as new expenses to consumers. For example, a fertility tracking app or a subscription for telemedicine is something people have never paid for before. In a country where only about 5%–10% of the population has health insurance , persuading consumers to allocate part of their tight budgets to a health app is challenging. Low insurance coverage often forces health startups to either target [...] Furthermore, some digital health solutions face the classic “last-mile” trust issue: users might download an app or try a service once, but regular usage depends on perceived value and habit formation. Startups report a drop-off in engagement after initial trials, prompting them to invest heavily in user education and support. This is where offline components become key; many Nigerian health-tech companies deploy field teams for onboarding or run community outreach (e.g., health talks or free screenings) to build a rapport that digital channels alone could not. Such efforts, while effective in pockets, are resource-intensive and can strain a startup’s ability to rapidly scale across geographies.\n\n### Talent and workforce challenges [...] There have been efforts to mitigate these gaps. The federal government, with support from donors, has rolled out initiatives like the National Health ICT Strategic Framework, and some state governments (Lagos, for instance) have invested in telemedicine hotlines and health data systems [12, 39]. Additionally, mobile network operators have begun partnering on mHealth programs (leveraging Nigeria’s roughly 100 million mobile internet users). Nonetheless, until broad improvements in ICT infrastructure materialize, startups will continue adopting creative coping strategies, from offline-capable apps that sync data only when connectivity returns to deploying field agents who assist users in low-tech settings (as companies like PharmaGen and Field Intelligence have done for drug distribution).",
+          "relevance": 0.49147877,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S11",
+          "url": "https://africa.businessinsider.com/local/markets/african-countries-with-the-highest-number-of-mobile-phones/lzqj62z",
+          "title": "African countries with the highest number of mobile phones | Business Insider Africa",
+          "publisher": "africa.businessinsider.com",
+          "published_date": null,
+          "excerpt": "The latest research data from Canalys revealed that in Q4 2023, African countries received shipments of 19.2 million units of mobile phones indicating a 24% year-on-year growth.\n\nAnalysts have linked the growing demand for phones in the continent to the rising digital services market, thriving social media, and the introduction of easy purchasing methods by some Fintech and business agents like the Buy Now, Pay Later options.\n\n## Top 5 African countries with the highest number of mobile phones\n\nAccording to sources around the web, here are some African countries with the highest number of mobile phone users:\n\n### 1. Nigeria\n\nNigeria currently leads other African countries with a mobile phone penetration rate of 85%. [...] The African phone market is rapidly expanding with a forecast of 500 million mobile phone users by 2025.\n Nigeria leads with a mobile phone penetration rate of 85%, with 219.3 million active mobile subscriptions.\n South Africa has 118.6 million mobile connections, about 195.4% of the population.\n\n#### Read Also\n\nThe African phone market has witnessed rapid expansion in recent years with the International Telecom Union (ITU) forecasting the number of mobile phone users to hit 500 million in 2025.\n\nAccording to the ITU data on the telecom sector, Africa has become the world’s fastest-growing mobile phone market with the continent’s mobile phone usage rising at an annual rate of 65% and expanding nearly twice as fast as the Asian market. [...] According to the National Bureau of Statistics (NBS), the total number of active mobile subscriptions in Nigeria stood at 219.3 million as at Q1, 2024.\n\n### 2. South Africa\n\nAccording to data from GSMA Intelligence, there were 118.6 million mobile connections in South Africa at the start of 2024. This figure is about 195.4% of South Africa's population.\n\nThe population of South Africa stood at 60.69 million in January 2024.\n\n### 3. Egypt\n\nThe country's mobile penetration rate has been put at 95% while the number of active mobile connections has been recorded as 110.5 million according to data from Datareportal.\n\nEgypt’s population stood at 113.6 million as at January 2024.\n\n### 4. Ethiopia",
+          "relevance": 0.18025091,
+          "kind": "news",
+          "flags": []
+        },
+        {
+          "id": "S12",
+          "url": "https://www.britannica.com/place/Nigeria",
+          "title": "Nigeria | Population, Religion, Flag, Country, Map, & Languages",
+          "publisher": "britannica.com",
+          "published_date": null,
+          "excerpt": "Image 18: Britannica AI Icon\n\n Ask Anything  Quick Summary \n\nGeography & TravelCountries of the World\n\nImage 19 Add us on Google  Adding us as a Preferred Source tells Google you trust our content, so our articles show up more often in your Google Search, Discover feed, and AI Overviews. \n\n Cite \n\n Print \n\n Share \n\n Feedback \n\n External Websites \n\nImage 20: Political map of Nigeria showing its international boundaries with Benin, Niger, Chad, and Cameroon, as well as major cities such as Lagos, Abuja, Kano, Ibadan, and Port Harcourt. Rivers and key towns are marked throughout the country. An inset locator map highlights Nigeria's position in western Africa.\n\nNigeria(more)\n\n# Nigeria\n\ncountry, Africa\n\n Homework Help \n\nAlso known as: Federal Republic of Nigeria\n\nWritten by [...] Nigeria, country located on the western coast of Africa. Nigeria has a diverse geography, with climates ranging from arid to humid equatorial. However, Nigeria’s most diverse feature is its people. Hundreds of languages are spoken in the country, including Yoruba, Igbo, Fula, Hausa, Edo, Ibibio, Tiv, and English. Nigeria routinely ranks among the top 10 most populous countries, and the country is home to one of Africa’s largest urban populations. The country also has abundant natural resources, notably large deposits of petroleum and natural gas.\n\nImage 23: Map of West and Central Africa highlighting Nigeria in orange, with its capital Abuja marked. Neighboring countries including Benin, Niger, Chad, Cameroon, and others are labeled, along with the Atlantic Ocean to the south. [...] Nigeria(more)\n\nNigeria is bordered to the north by Niger, to the east by Chad and Cameroon, to the south by the Gulf of Guinea of the Atlantic Ocean, and to the west by Benin. Nigeria is not only large in area—larger than the U.S. state of Texas—but also Africa’s most populous country.\n\nImage 26\n\nImage 27: Today in History\n\nDiscover the fascinating events that shaped the world, straight from our editors.\n\nSIGN UP\n\n### Thank you for signing up!\n\nImage 28\n\n By clicking “Sign Up”, you consent to the Britannica Privacy Policy and Terms of Use. \n\n## Relief\n\nImage 29: Aerial view of Zuma Rock, a massive, steep-sided monolith rising from flat terrain near a town in Niger State, Nigeria.\n\nAn aerial view of Zuma Rock, a large inselberg near Abuja, Nigeria(more)",
+          "relevance": 0.8033186354,
+          "kind": "reference",
+          "flags": []
+        },
+        {
+          "id": "S13",
+          "url": "https://ijecm.co.uk/wp-content/uploads/2024/02/12214.pdf",
+          "title": "MOBILE MARKETING AND CONSUMER BEHAVIOUR IN NIGERIA ...",
+          "publisher": "ijecm.co.uk",
+          "published_date": null,
+          "excerpt": "The population of the study was all the residence in Nigeria who used Mobile apps for shopping and it comprise of 106 million of adults as estimated",
+          "relevance": 0.39735362,
+          "kind": "company_or_blog",
+          "flags": []
+        },
+        {
+          "id": "S14",
+          "url": "https://adi.a4ai.org/wp-content/uploads/2019/12/NIGERIA-Fiinal-Web-REV.pdf",
+          "title": "Nigeria Digital Economy Diagnostic Report",
+          "publisher": "adi.a4ai.org",
+          "published_date": null,
+          "excerpt": "ADDITIONAL BARRIERS TO ACCESS The costs to acquire a broadband-enabled device, digital illiteracy, lack of local content, and low elec-trification rates are major barriers to access broad-band in Nigeria. An ICT use survey reveals that, of those unconnected, 50% stated that they cannot use Internet because they cannot afford devices to access the Internet, over 25% of them gave ‘no electricity’ as the reason, while over 20% said ‘there is no signal’ (mobile coverage) (Gillwald, et al., 2018). There is an urgent need to develop policies and regulations that increase the affordability of smart devices and develop awareness of the Internet, as well as the skills to access and use it, which is critical to reducing digital inequal-ity. Finally, according to USAID’s Power Africa program there [...] stood at 1.89% of Gross National Income (GNI) per capita. This sit-uation, i.e., a mobile-broadband price below 2% of GNI, only occurs in five other countries in Africa: Mauritius, the Seychelles, Gabon, Cabo Verde and South Africa (ITU, 2018). Finally, Nigeria ranks 6th out of 49 countries on Research ICT Africa (RIA)’s African Mobile Pricing (RAMP) Index, and 10th on the 1GB pre-paid mobile data index. Even though Nigeria compares well in the affordability and price rankings, these rankings need to be weighed against the accompanying broadband objectives of increased penetration and quality of service on which the country fares less favorably. Individual Internet penetra-tion is relatively low in Nigeria, at around 30%. By com-parison, South Africa has the highest individual Internet [...] The report shows that many Nigerian citizens and busi-nesses remain excluded from the digital ecosystem as a result of limited access to broadband and nonavailability of adequate devices (mobile devices and computers) to fully utilize the Internet. It also highlights good progress in digital infrastructure, finance, skills, and entrepreneurship, among others. Nigeria’s international connectivity (‘First mile”) is well developed with connectivity to high-speed Nigeria Digital Economy Diagnostic Report vii Internet via five undersea international links. Similarly, Nigeria is home to several high-growth digital companies that provide hopeful examples of the country’s digital potential. Lagos is a mature and active ecosystem with dynamic incubators, venture capital companies, digital",
+          "relevance": 0.6715783,
+          "kind": "company_or_blog",
+          "flags": []
+        },
+        {
+          "id": "S15",
+          "url": "https://www.mordorintelligence.com/industry-reports/app-analytics-market",
+          "title": "App Analytics Market Size, Outlook, Trends Report & Growth 2031",
+          "publisher": "mordorintelligence.com",
+          "published_date": null,
+          "excerpt": "+ 5.6.5.1.4 Rest of Middle East\n  + 5.6.5.2 Africa\n  + 5.6.5.2.1 South Africa\n  + 5.6.5.2.2 Nigeria\n  + 5.6.5.2.3 Egypt\n  + 5.6.5.2.4 Rest of Africa [...] - Chile\n    - Rest of South America\n  + Europe\n    - Germany\n    - United Kingdom\n    - France\n    - Italy\n    - Spain\n    - Russia\n    - Rest of Europe\n  + Asia-Pacific\n    - China\n    - India\n    - Japan\n    - South Korea\n    - Singapore\n    - Malaysia\n    - Australia\n    - Rest of Asia-Pacific\n  + Middle East and Africa\n    - Middle East\n       United Arab Emirates\n       Saudi Arabia\n       Turkey\n       Rest of Middle East\n    - Africa\n       South Africa\n       Nigeria\n       Egypt\n       Rest of Africa [...] ### Data Sources, Market Sizing, and Validation\n\n  \n\nDesk Research\n\nDesk work starts by mapping demand signals that explain why analytics spend grows with app usage. We referenced public datasets and publications such as the International Telecommunication Union (ITU) for connectivity, the World Bank for digital economy indicators, OECD digital statistics, and US Census Bureau data for business and services trends, then aligned these with mobile and web usage patterns reported in reputable press and association sites.",
+          "relevance": 0.078925885,
+          "kind": "industry_report",
+          "flags": []
+        },
+        {
+          "id": "S16",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/45de43b2-5e24-4162-9f95-452b746a027a-MECA.pdf?abstractid=4982095&mirid=1",
+          "title": "Preprint not peer reviewed",
+          "publisher": "papers.ssrn.com",
+          "published_date": null,
+          "excerpt": "This study investigates the factors influencing Nigerian citizens' adoption of the e-ID mobile application, a key initiative in Nigeria's e-government strategy.",
+          "relevance": 0.23458195,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S17",
+          "url": "https://www.academia.edu/109589119/EFFECT_OF_DIGITAL_MARKETING_ON_STARTUP_PERFORMANCE_IN_LAGOS_NIGERIA",
+          "title": "EFFECT OF DIGITAL MARKETING ON STARTUP PERFORMANCE IN LAGOS, NIGERIA",
+          "publisher": "academia.edu",
+          "published_date": null,
+          "excerpt": "The study examined digital marketing and startup performance in Lagos, Nigeria. The study identified inability of startup founders to gain substantial traction for their startups as the major problem hindering funding and landing startups at the death Valley phase. The aim of this study was to critically examine the effect of digital marketing on startups in Lagos, Nigeria. This study employed descriptive survey research methodology to gather data from an existing target population of 425 startups in Lagos State, Nigeria. Questionnaires with closed-ended and multiple questions using objectives and variables were designed to collect primary data from a sample size of 206 startups. The questionnaire was analysed using SPSS (the scientific package for social science). This study further [...] ... Read more\n\n## Key takeaways\n\nImage 10: sparkles\nAI\n\n1.   Digital marketing significantly enhances startup performance, addressing traction issues critical for funding in Lagos.\n2.   The study surveyed 425 startups, with a sample size of 206, using SPSS for data analysis.\n3.   Mobile, content, video, and social media marketing strategies are vital for gaining market traction.\n4.   Statistical significance was confirmed for all digital marketing strategies at a 5% level.\n5.   The findings contribute to understanding digital marketing's role in the Nigerian startup ecosystem.\n\nthumb_up Helpful thumb_down Not Helpful\n\ndescription See full PDF download Download PDF\n\n## Related papers\n\nThe influence of online marketing on start-ups\n\nsarina asif\n\nInternational journal of health sciences [...] scientific package for social science). This study further tested four hypotheses using the correlation and regression methods. The level of significance for the study is 5% for a two-tailed test. The decision rule is that if the probability value (PV) is less than 5% or 0.05 (that is, PV < 0.05), it implies that the hypothesis tested is statistically significant at the 5% level; The study discovered that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startups in Lagos, Nigeria. The study concluded that digital marketing has a significant relationship with startup performance in Lagos, Nigeria. The study recommends that startup founders should ensure that mobile marketing, content marketing, video marketing, and social",
+          "relevance": 0.3738758,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S18",
+          "url": "https://www.researchgate.net/publication/368931221_Knowledge_of_Digital_Technology_Its_Access_and_Use_to_Enhance_Dissemination_of_Health_Information_Among_Residents_of_Ogui_New_Layout_Enugu_Nigeria",
+          "title": "(PDF) Knowledge of Digital Technology, Its Access and Use to ...",
+          "publisher": "researchgate.net",
+          "published_date": null,
+          "excerpt": "About 50.2% of Nigerians use the internet. It has become a popular health intervention tool because of its easy access on a variety of devices",
+          "relevance": 0.15052763,
+          "kind": "research",
+          "flags": []
+        },
+        {
+          "id": "S19",
+          "url": "https://africa.businessinsider.com/local/careers/orbit-survey-reveals-nigerias-top-smartphone-apps-and-key-trends/wf3dqbt",
+          "title": "ORBIT survey reveals Nigeria's top smartphone apps and key trends | Business Insider Africa",
+          "publisher": "africa.businessinsider.com",
+          "published_date": null,
+          "excerpt": "ORBIT conducted a study on smartphone and app usage in Nigeria, surveying 13,340 respondents in 12 cities.\n WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular.\n Regional apps Boomplay, OPay, and PalmPay led in their respective categories, while cryptocurrency apps remained niche. [...] As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant. Orange Business Intelligence Technology (ORBIT) recently conducted a Smartphone & Application Penetration Study across Nigeria to ascertain which apps were used with smartphones in the country. The survey was conducted through natural fallout and on-sight confirmation of phone types and applications downloaded. ORBIT's team of 55 interviewers and eight supervisors surveyed a total of 13,340 respondents in 12 cities, shortlisting 51 apps that were commonly downloaded.\n\n#### Read Also\n\n## WhatsApp and Facebook Remain Top Apps [...] #### Read Also\n\n## WhatsApp and Facebook Remain Top Apps\n\nORBIT found that WhatsApp and Facebook had over 90% penetration across the survey set, indicating their popularity among Nigerian smartphone users. Xender, a file-sharing app that allows users to share large files and synchronise smartphone applications with other users offline, was also popular. Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used.\n\n## Boomplay, OPay, and PalmPay Lead Regional Apps",
+          "relevance": 0.2718312,
+          "kind": "news",
+          "flags": []
+        },
+        {
+          "id": "S20",
+          "url": "https://orangegroups.com/nigeria-smartphone-studya-nationwide-analysis-of-smartphone-ownership-and-digital-application-usage-13251-respondents-across-12-major-nigerian-cities",
+          "title": "Nigeria Smartphone Study: A Nationwide Analysis of Smartphone Ownership and Digital Application Usage (13,251 respondents across 12 major Nigerian Cities) - Orange Group",
+          "publisher": "orangegroups.com",
+          "published_date": null,
+          "excerpt": "Recognising the rapid evolution of Nigeria’s digital landscape, the study was expanded in 2023 to cover multiple cities nationwide. The 2025 report represents the third instalment of the study, offering deeper insights into smartphone penetration, mobile ecosystems, and digital behaviour across key Nigerian cities. Nigeria continues to experience rapid digital transformation driven by a young population, improving internet connectivity, and growing  \nsmartphone affordability. [...] Industry estimates suggest that smartphone adoption in Nigeria is expanding steadily, with penetration levels expected to reach significant milestones as mobile devices increasingly become the primary gateway to digital services. This shift has created a thriving ecosystem of digital  \napplications spanning financial services, social media, entertainment, commerce, and emerging technologies such as artificial intelligence and cryptocurrency platforms. [...] The insights presented in this report provide valuable intelligence for businesses, investors, policymakers, and technology developers seeking to understand Nigeria’s digital economy. By examining smartphone ownership patterns and the adoption of key digital applications across different sectors, the study highlights emerging opportunities within Nigeria’s growing mobile economy. The findings are particularly relevant for organisations seeking to design consumer-centric digital products, expand digital service offerings, and invest strategically in Nigeria’s rapidly evolving technology ecosystem.  \n  \nClick here to download the report.\n\nScroll to Top",
+          "relevance": 0.5185919,
+          "kind": "company_or_blog",
+          "flags": []
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "In most African markets, mobile accounts for more than half of web traffic.",
+          "source_ids": [
+            "S1"
+          ],
+          "category": "trends",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S1",
+              "text": "In most African markets, mobile accounts for more than half of the web traffic."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C2",
+          "text": "Nigeria is one of the countries with a significant share of mobile internet traffic.",
+          "source_ids": [
+            "S1"
+          ],
+          "category": "trends",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S1",
+              "text": "Other countries with a significant share of mobile internet traffic include Nigeria, Ghana, and Kenya."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C3",
+          "text": "Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% from 64% in 2023.",
+          "source_ids": [
+            "S2"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S2",
+              "text": "Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% (from 64% in 2023), accelerating the shift from feature phones to app-driven digital services."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C4",
+          "text": "WhatsApp, Facebook, and TikTok are the leading social and communication apps among Nigerian smartphone users.",
+          "source_ids": [
+            "S2"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S2",
+              "text": "The study identifies WhatsApp, Facebook, and TikTok as the leading social and communication apps among Nigerian smartphone users, reflecting their strong role in everyday digital interaction."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C5",
+          "text": "WhatsApp continues to dominate messaging in Nigeria because it is simple, uses little data, and is widely adopted for personal and business communication.",
+          "source_ids": [
+            "S2"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S2",
+              "text": "WhatsApp continues to dominate the messaging space due to its simplicity, low data consumption, and wide adoption across both personal and business communication."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C6",
+          "text": "Music streaming in Nigeria is increasingly mobile-first, with Audiomack at 45% and Boomplay at 40%.",
+          "source_ids": [
+            "S2"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S2",
+              "text": "Music streaming is increasingly mobile-first in Nigeria, with Audiomack (45%) and Boomplay (40%) leading digital entertainment consumption."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C7",
+          "text": "Nigeria has Africa’s largest mobile market, with about 157 million subscribers.",
+          "source_ids": [
+            "S4"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S4",
+              "text": "Nigeria has Africa’s largest mobile market, with about 157 million subscribers, as recently announced by the Nigerian Communications Commission (NCC), achieving a teledensity of 101.16%."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C8",
+          "text": "As of March 2024, more than 163 million Nigerians had internet access because of broadband mobile networks, affordable data plans, and broadband penetration of 43.5 percent.",
+          "source_ids": [
+            "S4"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S4",
+              "text": "As of March 2024, more than 163 million Nigerians had internet access because of the growth of broadband mobile networks, the launch of affordable data plans, and a broadband penetration of 43.5 percent."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C9",
+          "text": "Only 13% of Nigerian microenterprises use the internet for business activities, despite 81% owning mobile phones.",
+          "source_ids": [
+            "S7"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S7",
+              "text": "The study reveals that only 13% of microenterprises utilize the internet for business activities, despite 81% owning mobile phones, highlighting substantial barriers to digitalization."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C10",
+          "text": "Mobile data in Nigeria is relatively cheap compared with other African countries, and the cheapest 1GB package cost USD 2.38 in the third quarter of 2022.",
+          "source_ids": [
+            "S7"
+          ],
+          "category": "pricing",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S7",
+              "text": "Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile)."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C11",
+          "text": "Nigeria was the tenth cheapest of 42 African countries for 1GB mobile data in the cited dataset.",
+          "source_ids": [
+            "S7"
+          ],
+          "category": "pricing",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S7",
+              "text": "Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67."
+            }
+          ],
+          "unmatched_numbers": [
+            "1"
+          ]
+        },
+        {
+          "id": "C12",
+          "text": "Nigeria’s digital economy report says many citizens and businesses remain excluded from the digital ecosystem because of limited access to broadband and inadequate devices.",
+          "source_ids": [
+            "S14"
+          ],
+          "category": "risk",
+          "stance": "challenges",
+          "quotes": [
+            {
+              "source_id": "S14",
+              "text": "The report shows that many Nigerian citizens and busi-nesses remain excluded from the digital ecosystem as a result of limited access to broadband and nonavailability of adequate devices (mobile devices and computers) to fully utilize the Internet."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C13",
+          "text": "The main barriers to broadband access in Nigeria include the cost of broadband-enabled devices, digital illiteracy, lack of local content, and low electrification rates.",
+          "source_ids": [
+            "S14"
+          ],
+          "category": "risk",
+          "stance": "challenges",
+          "quotes": [
+            {
+              "source_id": "S14",
+              "text": "The costs to acquire a broadband-enabled device, digital illiteracy, lack of local content, and low elec-trification rates are major barriers to access broad-band in Nigeria."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C14",
+          "text": "Nigeria’s top startup failure causes include cybercrime, economic instability, unfavourable government policies, high operational and running costs, and lack of funding.",
+          "source_ids": [
+            "S3"
+          ],
+          "category": "risk",
+          "stance": "challenges",
+          "quotes": [
+            {
+              "source_id": "S3",
+              "text": "The top 5 causes of Startup failure in Nigeria are cybercrime, economic instability, unfavourable government policies, high operational/running costs and lack of funding."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C15",
+          "text": "Six in ten Nigerian startups fail within the first one to five years of commencing operations.",
+          "source_ids": [
+            "S3"
+          ],
+          "category": "risk",
+          "stance": "challenges",
+          "quotes": [
+            {
+              "source_id": "S3",
+              "text": "6 in 10 Nigerian Startups (60%) fail within the first one to five years of commencing operations."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C16",
+          "text": "More than 55% of respondents rated access to funding, inflation effects, operational and running costs, competition, cybersecurity issues, buying power and patronage, and access to foreign exchange among the top challenges for digital entrepreneurs and businesses in Nigeria.",
+          "source_ids": [
+            "S3"
+          ],
+          "category": "risk",
+          "stance": "challenges",
+          "quotes": [
+            {
+              "source_id": "S3",
+              "text": "that over 55% of respondents rated the following (in order of most severity) as the top challenges faced by digital entrepreneurs and businesses in Nigeria: a. Access to funding b. Inflation effects c. Operational and running costs d. Competition e. Cybersecurity issues f. Buying power and patronage g. Access to foreign exchange"
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C17",
+          "text": "WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users in the ORBIT survey.",
+          "source_ids": [
+            "S9"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S9",
+              "text": "WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C18",
+          "text": "Opera Mini was widely used in Nigeria and is described as a browser that reduces page size to load efficiently with low network strength and data usage.",
+          "source_ids": [
+            "S9"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S9",
+              "text": "Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C19",
+          "text": "Nigeria’s smartphone penetration rate was set to grow to 66% by 2025 in the ORBIT report.",
+          "source_ids": [
+            "S9"
+          ],
+          "category": "trends",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S9",
+              "text": "As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C20",
+          "text": "Nigeria has about 219.3 million active mobile subscriptions as of Q1 2024.",
+          "source_ids": [
+            "S11"
+          ],
+          "category": "adoption",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S11",
+              "text": "According to the National Bureau of Statistics (NBS), the total number of active mobile subscriptions in Nigeria stood at 219.3 million as at Q1, 2024."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C21",
+          "text": "Nigeria is Africa’s most populous country and home to one of Africa’s largest urban populations.",
+          "source_ids": [
+            "S12"
+          ],
+          "category": "other",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S12",
+              "text": "Nigeria routinely ranks among the top 10 most populous countries, and the country is home to one of Africa’s largest urban populations."
+            },
+            {
+              "source_id": "S12",
+              "text": "Nigeria is not only large in area—larger than the U.S. state of Texas—but also Africa’s most populous country."
+            }
+          ],
+          "unmatched_numbers": []
+        },
+        {
+          "id": "C22",
+          "text": "A study of digital marketing in Lagos found that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startup performance.",
+          "source_ids": [
+            "S17"
+          ],
+          "category": "other",
+          "stance": "supports",
+          "quotes": [
+            {
+              "source_id": "S17",
+              "text": "The study discovered that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startups in Lagos, Nigeria."
+            }
+          ],
+          "unmatched_numbers": []
+        }
+      ],
+      "fact_check": {
+        "extracted": 22,
+        "dropped": 0,
+        "merged": 0,
+        "flagged": 1
+      }
+    },
+    "thesis": {
+      "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web. Nigeria’s user base is heavily mobile-centered, with high smartphone and mobile subscription penetration, strong mobile internet usage, and widespread use of mobile-native apps like WhatsApp, Facebook, TikTok, and mobile streaming services [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20].",
+      "confidence": "high",
+      "confidence_rationale": "The core thesis is supported by multiple independent claims from industry, official, and research sources showing mobile dominance in traffic, device ownership, internet access, and app usage in Nigeria [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. The main caveat is that some evidence also shows meaningful constraints—low business internet use among microenterprises, device/access barriers, and broader startup risks—which affect execution but do not overturn the mobile-first conclusion [C9, C12, C13, C14, C15, C16].",
+      "assumptions": [
+        {
+          "id": "A1",
+          "text": "The startup is a consumer app whose primary users are ordinary Nigerian smartphone users, not a niche desktop-heavy professional segment.",
+          "supporting_claim_ids": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C17",
+            "C20"
+          ]
+        },
+        {
+          "id": "A2",
+          "text": "High mobile penetration and mobile internet usage translate into higher initial reach and engagement for a consumer app than desktop web would.",
+          "supporting_claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "id": "A3",
+          "text": "The app’s core use case can function well on mobile without requiring desktop-first workflows.",
+          "supporting_claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ]
+        },
+        {
+          "id": "A4",
+          "text": "Lower data costs and mobile-native habits make mobile acquisition and retention more practical than desktop web for the first product version.",
+          "supporting_claim_ids": [
+            "C5",
+            "C6",
+            "C10",
+            "C18"
+          ]
+        },
+        {
+          "id": "A5",
+          "text": "The barriers cited in the evidence—device access, digital literacy, and startup operating risks—do not outweigh the market advantage of mobile-first distribution.",
+          "supporting_claim_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ]
+        }
+      ],
+      "supporting_claim_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C17",
+        "C19",
+        "C20"
+      ],
+      "uncertainties": [
+        "The evidence does not establish that every consumer app category in Nigeria should be mobile-first; some products may still benefit from desktop web depending on task complexity or user context.",
+        "The evidence is stronger on mobile adoption than on direct head-to-head conversion or retention comparisons between mobile-first and desktop-first product launches.",
+        "The data includes some dated or secondary figures, so the exact magnitude of the mobile advantage may have shifted.",
+        "The evidence does not quantify how much desktop web usage exists among the target consumer segment, only that mobile is dominant overall.",
+        "Execution risks in Nigeria are substantial, but the evidence does not show they specifically favor desktop over mobile."
+      ]
+    },
+    "stress_test": {
+      "challenges": [
+        {
+          "kind": "weak_assumption",
+          "text": "A1 is too broad: the evidence shows Nigeria is mobile-heavy overall, but it does not establish that the startup’s actual target users are ordinary smartphone consumers rather than a segment that works on desktop or needs cross-device workflows. The supplied evidence is silent on the target segment’s device mix, so the mobile-first conclusion could fail for categories like productivity, finance, creator tools, or B2B-adjacent consumer products.",
+          "target_assumption_ids": [
+            "A1"
+          ],
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C20"
+          ],
+          "severity": "major",
+          "id": "X1"
+        },
+        {
+          "kind": "contradictory_evidence",
+          "text": "C9 weakens the leap from phone ownership to app usage: only 13% of Nigerian microenterprises use the internet for business activities despite 81% owning mobile phones. That gap suggests device ownership and broad mobile access do not automatically translate into meaningful digital engagement, so the thesis may overstate how far mobile penetration alone predicts adoption for a new app.",
+          "target_assumption_ids": [
+            "A2",
+            "A5"
+          ],
+          "claim_ids": [
+            "C9"
+          ],
+          "severity": "major",
+          "id": "X2"
+        },
+        {
+          "kind": "alternative_explanation",
+          "text": "The mobile-traffic and app-usage evidence can be explained by consumption habits, not necessarily by superior product-market fit for a new startup. C1, C4, C5, C6, C17, and C18 show people already use mobile for social, messaging, streaming, and lightweight browsing; that does not prove a new app will outperform a desktop web launch. The same evidence could simply reflect that existing incumbents shaped user behavior, while a new product might still need desktop for onboarding, account setup, or complex tasks.",
+          "target_assumption_ids": [
+            "A2",
+            "A3",
+            "A4"
+          ],
+          "claim_ids": [
+            "C1",
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "severity": "major",
+          "id": "X3"
+        },
+        {
+          "kind": "weak_assumption",
+          "text": "A3 is not established by the evidence. WhatsApp, Facebook, TikTok, and streaming apps are inherently mobile-friendly, but that does not show the startup’s own workflow can be compressed into mobile without loss. The evidence is silent on task complexity, form entry, multi-window use, file handling, or admin functions that often make desktop web the better first interface.",
+          "target_assumption_ids": [
+            "A3"
+          ],
+          "claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "severity": "major",
+          "id": "X4"
+        },
+        {
+          "kind": "risk",
+          "text": "C12 and C13 point to structural access constraints—limited broadband, inadequate devices, digital illiteracy, lack of local content, and low electrification. Those risks cut both ways, but they especially weaken a mobile-first thesis if the app assumes modern smartphones, stable connectivity, or frequent charging. The evidence does not show that the mobile user base is uniformly reachable or that mobile-first solves these constraints.",
+          "target_assumption_ids": [
+            "A2",
+            "A3",
+            "A5"
+          ],
+          "claim_ids": [
+            "C12",
+            "C13"
+          ],
+          "severity": "major",
+          "id": "X5"
+        },
+        {
+          "kind": "risk",
+          "text": "C14, C15, and C16 show Nigeria’s startup environment is fragile: cybercrime, inflation, high operating costs, funding constraints, FX pressure, and low survival rates. That means the thesis may be too confident about execution advantages from choosing mobile-first; the bigger failure mode may be market execution, trust, payments, or retention, none of which the evidence shows are improved by mobile-first versus desktop web.",
+          "target_assumption_ids": [
+            "A5"
+          ],
+          "claim_ids": [
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "severity": "major",
+          "id": "X6"
+        },
+        {
+          "kind": "missing_evidence",
+          "text": "The evidence does not compare conversion, retention, or monetization outcomes for mobile-first versus desktop-first launches in Nigeria. Without head-to-head product performance data, the claim that mobile-first is the better initial build choice remains an inference from usage patterns, not a demonstrated result.",
+          "target_assumption_ids": [
+            "A2",
+            "A4"
+          ],
+          "claim_ids": [],
+          "severity": "critical",
+          "id": "X7"
+        }
+      ],
+      "failure_conditions": [
+        "If the target users are a desktop-heavy or workflow-heavy segment rather than ordinary smartphone consumers, the mobile-first premise fails.",
+        "If the app requires complex onboarding, heavy content creation, file management, or multi-step admin tasks, desktop web may be the better first interface.",
+        "If access constraints like low-end devices, poor connectivity, or digital illiteracy materially suppress mobile engagement in the target segment, mobile-first may not improve reach or retention.",
+        "If head-to-head evidence shows desktop web converts, retains, or monetizes better for this category in Nigeria, the thesis is wrong.",
+        "If the main bottleneck is trust, payments, or distribution rather than device form factor, mobile-first does not solve the core problem."
+      ],
+      "missing_evidence": [
+        {
+          "question": "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+          "why_it_matters": "Overall national mobile dominance may not apply to the intended users."
+        },
+        {
+          "question": "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+          "why_it_matters": "The thesis depends on relative product performance, not just general mobile adoption."
+        },
+        {
+          "question": "Does the app’s core workflow require desktop-only or desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+          "why_it_matters": "If yes, mobile-first could reduce usability and conversion."
+        },
+        {
+          "question": "How severe are low-end device, connectivity, and power constraints among the intended users?",
+          "why_it_matters": "These constraints could make mobile access less reliable than the headline adoption figures suggest."
+        }
+      ]
+    },
+    "reevaluation": {
+      "assessments": [
+        {
+          "assumption_id": "A1",
+          "verdict": "unresolved",
+          "reasoning": "The evidence supports that Nigeria is broadly mobile-heavy, but it does not identify the startup’s actual target segment. The stress test correctly notes the evidence is silent on whether the intended users are ordinary smartphone consumers or a desktop-heavy/workflow-heavy niche. Claims C1, C3, C7, C8, C17, and C20 support national mobile prevalence, but they do not settle segment fit. [C1, C3, C7, C8, C17, C20; X1]",
+          "claim_ids": [
+            "C1",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X1"
+          ]
+        },
+        {
+          "assumption_id": "A2",
+          "verdict": "weakened",
+          "reasoning": "Mobile penetration and mobile internet usage do indicate a strong mobile environment, but the leap to higher initial reach and engagement for a new consumer app is less secure than the original thesis implied. C1, C2, C3, C7, C8, C17, C19, and C20 support mobile dominance, yet C9 shows that device ownership does not automatically translate into digital business use, which weakens the inference from access to engagement. The evidence supports mobile as the more likely default channel, but not a strong claim that it will necessarily outperform desktop web for initial reach in every case. [C1, C2, C3, C7, C8, C9, C17, C19, C20; X2, X3]",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C9",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X2",
+            "X3"
+          ]
+        },
+        {
+          "assumption_id": "A3",
+          "verdict": "unresolved",
+          "reasoning": "The evidence shows strong mobile-native usage patterns for messaging, social, and streaming, but it does not establish that the startup’s own workflow can be handled well on mobile. The stress test is persuasive that the evidence is silent on task complexity, file handling, multi-window use, onboarding, and admin functions. C4, C5, C6, C17, and C18 support mobile-friendly consumer habits, but they do not prove the app’s workflow is mobile-suitable. [C4, C5, C6, C17, C18; X4]",
+          "claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X4"
+          ]
+        },
+        {
+          "assumption_id": "A4",
+          "verdict": "weakened",
+          "reasoning": "The evidence supports that mobile data can be relatively affordable and that mobile-native habits are common, but it does not show that these factors make mobile acquisition and retention more practical than desktop web for the first version. C5, C6, C10, and C18 support low-data, mobile-friendly usage patterns, yet X3 and X7 show the evidence does not compare product performance across launch modes. This makes the practical advantage of mobile-first plausible but not firmly established. [C5, C6, C10, C18; X3, X7]",
+          "claim_ids": [
+            "C5",
+            "C6",
+            "C10",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X3",
+            "X7"
+          ]
+        },
+        {
+          "assumption_id": "A5",
+          "verdict": "weakened",
+          "reasoning": "The barriers and startup risks do not overturn the mobile-first thesis, but they do reduce confidence in the strength of the conclusion. C12, C13, C14, C15, and C16 show meaningful constraints in access, infrastructure, and startup survival, and X5-X6 explain why these risks may matter more than the form factor choice. The evidence supports that mobile-first remains plausible, but not that the cited barriers are safely secondary. [C12, C13, C14, C15, C16; X5, X6]",
+          "claim_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "challenge_ids": [
+            "X5",
+            "X6"
+          ]
+        }
+      ],
+      "thesis_verdict": "weakened",
+      "revised_statement": "The evidence still favors starting with mobile-first for a new consumer app in Nigeria as the default strategy, because Nigeria is broadly mobile-centered and mobile-native usage is widespread. However, the case is weaker than the original thesis claimed: the evidence does not establish the target segment, does not compare mobile-first against desktop-first outcomes, and does not show that the app’s workflow is mobile-suitable. Mobile-first is a reasonable default, not a proven universal rule. [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13, C14, C15, C16, C17, C18, C19, C20; X1, X2, X3, X4, X5, X6, X7]",
+      "changes": [
+        {
+          "from": "The thesis treated mobile-first as a high-confidence conclusion for a new consumer app startup in Nigeria.",
+          "to": "The evidence supports mobile-first as a reasonable default, but with materially lower confidence.",
+          "reason": "The stress test exposed missing evidence on target segment fit, workflow complexity, and head-to-head performance comparisons.",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X1",
+            "X3",
+            "X4",
+            "X7"
+          ]
+        },
+        {
+          "from": "The thesis implied that broad mobile dominance in Nigeria is enough to justify mobile-first.",
+          "to": "Broad mobile dominance is supportive but not sufficient on its own.",
+          "reason": "C9 shows that ownership/access does not automatically translate into meaningful digital engagement, weakening the inference from national mobile usage to startup adoption.",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C9",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X2"
+          ]
+        },
+        {
+          "from": "The thesis assumed the app’s core use case can likely be handled well on mobile.",
+          "to": "The app may still need desktop web if it involves complex onboarding, file handling, or admin-heavy workflows.",
+          "reason": "The evidence is silent on the product’s task complexity and does not establish mobile suitability for the specific workflow.",
+          "claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X4"
+          ]
+        },
+        {
+          "from": "The thesis treated access and startup risks as secondary caveats.",
+          "to": "Access, infrastructure, and startup-environment risks materially reduce confidence in the mobile-first recommendation.",
+          "reason": "C12-C16 show structural constraints that may affect reach, retention, and execution regardless of interface choice.",
+          "claim_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "challenge_ids": [
+            "X5",
+            "X6"
+          ]
+        }
+      ],
+      "unresolved": [
+        "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+        "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+        "Does the app’s core workflow require desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+        "How severe are low-end device, connectivity, and power constraints among the intended users?"
+      ]
+    },
+    "conclusion": {
+      "final_statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the conclusion is materially weakened by the lack of evidence on the startup’s specific target segment, the app’s workflow complexity, and any head-to-head comparison of mobile-first versus desktop-first outcomes [X1, X3, X4, X7].",
+      "confidence": "medium",
+      "confidence_rationale": "The evidence strongly supports national mobile prevalence and mobile-native behavior, but the stress test shows the key inference is still indirect: it does not prove the target users are mobile-first, nor that the product works better on mobile than desktop. Several risk claims also cut against overconfidence, so the recommendation is supported but not decisively proven [C1, C3, C7, C8, C17, C20; C9, C12, C13, C14, C15, C16; X1-X7].",
+      "key_supporting_claim_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C17",
+        "C19",
+        "C20"
+      ],
+      "key_challenging_claim_ids": [
+        "C9",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "uncertainties": [
+        "The evidence does not identify the startup’s actual target segment, so national mobile dominance may not apply to the intended users.",
+        "The evidence does not compare acquisition, activation, retention, or monetization for mobile-first versus desktop-first launches in Nigeria.",
+        "The evidence does not show whether the app’s core workflow is mobile-suitable or desktop-better.",
+        "Access constraints such as low-end devices, connectivity, and power reliability may materially affect mobile engagement in the target segment."
+      ],
+      "next_validation_steps": [
+        {
+          "step": "Interview 15-20 likely users in the target segment about their primary device for this category and their willingness to complete the core workflow on mobile.",
+          "resolves": "Target segment device mix and whether mobile is actually the default channel for this product category."
+        },
+        {
+          "step": "Prototype the core onboarding and main task flow in both mobile and desktop web, then run a small usability test with 8-10 users per version.",
+          "resolves": "Whether the workflow is mobile-suitable or desktop-better."
+        },
+        {
+          "step": "Run a cheap landing-page test in Nigeria with separate mobile-first and desktop-first variants and compare signup completion rates.",
+          "resolves": "Head-to-head acquisition and activation performance."
+        },
+        {
+          "step": "Check device/connectivity constraints in the intended user segment with a short survey or field interviews focused on phone quality, data affordability, and power access.",
+          "resolves": "How much access constraints may limit mobile engagement."
+        }
+      ]
+    },
+    "what_changed": {
+      "initial": {
+        "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web. Nigeria’s user base is heavily mobile-centered, with high smartphone and mobile subscription penetration, strong mobile internet usage, and widespread use of mobile-native apps like WhatsApp, Facebook, TikTok, and mobile streaming services [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20].",
+        "confidence": "high"
+      },
+      "final": {
+        "statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the conclusion is materially weakened by the lack of evidence on the startup’s specific target segment, the app’s workflow complexity, and any head-to-head comparison of mobile-first versus desktop-first outcomes [X1, X3, X4, X7].",
+        "confidence": "medium"
+      },
+      "verdict": "weakened",
+      "challenged": [
+        {
+          "challenge_id": "X7",
+          "text": "The evidence does not compare conversion, retention, or monetization outcomes for mobile-first versus desktop-first launches in Nigeria. Without head-to-head product performance data, the claim that mobile-first is the better initial build choice remains an inference from usage patterns, not a demonstrated result.",
+          "severity": "critical"
+        },
+        {
+          "challenge_id": "X1",
+          "text": "A1 is too broad: the evidence shows Nigeria is mobile-heavy overall, but it does not establish that the startup’s actual target users are ordinary smartphone consumers rather than a segment that works on desktop or needs cross-device workflows. The supplied evidence is silent on the target segment’s device mix, so the mobile-first conclusion could fail for categories like productivity, finance, creator tools, or B2B-adjacent consumer products.",
+          "severity": "major"
+        },
+        {
+          "challenge_id": "X2",
+          "text": "C9 weakens the leap from phone ownership to app usage: only 13% of Nigerian microenterprises use the internet for business activities despite 81% owning mobile phones. That gap suggests device ownership and broad mobile access do not automatically translate into meaningful digital engagement, so the thesis may overstate how far mobile penetration alone predicts adoption for a new app.",
+          "severity": "major"
+        },
+        {
+          "challenge_id": "X3",
+          "text": "The mobile-traffic and app-usage evidence can be explained by consumption habits, not necessarily by superior product-market fit for a new startup. C1, C4, C5, C6, C17, and C18 show people already use mobile for social, messaging, streaming, and lightweight browsing; that does not prove a new app will outperform a desktop web launch. The same evidence could simply reflect that existing incumbents shaped user behavior, while a new product might still need desktop for onboarding, account setup, or complex tasks.",
+          "severity": "major"
+        },
+        {
+          "challenge_id": "X4",
+          "text": "A3 is not established by the evidence. WhatsApp, Facebook, TikTok, and streaming apps are inherently mobile-friendly, but that does not show the startup’s own workflow can be compressed into mobile without loss. The evidence is silent on task complexity, form entry, multi-window use, file handling, or admin functions that often make desktop web the better first interface.",
+          "severity": "major"
+        },
+        {
+          "challenge_id": "X5",
+          "text": "C12 and C13 point to structural access constraints—limited broadband, inadequate devices, digital illiteracy, lack of local content, and low electrification. Those risks cut both ways, but they especially weaken a mobile-first thesis if the app assumes modern smartphones, stable connectivity, or frequent charging. The evidence does not show that the mobile user base is uniformly reachable or that mobile-first solves these constraints.",
+          "severity": "major"
+        },
+        {
+          "challenge_id": "X6",
+          "text": "C14, C15, and C16 show Nigeria’s startup environment is fragile: cybercrime, inflation, high operating costs, funding constraints, FX pressure, and low survival rates. That means the thesis may be too confident about execution advantages from choosing mobile-first; the bigger failure mode may be market execution, trust, payments, or retention, none of which the evidence shows are improved by mobile-first versus desktop web.",
+          "severity": "major"
+        }
+      ],
+      "assumptions": [
+        {
+          "assumption_id": "A1",
+          "text": "The startup is a consumer app whose primary users are ordinary Nigerian smartphone users, not a niche desktop-heavy professional segment.",
+          "verdict": "unresolved",
+          "reasoning": "The evidence supports that Nigeria is broadly mobile-heavy, but it does not identify the startup’s actual target segment. The stress test correctly notes the evidence is silent on whether the intended users are ordinary smartphone consumers or a desktop-heavy/workflow-heavy niche. Claims C1, C3, C7, C8, C17, and C20 support national mobile prevalence, but they do not settle segment fit. [C1, C3, C7, C8, C17, C20; X1]",
+          "claim_ids": [
+            "C1",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X1"
+          ]
+        },
+        {
+          "assumption_id": "A2",
+          "text": "High mobile penetration and mobile internet usage translate into higher initial reach and engagement for a consumer app than desktop web would.",
+          "verdict": "weakened",
+          "reasoning": "Mobile penetration and mobile internet usage do indicate a strong mobile environment, but the leap to higher initial reach and engagement for a new consumer app is less secure than the original thesis implied. C1, C2, C3, C7, C8, C17, C19, and C20 support mobile dominance, yet C9 shows that device ownership does not automatically translate into digital business use, which weakens the inference from access to engagement. The evidence supports mobile as the more likely default channel, but not a strong claim that it will necessarily outperform desktop web for initial reach in every case. [C1, C2, C3, C7, C8, C9, C17, C19, C20; X2, X3]",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C9",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X2",
+            "X3"
+          ]
+        },
+        {
+          "assumption_id": "A3",
+          "text": "The app’s core use case can function well on mobile without requiring desktop-first workflows.",
+          "verdict": "unresolved",
+          "reasoning": "The evidence shows strong mobile-native usage patterns for messaging, social, and streaming, but it does not establish that the startup’s own workflow can be handled well on mobile. The stress test is persuasive that the evidence is silent on task complexity, file handling, multi-window use, onboarding, and admin functions. C4, C5, C6, C17, and C18 support mobile-friendly consumer habits, but they do not prove the app’s workflow is mobile-suitable. [C4, C5, C6, C17, C18; X4]",
+          "claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X4"
+          ]
+        },
+        {
+          "assumption_id": "A4",
+          "text": "Lower data costs and mobile-native habits make mobile acquisition and retention more practical than desktop web for the first product version.",
+          "verdict": "weakened",
+          "reasoning": "The evidence supports that mobile data can be relatively affordable and that mobile-native habits are common, but it does not show that these factors make mobile acquisition and retention more practical than desktop web for the first version. C5, C6, C10, and C18 support low-data, mobile-friendly usage patterns, yet X3 and X7 show the evidence does not compare product performance across launch modes. This makes the practical advantage of mobile-first plausible but not firmly established. [C5, C6, C10, C18; X3, X7]",
+          "claim_ids": [
+            "C5",
+            "C6",
+            "C10",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X3",
+            "X7"
+          ]
+        },
+        {
+          "assumption_id": "A5",
+          "text": "The barriers cited in the evidence—device access, digital literacy, and startup operating risks—do not outweigh the market advantage of mobile-first distribution.",
+          "verdict": "weakened",
+          "reasoning": "The barriers and startup risks do not overturn the mobile-first thesis, but they do reduce confidence in the strength of the conclusion. C12, C13, C14, C15, and C16 show meaningful constraints in access, infrastructure, and startup survival, and X5-X6 explain why these risks may matter more than the form factor choice. The evidence supports that mobile-first remains plausible, but not that the cited barriers are safely secondary. [C12, C13, C14, C15, C16; X5, X6]",
+          "claim_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "challenge_ids": [
+            "X5",
+            "X6"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "from": "The thesis treated mobile-first as a high-confidence conclusion for a new consumer app startup in Nigeria.",
+          "to": "The evidence supports mobile-first as a reasonable default, but with materially lower confidence.",
+          "reason": "The stress test exposed missing evidence on target segment fit, workflow complexity, and head-to-head performance comparisons.",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X1",
+            "X3",
+            "X4",
+            "X7"
+          ]
+        },
+        {
+          "from": "The thesis implied that broad mobile dominance in Nigeria is enough to justify mobile-first.",
+          "to": "Broad mobile dominance is supportive but not sufficient on its own.",
+          "reason": "C9 shows that ownership/access does not automatically translate into meaningful digital engagement, weakening the inference from national mobile usage to startup adoption.",
+          "claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C7",
+            "C8",
+            "C9",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "challenge_ids": [
+            "X2"
+          ]
+        },
+        {
+          "from": "The thesis assumed the app’s core use case can likely be handled well on mobile.",
+          "to": "The app may still need desktop web if it involves complex onboarding, file handling, or admin-heavy workflows.",
+          "reason": "The evidence is silent on the product’s task complexity and does not establish mobile suitability for the specific workflow.",
+          "claim_ids": [
+            "C4",
+            "C5",
+            "C6",
+            "C17",
+            "C18"
+          ],
+          "challenge_ids": [
+            "X4"
+          ]
+        },
+        {
+          "from": "The thesis treated access and startup risks as secondary caveats.",
+          "to": "Access, infrastructure, and startup-environment risks materially reduce confidence in the mobile-first recommendation.",
+          "reason": "C12-C16 show structural constraints that may affect reach, retention, and execution regardless of interface choice.",
+          "claim_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "challenge_ids": [
+            "X5",
+            "X6"
+          ]
+        }
+      ],
+      "unresolved": [
+        "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+        "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+        "Does the app’s core workflow require desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+        "How severe are low-end device, connectivity, and power constraints among the intended users?",
+        "The evidence does not identify the startup’s actual target segment, so national mobile dominance may not apply to the intended users.",
+        "The evidence does not compare acquisition, activation, retention, or monetization for mobile-first versus desktop-first launches in Nigeria.",
+        "The evidence does not show whether the app’s core workflow is mobile-suitable or desktop-better.",
+        "Access constraints such as low-end devices, connectivity, and power reliability may materially affect mobile engagement in the target segment."
+      ]
+    },
+    "audit": [
+      {
+        "stage": "research",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "started_at": "2026-11-15T15:40:02.136Z",
+        "duration_ms": 19266,
+        "input_refs": [],
+        "output": {
+          "queries": [
+            "Nigeria desktop web usage consumer apps decline survey report 2023 2024",
+            "Nigeria consumer app mobile first adoption survey smartphone internet usage 2023 2024 report",
+            "Nigeria mobile app startup failures low adoption desktop web cheaper alternative report",
+            "Nigeria mobile internet users vs desktop web usage consumer apps data report GSMA ITU 2023 2024",
+            "Nigeria consumer internet access barriers smartphone costs data plans desktop web usage report Nigeria 2023 2024",
+            "Nigeria app usage mobile vs web consumer behavior survey report 2023 2024",
+            "Nigeria regulation connectivity outages device affordability complaints mobile app adoption report",
+            "Nigeria smartphone penetration and mobile broadband adoption official statistics 2023 2024"
+          ],
+          "sources": [
+            {
+              "id": "S1",
+              "url": "https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices",
+              "title": "Mobile web traffic share worldwide 2026 | Statista",
+              "publisher": "statista.com",
+              "published_date": null,
+              "excerpt": "## Mobile traffic\n\nDue to low infrastructure and financial restraints, many emerging digital markets skipped the desktop internet phase entirely and moved straight onto mobile internet via smartphone and tablet devices. India is a prime example of a market with a significant mobile-first online population. Other countries with a significant share of mobile internet traffic include Nigeria, Ghana, and Kenya. In most African markets, mobile accounts for more than half of the web traffic. By contrast, mobile makes up less than half of the web traffic in the United States.\n\n## Mobile usage",
+              "relevance": 0.1831549,
+              "kind": "industry_report",
+              "flags": []
+            },
+            {
+              "id": "S2",
+              "url": "https://assets.kpmg.com/content/dam/kpmgsites/ng/pdf/2026/09/Nigeria%20Smartphone%20Study%20-%20Orange%20Group%20and%20KPMG.pdf.coredownload.inline.pdf",
+              "title": "Nigeria Smartphone Study 2025",
+              "publisher": "assets.kpmg.com",
+              "published_date": null,
+              "excerpt": "Demographics GENDER 7023 6228 AGE RANGE AB:1 % C1:4 % C2:18% D: 59% E:18% SOCIO- ECONOMIC CLASS 15 –17 years: 723 18 –25 years: 4036 26 –35 years: 4568 36 –45 years: 2634 46 –55 years: 942 56 –65 years: 258 65+ years: 90 Sample size by locations (n=13,251) Lagos 1,983 Ibadan 1,030 Ilorin 1,007 Onitsha 1,021 Aba 1,023 Port Harcourt 1,010 Owerri 1,001 Benin City 1,067 Abuja 1,000 Jos 1,069 Kaduna 1,032 Kano 1,008 Detailed Findings Nigeria Smartphone Study 2025 12 Nigeria Smartphone Study 2025 12 Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% (from 64% in 2023), accelerating the shift from feature phones to app-driven digital services. [...] The study identifies WhatsApp, Facebook, and TikTok as the leading social and communication apps among Nigerian smartphone users, reflecting their strong role in everyday digital interaction.\nWhatsApp continues to dominate the messaging space due to its simplicity, low data consumption, and wide adoption across both personal and business communication.\n2023 2025 Facebook TikTok Instagram Snapchat Twitter (X) LinkedIn Threads 77% 87% 39% 70% 36% 51% 29% 49% 19% 24% 4% 5% 3% Nigeria Smartphone Study 2025 33 Music streaming is increasingly mobile-first in Nigeria, with Audiomack (45%) and Boomplay (40%) leading digital entertainment consumption. [...] Lawrence Amadi Partner & Head, Technology, Media & Telecommunications, KPMG Africa Nigeria Smartphone Study 2025 5 The Nigeria Smartphone and Application Penetration Study was launched in 2019 to understand how Nigerians interact with smartphones and digital services in an increasingly technology-driven economy.\nThe first edition of the study was conducted exclusively in Lagos, Nigeria’s commercial hub, providing early insights into smartphone ownership and digital application usage among urban consumers.\nRecognizing the rapid evolution of Nigeria’s digital landscape, the study was expanded in 2023 to cover multiple cities nationwide.",
+              "relevance": 0.4704325,
+              "kind": "industry_report",
+              "flags": []
+            },
+            {
+              "id": "S3",
+              "url": "https://www.ncc.gov.ng/sites/default/files/2024-11/Consultancy-Study-on-Developing-Sustainable-Digital-Entrepreneurship-Business-Model-in-a-Digital-Nigeria.pdf",
+              "title": "FINAL REPORT",
+              "publisher": "ncc.gov.ng",
+              "published_date": null,
+              "excerpt": "57. Mentorship & Advisory Issues 58. Operational and Running Costs 59. Competition 60. Digital Literacy Issues 61. Business Management Issues 62. Low trust score for digital businesses by consumers 63. Multiple Taxation 64. Cybersecurity Issues Section E: Reasons for Failure of Digital Businesses in Nigeria Kindly indicate how the prevalence of the following factors have influenced and led to the failure of startups and digital businesses in Nigeria. SN Factor Very High High Average Low Very Low 65. Lack of Consumer patronage; Low Profit margin 66. Wrong choice of product/service 67. High operational and running cost 68. Lack of good national infrastructure 69. Poor Business Management and Leadership 70. Incompatible Founders 71. Lack of Funding 72. Funds Mismanagement 73. Stiff [...] Reasons for Startup Failure in Nigeria: The top 5 causes of Startup failure in Nigeria are cybercrime, economic instability, unfavourable government policies, high operational/running costs and lack of funding. 6 in 10 Nigerian Startups (60%) fail within the first one to five years of commencing operations. SWOT Analysis of Digital Entrepreneurship and Business Landscape in Nigeria Strengths Large youthful population of entrepreneurs; Strong social media presence; Good teledensity indices (115.70% as of July 2023); Honeypot for sponsorship of tech-based innovations by international VCs; Healthy competition; Large customer base; Ease of registering a business; Strong presence of technology hubs, incubators and accelerators; Presence of enabling policies. Weaknesses Slow implementation of [...] that over 55% of respondents rated the following (in order of most severity) as the top challenges faced by digital entrepreneurs and businesses in Nigeria: a. Access to funding b. Inflation effects c. Operational and running costs d. Competition e. Cybersecurity issues f. Buying power and patronage g. Access to foreign exchange h. Low trust score for digital businesses by consumers i. High import duties and tariffs j. Electricity supply k. Poor national infrastructure (roads, railway, water, etc.) l. Insecurity m. Multiple taxation n. Business management issues 3.4 Reasons for Startup Failure in Nigeria A myriad of factors influence and affect Startups' ability to thrive and succeed in Nigeria. The average Nigerian digital Startup business has to deal with issues such as access to",
+              "relevance": 0.5140115,
+              "kind": "government",
+              "flags": []
+            },
+            {
+              "id": "S4",
+              "url": "https://www.trade.gov/country-commercial-guides/nigeria-digital-economy",
+              "title": "Nigeria - Digital Economy",
+              "publisher": "trade.gov",
+              "published_date": null,
+              "excerpt": "Though the oil/gas and agricultural sectors contribute much of Nigeria’s revenue, the ICT industry has remained buoyant despite recent economic volatility, as it benefitted from medium- and long-term economic development policies accentuating investments in infrastructure by telecom operators (Telcos). Nigeria has Africa’s largest mobile market, with about 157 million subscribers, as recently announced by the Nigerian Communications Commission (NCC), achieving a teledensity of 101.16%. As of March 2024, more than 163 million Nigerians had internet access because of the growth of broadband mobile networks, the launch of affordable data plans, and a broadband penetration of 43.5 percent. Nigeria’s major ICT players comprise four activities: Telecommunications and Information Services;",
+              "relevance": 0.60288024,
+              "kind": "government",
+              "flags": []
+            },
+            {
+              "id": "S5",
+              "url": "https://pdfs.semanticscholar.org/83b8/fddef92f23771b23c39944b19c5142cead20.pdf",
+              "title": "An Empirical Investigation on the Variables Affecting Electronic ...",
+              "publisher": "pdfs.semanticscholar.org",
+              "published_date": null,
+              "excerpt": "This article explores the factors influencing consumers' adoption of e-commerce in Nigeria. As part of an empirical study, an online questionnaire was",
+              "relevance": 0.1431877,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S6",
+              "url": "https://papers.ssrn.com/sol3/Delivery.cfm/6102406.pdf?abstractid=6102406&mirid=1&type=2",
+              "title": "MOBILE BROADBAND INTERNET AND HOUSEHOLD ...",
+              "publisher": "papers.ssrn.com",
+              "published_date": null,
+              "excerpt": "2The 2017 After Access Survey indicates that mobile and internet penetration rates in Nigeria were 64% and 30%, respectively. And 89.8% of the inhabitants",
+              "relevance": 0.31195065,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S7",
+              "url": "https://www.academia.edu/122527077/Digital_Technology_Adoption_by_Microenterprises_Nigeria_Report",
+              "title": "Digital Technology Adoption by Microenterprises: Nigeria Report (PDF) | Academia",
+              "publisher": "academia.edu",
+              "published_date": null,
+              "excerpt": "## FAQs\n\nsparkles\n\nAI\n\nWhat explains the low internet usage among Nigerian microenterprises despite high mobile ownership?add\n\nThe study reveals that only 13% of microenterprises utilize the internet for business activities, despite 81% owning mobile phones, highlighting substantial barriers to digitalization.\n\nHow does education level influence digital technology adoption in Nigerian microenterprises?add\n\nThe paper finds a 15% increase in smartphone ownership and a 10% rise in internet usage among microenterprises when the owner has completed secondary education compared to those with lesser education.\n\nWhat are the identified barriers to digital technology adoption for microenterprises in Nigeria?add [...] Figure 53: Comparison of what is needed to enhance internet access and more extensive use of the internet Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile). Whilst this is significantly more than countries such as Ghana (USD 1.09) and Ethiopia (USD 1.15), Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67. The highest price recorded is an exorbitant USD 18.19 in the Seychelles (RIA, 2024). The current price in Nigeria also falls within the affordable access [...] Figure 53: Comparison of what is needed to enhance internet access and more extensive use of the internet  Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile). Whilst this is significantly more than countries such as Ghana (USD 1.09) and Ethiopia (USD 1.15), Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67. The highest price recorded is an exorbitant USD 18.19 in the Seychelles (RIA, 2024). The current price in Nigeria also falls within the affordable access",
+              "relevance": 0.46004632,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S8",
+              "url": "https://link.springer.com/article/10.1007/s43545-026-01749-2",
+              "title": "Mobile-based digital technology adoption, gender, livelihood diversification, and poverty reduction in the Global South: a scoping review | SN Social Sciences | Springer Nature Link",
+              "publisher": "link.springer.com",
+              "published_date": null,
+              "excerpt": "Fig. 6\n\nMobile phone ownership and internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \")) [...] Fig. 8\n\nRural-urban gaps in mobile internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \"))\n\n### Value chain, communication, and transaction aspects of mobile-based digital technologies [...] Fig. 7\n\nGender gap in mobile internet usage across continents (%). Source: (ITU 2023 Measuring digital development: facts and figures. \n                  \n                  \n                \"); Jeffrie et al. 2024 GSMA - The mobile gender gap report 2024. \n                  \n                  \n                . \n                  www.gsmaintelligence.com\n                  \n                \"))",
+              "relevance": 0.17909943,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S9",
+              "url": "https://africa.businessinsider.com/local/careers/orbit-survey-reveals-nigerias-top-smartphone-apps-and-key-trends/wf3dqbt?op=1",
+              "title": "ORBIT survey reveals Nigeria's top smartphone apps and key trends | Business Insider Africa",
+              "publisher": "africa.businessinsider.com",
+              "published_date": null,
+              "excerpt": "ORBIT conducted a study on smartphone and app usage in Nigeria, surveying 13,340 respondents in 12 cities.\n WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular.\n Regional apps Boomplay, OPay, and PalmPay led in their respective categories, while cryptocurrency apps remained niche. [...] As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant. Orange Business Intelligence Technology (ORBIT) recently conducted a Smartphone & Application Penetration Study across Nigeria to ascertain which apps were used with smartphones in the country. The survey was conducted through natural fallout and on-sight confirmation of phone types and applications downloaded. ORBIT's team of 55 interviewers and eight supervisors surveyed a total of 13,340 respondents in 12 cities, shortlisting 51 apps that were commonly downloaded.\n\n#### Read Also\n\n## WhatsApp and Facebook Remain Top Apps [...] #### Read Also\n\n## WhatsApp and Facebook Remain Top Apps\n\nORBIT found that WhatsApp and Facebook had over 90% penetration across the survey set, indicating their popularity among Nigerian smartphone users. Xender, a file-sharing app that allows users to share large files and synchronise smartphone applications with other users offline, was also popular. Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used.\n\n## Boomplay, OPay, and PalmPay Lead Regional Apps",
+              "relevance": 0.2718312,
+              "kind": "news",
+              "flags": []
+            },
+            {
+              "id": "S10",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12797844",
+              "title": "Beyond seed funding: why Nigerian digital health startups struggle to grow",
+              "publisher": "pmc.ncbi.nlm.nih.gov",
+              "published_date": null,
+              "excerpt": "Another facet of market adoption is willingness to pay. Even if people trust a service, can they afford it, and do they prioritize it? Out-of-pocket healthcare costs in Nigeria are high , yet paradoxically, most people only spend on healthcare when critically ill, not on preventative services. Digital health offerings often sit in a tricky space: they might save money in aggregate, but they can appear as new expenses to consumers. For example, a fertility tracking app or a subscription for telemedicine is something people have never paid for before. In a country where only about 5%–10% of the population has health insurance , persuading consumers to allocate part of their tight budgets to a health app is challenging. Low insurance coverage often forces health startups to either target [...] Furthermore, some digital health solutions face the classic “last-mile” trust issue: users might download an app or try a service once, but regular usage depends on perceived value and habit formation. Startups report a drop-off in engagement after initial trials, prompting them to invest heavily in user education and support. This is where offline components become key; many Nigerian health-tech companies deploy field teams for onboarding or run community outreach (e.g., health talks or free screenings) to build a rapport that digital channels alone could not. Such efforts, while effective in pockets, are resource-intensive and can strain a startup’s ability to rapidly scale across geographies.\n\n### Talent and workforce challenges [...] There have been efforts to mitigate these gaps. The federal government, with support from donors, has rolled out initiatives like the National Health ICT Strategic Framework, and some state governments (Lagos, for instance) have invested in telemedicine hotlines and health data systems [12, 39]. Additionally, mobile network operators have begun partnering on mHealth programs (leveraging Nigeria’s roughly 100 million mobile internet users). Nonetheless, until broad improvements in ICT infrastructure materialize, startups will continue adopting creative coping strategies, from offline-capable apps that sync data only when connectivity returns to deploying field agents who assist users in low-tech settings (as companies like PharmaGen and Field Intelligence have done for drug distribution).",
+              "relevance": 0.49147877,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S11",
+              "url": "https://africa.businessinsider.com/local/markets/african-countries-with-the-highest-number-of-mobile-phones/lzqj62z",
+              "title": "African countries with the highest number of mobile phones | Business Insider Africa",
+              "publisher": "africa.businessinsider.com",
+              "published_date": null,
+              "excerpt": "The latest research data from Canalys revealed that in Q4 2023, African countries received shipments of 19.2 million units of mobile phones indicating a 24% year-on-year growth.\n\nAnalysts have linked the growing demand for phones in the continent to the rising digital services market, thriving social media, and the introduction of easy purchasing methods by some Fintech and business agents like the Buy Now, Pay Later options.\n\n## Top 5 African countries with the highest number of mobile phones\n\nAccording to sources around the web, here are some African countries with the highest number of mobile phone users:\n\n### 1. Nigeria\n\nNigeria currently leads other African countries with a mobile phone penetration rate of 85%. [...] The African phone market is rapidly expanding with a forecast of 500 million mobile phone users by 2025.\n Nigeria leads with a mobile phone penetration rate of 85%, with 219.3 million active mobile subscriptions.\n South Africa has 118.6 million mobile connections, about 195.4% of the population.\n\n#### Read Also\n\nThe African phone market has witnessed rapid expansion in recent years with the International Telecom Union (ITU) forecasting the number of mobile phone users to hit 500 million in 2025.\n\nAccording to the ITU data on the telecom sector, Africa has become the world’s fastest-growing mobile phone market with the continent’s mobile phone usage rising at an annual rate of 65% and expanding nearly twice as fast as the Asian market. [...] According to the National Bureau of Statistics (NBS), the total number of active mobile subscriptions in Nigeria stood at 219.3 million as at Q1, 2024.\n\n### 2. South Africa\n\nAccording to data from GSMA Intelligence, there were 118.6 million mobile connections in South Africa at the start of 2024. This figure is about 195.4% of South Africa's population.\n\nThe population of South Africa stood at 60.69 million in January 2024.\n\n### 3. Egypt\n\nThe country's mobile penetration rate has been put at 95% while the number of active mobile connections has been recorded as 110.5 million according to data from Datareportal.\n\nEgypt’s population stood at 113.6 million as at January 2024.\n\n### 4. Ethiopia",
+              "relevance": 0.18025091,
+              "kind": "news",
+              "flags": []
+            },
+            {
+              "id": "S12",
+              "url": "https://www.britannica.com/place/Nigeria",
+              "title": "Nigeria | Population, Religion, Flag, Country, Map, & Languages",
+              "publisher": "britannica.com",
+              "published_date": null,
+              "excerpt": "Image 18: Britannica AI Icon\n\n Ask Anything  Quick Summary \n\nGeography & TravelCountries of the World\n\nImage 19 Add us on Google  Adding us as a Preferred Source tells Google you trust our content, so our articles show up more often in your Google Search, Discover feed, and AI Overviews. \n\n Cite \n\n Print \n\n Share \n\n Feedback \n\n External Websites \n\nImage 20: Political map of Nigeria showing its international boundaries with Benin, Niger, Chad, and Cameroon, as well as major cities such as Lagos, Abuja, Kano, Ibadan, and Port Harcourt. Rivers and key towns are marked throughout the country. An inset locator map highlights Nigeria's position in western Africa.\n\nNigeria(more)\n\n# Nigeria\n\ncountry, Africa\n\n Homework Help \n\nAlso known as: Federal Republic of Nigeria\n\nWritten by [...] Nigeria, country located on the western coast of Africa. Nigeria has a diverse geography, with climates ranging from arid to humid equatorial. However, Nigeria’s most diverse feature is its people. Hundreds of languages are spoken in the country, including Yoruba, Igbo, Fula, Hausa, Edo, Ibibio, Tiv, and English. Nigeria routinely ranks among the top 10 most populous countries, and the country is home to one of Africa’s largest urban populations. The country also has abundant natural resources, notably large deposits of petroleum and natural gas.\n\nImage 23: Map of West and Central Africa highlighting Nigeria in orange, with its capital Abuja marked. Neighboring countries including Benin, Niger, Chad, Cameroon, and others are labeled, along with the Atlantic Ocean to the south. [...] Nigeria(more)\n\nNigeria is bordered to the north by Niger, to the east by Chad and Cameroon, to the south by the Gulf of Guinea of the Atlantic Ocean, and to the west by Benin. Nigeria is not only large in area—larger than the U.S. state of Texas—but also Africa’s most populous country.\n\nImage 26\n\nImage 27: Today in History\n\nDiscover the fascinating events that shaped the world, straight from our editors.\n\nSIGN UP\n\n### Thank you for signing up!\n\nImage 28\n\n By clicking “Sign Up”, you consent to the Britannica Privacy Policy and Terms of Use. \n\n## Relief\n\nImage 29: Aerial view of Zuma Rock, a massive, steep-sided monolith rising from flat terrain near a town in Niger State, Nigeria.\n\nAn aerial view of Zuma Rock, a large inselberg near Abuja, Nigeria(more)",
+              "relevance": 0.8033186354,
+              "kind": "reference",
+              "flags": []
+            },
+            {
+              "id": "S13",
+              "url": "https://ijecm.co.uk/wp-content/uploads/2024/02/12214.pdf",
+              "title": "MOBILE MARKETING AND CONSUMER BEHAVIOUR IN NIGERIA ...",
+              "publisher": "ijecm.co.uk",
+              "published_date": null,
+              "excerpt": "The population of the study was all the residence in Nigeria who used Mobile apps for shopping and it comprise of 106 million of adults as estimated",
+              "relevance": 0.39735362,
+              "kind": "company_or_blog",
+              "flags": []
+            },
+            {
+              "id": "S14",
+              "url": "https://adi.a4ai.org/wp-content/uploads/2019/12/NIGERIA-Fiinal-Web-REV.pdf",
+              "title": "Nigeria Digital Economy Diagnostic Report",
+              "publisher": "adi.a4ai.org",
+              "published_date": null,
+              "excerpt": "ADDITIONAL BARRIERS TO ACCESS The costs to acquire a broadband-enabled device, digital illiteracy, lack of local content, and low elec-trification rates are major barriers to access broad-band in Nigeria. An ICT use survey reveals that, of those unconnected, 50% stated that they cannot use Internet because they cannot afford devices to access the Internet, over 25% of them gave ‘no electricity’ as the reason, while over 20% said ‘there is no signal’ (mobile coverage) (Gillwald, et al., 2018). There is an urgent need to develop policies and regulations that increase the affordability of smart devices and develop awareness of the Internet, as well as the skills to access and use it, which is critical to reducing digital inequal-ity. Finally, according to USAID’s Power Africa program there [...] stood at 1.89% of Gross National Income (GNI) per capita. This sit-uation, i.e., a mobile-broadband price below 2% of GNI, only occurs in five other countries in Africa: Mauritius, the Seychelles, Gabon, Cabo Verde and South Africa (ITU, 2018). Finally, Nigeria ranks 6th out of 49 countries on Research ICT Africa (RIA)’s African Mobile Pricing (RAMP) Index, and 10th on the 1GB pre-paid mobile data index. Even though Nigeria compares well in the affordability and price rankings, these rankings need to be weighed against the accompanying broadband objectives of increased penetration and quality of service on which the country fares less favorably. Individual Internet penetra-tion is relatively low in Nigeria, at around 30%. By com-parison, South Africa has the highest individual Internet [...] The report shows that many Nigerian citizens and busi-nesses remain excluded from the digital ecosystem as a result of limited access to broadband and nonavailability of adequate devices (mobile devices and computers) to fully utilize the Internet. It also highlights good progress in digital infrastructure, finance, skills, and entrepreneurship, among others. Nigeria’s international connectivity (‘First mile”) is well developed with connectivity to high-speed Nigeria Digital Economy Diagnostic Report vii Internet via five undersea international links. Similarly, Nigeria is home to several high-growth digital companies that provide hopeful examples of the country’s digital potential. Lagos is a mature and active ecosystem with dynamic incubators, venture capital companies, digital",
+              "relevance": 0.6715783,
+              "kind": "company_or_blog",
+              "flags": []
+            },
+            {
+              "id": "S15",
+              "url": "https://www.mordorintelligence.com/industry-reports/app-analytics-market",
+              "title": "App Analytics Market Size, Outlook, Trends Report & Growth 2031",
+              "publisher": "mordorintelligence.com",
+              "published_date": null,
+              "excerpt": "+ 5.6.5.1.4 Rest of Middle East\n  + 5.6.5.2 Africa\n  + 5.6.5.2.1 South Africa\n  + 5.6.5.2.2 Nigeria\n  + 5.6.5.2.3 Egypt\n  + 5.6.5.2.4 Rest of Africa [...] - Chile\n    - Rest of South America\n  + Europe\n    - Germany\n    - United Kingdom\n    - France\n    - Italy\n    - Spain\n    - Russia\n    - Rest of Europe\n  + Asia-Pacific\n    - China\n    - India\n    - Japan\n    - South Korea\n    - Singapore\n    - Malaysia\n    - Australia\n    - Rest of Asia-Pacific\n  + Middle East and Africa\n    - Middle East\n       United Arab Emirates\n       Saudi Arabia\n       Turkey\n       Rest of Middle East\n    - Africa\n       South Africa\n       Nigeria\n       Egypt\n       Rest of Africa [...] ### Data Sources, Market Sizing, and Validation\n\n  \n\nDesk Research\n\nDesk work starts by mapping demand signals that explain why analytics spend grows with app usage. We referenced public datasets and publications such as the International Telecommunication Union (ITU) for connectivity, the World Bank for digital economy indicators, OECD digital statistics, and US Census Bureau data for business and services trends, then aligned these with mobile and web usage patterns reported in reputable press and association sites.",
+              "relevance": 0.078925885,
+              "kind": "industry_report",
+              "flags": []
+            },
+            {
+              "id": "S16",
+              "url": "https://papers.ssrn.com/sol3/Delivery.cfm/45de43b2-5e24-4162-9f95-452b746a027a-MECA.pdf?abstractid=4982095&mirid=1",
+              "title": "Preprint not peer reviewed",
+              "publisher": "papers.ssrn.com",
+              "published_date": null,
+              "excerpt": "This study investigates the factors influencing Nigerian citizens' adoption of the e-ID mobile application, a key initiative in Nigeria's e-government strategy.",
+              "relevance": 0.23458195,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S17",
+              "url": "https://www.academia.edu/109589119/EFFECT_OF_DIGITAL_MARKETING_ON_STARTUP_PERFORMANCE_IN_LAGOS_NIGERIA",
+              "title": "EFFECT OF DIGITAL MARKETING ON STARTUP PERFORMANCE IN LAGOS, NIGERIA",
+              "publisher": "academia.edu",
+              "published_date": null,
+              "excerpt": "The study examined digital marketing and startup performance in Lagos, Nigeria. The study identified inability of startup founders to gain substantial traction for their startups as the major problem hindering funding and landing startups at the death Valley phase. The aim of this study was to critically examine the effect of digital marketing on startups in Lagos, Nigeria. This study employed descriptive survey research methodology to gather data from an existing target population of 425 startups in Lagos State, Nigeria. Questionnaires with closed-ended and multiple questions using objectives and variables were designed to collect primary data from a sample size of 206 startups. The questionnaire was analysed using SPSS (the scientific package for social science). This study further [...] ... Read more\n\n## Key takeaways\n\nImage 10: sparkles\nAI\n\n1.   Digital marketing significantly enhances startup performance, addressing traction issues critical for funding in Lagos.\n2.   The study surveyed 425 startups, with a sample size of 206, using SPSS for data analysis.\n3.   Mobile, content, video, and social media marketing strategies are vital for gaining market traction.\n4.   Statistical significance was confirmed for all digital marketing strategies at a 5% level.\n5.   The findings contribute to understanding digital marketing's role in the Nigerian startup ecosystem.\n\nthumb_up Helpful thumb_down Not Helpful\n\ndescription See full PDF download Download PDF\n\n## Related papers\n\nThe influence of online marketing on start-ups\n\nsarina asif\n\nInternational journal of health sciences [...] scientific package for social science). This study further tested four hypotheses using the correlation and regression methods. The level of significance for the study is 5% for a two-tailed test. The decision rule is that if the probability value (PV) is less than 5% or 0.05 (that is, PV < 0.05), it implies that the hypothesis tested is statistically significant at the 5% level; The study discovered that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startups in Lagos, Nigeria. The study concluded that digital marketing has a significant relationship with startup performance in Lagos, Nigeria. The study recommends that startup founders should ensure that mobile marketing, content marketing, video marketing, and social",
+              "relevance": 0.3738758,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S18",
+              "url": "https://www.researchgate.net/publication/368931221_Knowledge_of_Digital_Technology_Its_Access_and_Use_to_Enhance_Dissemination_of_Health_Information_Among_Residents_of_Ogui_New_Layout_Enugu_Nigeria",
+              "title": "(PDF) Knowledge of Digital Technology, Its Access and Use to ...",
+              "publisher": "researchgate.net",
+              "published_date": null,
+              "excerpt": "About 50.2% of Nigerians use the internet. It has become a popular health intervention tool because of its easy access on a variety of devices",
+              "relevance": 0.15052763,
+              "kind": "research",
+              "flags": []
+            },
+            {
+              "id": "S19",
+              "url": "https://africa.businessinsider.com/local/careers/orbit-survey-reveals-nigerias-top-smartphone-apps-and-key-trends/wf3dqbt",
+              "title": "ORBIT survey reveals Nigeria's top smartphone apps and key trends | Business Insider Africa",
+              "publisher": "africa.businessinsider.com",
+              "published_date": null,
+              "excerpt": "ORBIT conducted a study on smartphone and app usage in Nigeria, surveying 13,340 respondents in 12 cities.\n WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular.\n Regional apps Boomplay, OPay, and PalmPay led in their respective categories, while cryptocurrency apps remained niche. [...] As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant. Orange Business Intelligence Technology (ORBIT) recently conducted a Smartphone & Application Penetration Study across Nigeria to ascertain which apps were used with smartphones in the country. The survey was conducted through natural fallout and on-sight confirmation of phone types and applications downloaded. ORBIT's team of 55 interviewers and eight supervisors surveyed a total of 13,340 respondents in 12 cities, shortlisting 51 apps that were commonly downloaded.\n\n#### Read Also\n\n## WhatsApp and Facebook Remain Top Apps [...] #### Read Also\n\n## WhatsApp and Facebook Remain Top Apps\n\nORBIT found that WhatsApp and Facebook had over 90% penetration across the survey set, indicating their popularity among Nigerian smartphone users. Xender, a file-sharing app that allows users to share large files and synchronise smartphone applications with other users offline, was also popular. Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used.\n\n## Boomplay, OPay, and PalmPay Lead Regional Apps",
+              "relevance": 0.2718312,
+              "kind": "news",
+              "flags": []
+            },
+            {
+              "id": "S20",
+              "url": "https://orangegroups.com/nigeria-smartphone-studya-nationwide-analysis-of-smartphone-ownership-and-digital-application-usage-13251-respondents-across-12-major-nigerian-cities",
+              "title": "Nigeria Smartphone Study: A Nationwide Analysis of Smartphone Ownership and Digital Application Usage (13,251 respondents across 12 major Nigerian Cities) - Orange Group",
+              "publisher": "orangegroups.com",
+              "published_date": null,
+              "excerpt": "Recognising the rapid evolution of Nigeria’s digital landscape, the study was expanded in 2023 to cover multiple cities nationwide. The 2025 report represents the third instalment of the study, offering deeper insights into smartphone penetration, mobile ecosystems, and digital behaviour across key Nigerian cities. Nigeria continues to experience rapid digital transformation driven by a young population, improving internet connectivity, and growing  \nsmartphone affordability. [...] Industry estimates suggest that smartphone adoption in Nigeria is expanding steadily, with penetration levels expected to reach significant milestones as mobile devices increasingly become the primary gateway to digital services. This shift has created a thriving ecosystem of digital  \napplications spanning financial services, social media, entertainment, commerce, and emerging technologies such as artificial intelligence and cryptocurrency platforms. [...] The insights presented in this report provide valuable intelligence for businesses, investors, policymakers, and technology developers seeking to understand Nigeria’s digital economy. By examining smartphone ownership patterns and the adoption of key digital applications across different sectors, the study highlights emerging opportunities within Nigeria’s growing mobile economy. The findings are particularly relevant for organisations seeking to design consumer-centric digital products, expand digital service offerings, and invest strategically in Nigeria’s rapidly evolving technology ecosystem.  \n  \nClick here to download the report.\n\nScroll to Top",
+              "relevance": 0.5185919,
+              "kind": "company_or_blog",
+              "flags": []
+            }
+          ],
+          "claims": [
+            {
+              "id": "C1",
+              "text": "In most African markets, mobile accounts for more than half of web traffic.",
+              "source_ids": [
+                "S1"
+              ],
+              "category": "trends",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S1",
+                  "text": "In most African markets, mobile accounts for more than half of the web traffic."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C2",
+              "text": "Nigeria is one of the countries with a significant share of mobile internet traffic.",
+              "source_ids": [
+                "S1"
+              ],
+              "category": "trends",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S1",
+                  "text": "Other countries with a significant share of mobile internet traffic include Nigeria, Ghana, and Kenya."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C3",
+              "text": "Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% from 64% in 2023.",
+              "source_ids": [
+                "S2"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S2",
+                  "text": "Nigeria is rapidly becoming a mobile-first economy as smartphone penetration climbs to 75% (from 64% in 2023), accelerating the shift from feature phones to app-driven digital services."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C4",
+              "text": "WhatsApp, Facebook, and TikTok are the leading social and communication apps among Nigerian smartphone users.",
+              "source_ids": [
+                "S2"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S2",
+                  "text": "The study identifies WhatsApp, Facebook, and TikTok as the leading social and communication apps among Nigerian smartphone users, reflecting their strong role in everyday digital interaction."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C5",
+              "text": "WhatsApp continues to dominate messaging in Nigeria because it is simple, uses little data, and is widely adopted for personal and business communication.",
+              "source_ids": [
+                "S2"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S2",
+                  "text": "WhatsApp continues to dominate the messaging space due to its simplicity, low data consumption, and wide adoption across both personal and business communication."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C6",
+              "text": "Music streaming in Nigeria is increasingly mobile-first, with Audiomack at 45% and Boomplay at 40%.",
+              "source_ids": [
+                "S2"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S2",
+                  "text": "Music streaming is increasingly mobile-first in Nigeria, with Audiomack (45%) and Boomplay (40%) leading digital entertainment consumption."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C7",
+              "text": "Nigeria has Africa’s largest mobile market, with about 157 million subscribers.",
+              "source_ids": [
+                "S4"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S4",
+                  "text": "Nigeria has Africa’s largest mobile market, with about 157 million subscribers, as recently announced by the Nigerian Communications Commission (NCC), achieving a teledensity of 101.16%."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C8",
+              "text": "As of March 2024, more than 163 million Nigerians had internet access because of broadband mobile networks, affordable data plans, and broadband penetration of 43.5 percent.",
+              "source_ids": [
+                "S4"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S4",
+                  "text": "As of March 2024, more than 163 million Nigerians had internet access because of the growth of broadband mobile networks, the launch of affordable data plans, and a broadband penetration of 43.5 percent."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C9",
+              "text": "Only 13% of Nigerian microenterprises use the internet for business activities, despite 81% owning mobile phones.",
+              "source_ids": [
+                "S7"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S7",
+                  "text": "The study reveals that only 13% of microenterprises utilize the internet for business activities, despite 81% owning mobile phones, highlighting substantial barriers to digitalization."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C10",
+              "text": "Mobile data in Nigeria is relatively cheap compared with other African countries, and the cheapest 1GB package cost USD 2.38 in the third quarter of 2022.",
+              "source_ids": [
+                "S7"
+              ],
+              "category": "pricing",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S7",
+                  "text": "Relative to other countries, mobile data in Nigeria is on the cheaper side. The Research ICT Africa Mobile Pricing (RAMP database) shows that for the third quarter of 2022, when the survey commenced, the cheapest cost for a 1GB data package was equivalent to USD 2.38 (through 9Mobile)."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C11",
+              "text": "Nigeria was the tenth cheapest of 42 African countries for 1GB mobile data in the cited dataset.",
+              "source_ids": [
+                "S7"
+              ],
+              "category": "pricing",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S7",
+                  "text": "Nigeria is the tenth cheapest of 42 African countries where data was available, where the average price was almost double that of Nigeria at USD 4.67."
+                }
+              ],
+              "unmatched_numbers": [
+                "1"
+              ]
+            },
+            {
+              "id": "C12",
+              "text": "Nigeria’s digital economy report says many citizens and businesses remain excluded from the digital ecosystem because of limited access to broadband and inadequate devices.",
+              "source_ids": [
+                "S14"
+              ],
+              "category": "risk",
+              "stance": "challenges",
+              "quotes": [
+                {
+                  "source_id": "S14",
+                  "text": "The report shows that many Nigerian citizens and busi-nesses remain excluded from the digital ecosystem as a result of limited access to broadband and nonavailability of adequate devices (mobile devices and computers) to fully utilize the Internet."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C13",
+              "text": "The main barriers to broadband access in Nigeria include the cost of broadband-enabled devices, digital illiteracy, lack of local content, and low electrification rates.",
+              "source_ids": [
+                "S14"
+              ],
+              "category": "risk",
+              "stance": "challenges",
+              "quotes": [
+                {
+                  "source_id": "S14",
+                  "text": "The costs to acquire a broadband-enabled device, digital illiteracy, lack of local content, and low elec-trification rates are major barriers to access broad-band in Nigeria."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C14",
+              "text": "Nigeria’s top startup failure causes include cybercrime, economic instability, unfavourable government policies, high operational and running costs, and lack of funding.",
+              "source_ids": [
+                "S3"
+              ],
+              "category": "risk",
+              "stance": "challenges",
+              "quotes": [
+                {
+                  "source_id": "S3",
+                  "text": "The top 5 causes of Startup failure in Nigeria are cybercrime, economic instability, unfavourable government policies, high operational/running costs and lack of funding."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C15",
+              "text": "Six in ten Nigerian startups fail within the first one to five years of commencing operations.",
+              "source_ids": [
+                "S3"
+              ],
+              "category": "risk",
+              "stance": "challenges",
+              "quotes": [
+                {
+                  "source_id": "S3",
+                  "text": "6 in 10 Nigerian Startups (60%) fail within the first one to five years of commencing operations."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C16",
+              "text": "More than 55% of respondents rated access to funding, inflation effects, operational and running costs, competition, cybersecurity issues, buying power and patronage, and access to foreign exchange among the top challenges for digital entrepreneurs and businesses in Nigeria.",
+              "source_ids": [
+                "S3"
+              ],
+              "category": "risk",
+              "stance": "challenges",
+              "quotes": [
+                {
+                  "source_id": "S3",
+                  "text": "that over 55% of respondents rated the following (in order of most severity) as the top challenges faced by digital entrepreneurs and businesses in Nigeria: a. Access to funding b. Inflation effects c. Operational and running costs d. Competition e. Cybersecurity issues f. Buying power and patronage g. Access to foreign exchange"
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C17",
+              "text": "WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users in the ORBIT survey.",
+              "source_ids": [
+                "S9"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S9",
+                  "text": "WhatsApp and Facebook had over 90% penetration among Nigerian smartphone users, with Xender and Opera Mini also popular."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C18",
+              "text": "Opera Mini was widely used in Nigeria and is described as a browser that reduces page size to load efficiently with low network strength and data usage.",
+              "source_ids": [
+                "S9"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S9",
+                  "text": "Opera Mini, a web browser that reduces the data size of a web page to enable it to load efficiently with low network strength and data usage, was also widely used."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C19",
+              "text": "Nigeria’s smartphone penetration rate was set to grow to 66% by 2025 in the ORBIT report.",
+              "source_ids": [
+                "S9"
+              ],
+              "category": "trends",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S9",
+                  "text": "As Nigeria's smartphone penetration rate is set to grow to 66% by 2025, the country's tech ecosystem has become increasingly active and vibrant."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C20",
+              "text": "Nigeria has about 219.3 million active mobile subscriptions as of Q1 2024.",
+              "source_ids": [
+                "S11"
+              ],
+              "category": "adoption",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S11",
+                  "text": "According to the National Bureau of Statistics (NBS), the total number of active mobile subscriptions in Nigeria stood at 219.3 million as at Q1, 2024."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C21",
+              "text": "Nigeria is Africa’s most populous country and home to one of Africa’s largest urban populations.",
+              "source_ids": [
+                "S12"
+              ],
+              "category": "other",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S12",
+                  "text": "Nigeria routinely ranks among the top 10 most populous countries, and the country is home to one of Africa’s largest urban populations."
+                },
+                {
+                  "source_id": "S12",
+                  "text": "Nigeria is not only large in area—larger than the U.S. state of Texas—but also Africa’s most populous country."
+                }
+              ],
+              "unmatched_numbers": []
+            },
+            {
+              "id": "C22",
+              "text": "A study of digital marketing in Lagos found that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startup performance.",
+              "source_ids": [
+                "S17"
+              ],
+              "category": "other",
+              "stance": "supports",
+              "quotes": [
+                {
+                  "source_id": "S17",
+                  "text": "The study discovered that mobile marketing, content marketing, video marketing, and social media marketing have a significant relationship with startups in Lagos, Nigeria."
+                }
+              ],
+              "unmatched_numbers": []
+            }
+          ],
+          "fact_check": {
+            "extracted": 22,
+            "dropped": 0,
+            "merged": 0,
+            "flagged": 1
+          }
+        },
+        "warnings": [
+          "C11: figures 1 aren't in its quoted source text; flagged."
+        ]
+      },
+      {
+        "stage": "thesis",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "started_at": "2026-11-15T15:40:21.402Z",
+        "duration_ms": 7320,
+        "input_refs": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22"
+        ],
+        "output": {
+          "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web. Nigeria’s user base is heavily mobile-centered, with high smartphone and mobile subscription penetration, strong mobile internet usage, and widespread use of mobile-native apps like WhatsApp, Facebook, TikTok, and mobile streaming services [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20].",
+          "confidence": "high",
+          "confidence_rationale": "The core thesis is supported by multiple independent claims from industry, official, and research sources showing mobile dominance in traffic, device ownership, internet access, and app usage in Nigeria [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. The main caveat is that some evidence also shows meaningful constraints—low business internet use among microenterprises, device/access barriers, and broader startup risks—which affect execution but do not overturn the mobile-first conclusion [C9, C12, C13, C14, C15, C16].",
+          "assumptions": [
+            {
+              "id": "A1",
+              "text": "The startup is a consumer app whose primary users are ordinary Nigerian smartphone users, not a niche desktop-heavy professional segment.",
+              "supporting_claim_ids": [
+                "C3",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8",
+                "C17",
+                "C20"
+              ]
+            },
+            {
+              "id": "A2",
+              "text": "High mobile penetration and mobile internet usage translate into higher initial reach and engagement for a consumer app than desktop web would.",
+              "supporting_claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C19",
+                "C20"
+              ]
+            },
+            {
+              "id": "A3",
+              "text": "The app’s core use case can function well on mobile without requiring desktop-first workflows.",
+              "supporting_claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ]
+            },
+            {
+              "id": "A4",
+              "text": "Lower data costs and mobile-native habits make mobile acquisition and retention more practical than desktop web for the first product version.",
+              "supporting_claim_ids": [
+                "C5",
+                "C6",
+                "C10",
+                "C18"
+              ]
+            },
+            {
+              "id": "A5",
+              "text": "The barriers cited in the evidence—device access, digital literacy, and startup operating risks—do not outweigh the market advantage of mobile-first distribution.",
+              "supporting_claim_ids": [
+                "C12",
+                "C13",
+                "C14",
+                "C15",
+                "C16"
+              ]
+            }
+          ],
+          "supporting_claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "uncertainties": [
+            "The evidence does not establish that every consumer app category in Nigeria should be mobile-first; some products may still benefit from desktop web depending on task complexity or user context.",
+            "The evidence is stronger on mobile adoption than on direct head-to-head conversion or retention comparisons between mobile-first and desktop-first product launches.",
+            "The data includes some dated or secondary figures, so the exact magnitude of the mobile advantage may have shifted.",
+            "The evidence does not quantify how much desktop web usage exists among the target consumer segment, only that mobile is dominant overall.",
+            "Execution risks in Nigeria are substantial, but the evidence does not show they specifically favor desktop over mobile."
+          ]
+        },
+        "warnings": []
+      },
+      {
+        "stage": "stress_test",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "started_at": "2026-11-15T15:40:28.723Z",
+        "duration_ms": 9805,
+        "input_refs": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5"
+        ],
+        "output": {
+          "challenges": [
+            {
+              "kind": "weak_assumption",
+              "text": "A1 is too broad: the evidence shows Nigeria is mobile-heavy overall, but it does not establish that the startup’s actual target users are ordinary smartphone consumers rather than a segment that works on desktop or needs cross-device workflows. The supplied evidence is silent on the target segment’s device mix, so the mobile-first conclusion could fail for categories like productivity, finance, creator tools, or B2B-adjacent consumer products.",
+              "target_assumption_ids": [
+                "A1"
+              ],
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C20"
+              ],
+              "severity": "major",
+              "id": "X1"
+            },
+            {
+              "kind": "contradictory_evidence",
+              "text": "C9 weakens the leap from phone ownership to app usage: only 13% of Nigerian microenterprises use the internet for business activities despite 81% owning mobile phones. That gap suggests device ownership and broad mobile access do not automatically translate into meaningful digital engagement, so the thesis may overstate how far mobile penetration alone predicts adoption for a new app.",
+              "target_assumption_ids": [
+                "A2",
+                "A5"
+              ],
+              "claim_ids": [
+                "C9"
+              ],
+              "severity": "major",
+              "id": "X2"
+            },
+            {
+              "kind": "alternative_explanation",
+              "text": "The mobile-traffic and app-usage evidence can be explained by consumption habits, not necessarily by superior product-market fit for a new startup. C1, C4, C5, C6, C17, and C18 show people already use mobile for social, messaging, streaming, and lightweight browsing; that does not prove a new app will outperform a desktop web launch. The same evidence could simply reflect that existing incumbents shaped user behavior, while a new product might still need desktop for onboarding, account setup, or complex tasks.",
+              "target_assumption_ids": [
+                "A2",
+                "A3",
+                "A4"
+              ],
+              "claim_ids": [
+                "C1",
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "severity": "major",
+              "id": "X3"
+            },
+            {
+              "kind": "weak_assumption",
+              "text": "A3 is not established by the evidence. WhatsApp, Facebook, TikTok, and streaming apps are inherently mobile-friendly, but that does not show the startup’s own workflow can be compressed into mobile without loss. The evidence is silent on task complexity, form entry, multi-window use, file handling, or admin functions that often make desktop web the better first interface.",
+              "target_assumption_ids": [
+                "A3"
+              ],
+              "claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "severity": "major",
+              "id": "X4"
+            },
+            {
+              "kind": "risk",
+              "text": "C12 and C13 point to structural access constraints—limited broadband, inadequate devices, digital illiteracy, lack of local content, and low electrification. Those risks cut both ways, but they especially weaken a mobile-first thesis if the app assumes modern smartphones, stable connectivity, or frequent charging. The evidence does not show that the mobile user base is uniformly reachable or that mobile-first solves these constraints.",
+              "target_assumption_ids": [
+                "A2",
+                "A3",
+                "A5"
+              ],
+              "claim_ids": [
+                "C12",
+                "C13"
+              ],
+              "severity": "major",
+              "id": "X5"
+            },
+            {
+              "kind": "risk",
+              "text": "C14, C15, and C16 show Nigeria’s startup environment is fragile: cybercrime, inflation, high operating costs, funding constraints, FX pressure, and low survival rates. That means the thesis may be too confident about execution advantages from choosing mobile-first; the bigger failure mode may be market execution, trust, payments, or retention, none of which the evidence shows are improved by mobile-first versus desktop web.",
+              "target_assumption_ids": [
+                "A5"
+              ],
+              "claim_ids": [
+                "C14",
+                "C15",
+                "C16"
+              ],
+              "severity": "major",
+              "id": "X6"
+            },
+            {
+              "kind": "missing_evidence",
+              "text": "The evidence does not compare conversion, retention, or monetization outcomes for mobile-first versus desktop-first launches in Nigeria. Without head-to-head product performance data, the claim that mobile-first is the better initial build choice remains an inference from usage patterns, not a demonstrated result.",
+              "target_assumption_ids": [
+                "A2",
+                "A4"
+              ],
+              "claim_ids": [],
+              "severity": "critical",
+              "id": "X7"
+            }
+          ],
+          "failure_conditions": [
+            "If the target users are a desktop-heavy or workflow-heavy segment rather than ordinary smartphone consumers, the mobile-first premise fails.",
+            "If the app requires complex onboarding, heavy content creation, file management, or multi-step admin tasks, desktop web may be the better first interface.",
+            "If access constraints like low-end devices, poor connectivity, or digital illiteracy materially suppress mobile engagement in the target segment, mobile-first may not improve reach or retention.",
+            "If head-to-head evidence shows desktop web converts, retains, or monetizes better for this category in Nigeria, the thesis is wrong.",
+            "If the main bottleneck is trust, payments, or distribution rather than device form factor, mobile-first does not solve the core problem."
+          ],
+          "missing_evidence": [
+            {
+              "question": "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+              "why_it_matters": "Overall national mobile dominance may not apply to the intended users."
+            },
+            {
+              "question": "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+              "why_it_matters": "The thesis depends on relative product performance, not just general mobile adoption."
+            },
+            {
+              "question": "Does the app’s core workflow require desktop-only or desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+              "why_it_matters": "If yes, mobile-first could reduce usability and conversion."
+            },
+            {
+              "question": "How severe are low-end device, connectivity, and power constraints among the intended users?",
+              "why_it_matters": "These constraints could make mobile access less reliable than the headline adoption figures suggest."
+            }
+          ]
+        },
+        "warnings": []
+      },
+      {
+        "stage": "reevaluation",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "started_at": "2026-11-15T15:40:38.528Z",
+        "duration_ms": 10319,
+        "input_refs": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "X1",
+          "X2",
+          "X3",
+          "X4",
+          "X5",
+          "X6",
+          "X7"
+        ],
+        "output": {
+          "assessments": [
+            {
+              "assumption_id": "A1",
+              "verdict": "unresolved",
+              "reasoning": "The evidence supports that Nigeria is broadly mobile-heavy, but it does not identify the startup’s actual target segment. The stress test correctly notes the evidence is silent on whether the intended users are ordinary smartphone consumers or a desktop-heavy/workflow-heavy niche. Claims C1, C3, C7, C8, C17, and C20 support national mobile prevalence, but they do not settle segment fit. [C1, C3, C7, C8, C17, C20; X1]",
+              "claim_ids": [
+                "C1",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X1"
+              ]
+            },
+            {
+              "assumption_id": "A2",
+              "verdict": "weakened",
+              "reasoning": "Mobile penetration and mobile internet usage do indicate a strong mobile environment, but the leap to higher initial reach and engagement for a new consumer app is less secure than the original thesis implied. C1, C2, C3, C7, C8, C17, C19, and C20 support mobile dominance, yet C9 shows that device ownership does not automatically translate into digital business use, which weakens the inference from access to engagement. The evidence supports mobile as the more likely default channel, but not a strong claim that it will necessarily outperform desktop web for initial reach in every case. [C1, C2, C3, C7, C8, C9, C17, C19, C20; X2, X3]",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C9",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X2",
+                "X3"
+              ]
+            },
+            {
+              "assumption_id": "A3",
+              "verdict": "unresolved",
+              "reasoning": "The evidence shows strong mobile-native usage patterns for messaging, social, and streaming, but it does not establish that the startup’s own workflow can be handled well on mobile. The stress test is persuasive that the evidence is silent on task complexity, file handling, multi-window use, onboarding, and admin functions. C4, C5, C6, C17, and C18 support mobile-friendly consumer habits, but they do not prove the app’s workflow is mobile-suitable. [C4, C5, C6, C17, C18; X4]",
+              "claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X4"
+              ]
+            },
+            {
+              "assumption_id": "A4",
+              "verdict": "weakened",
+              "reasoning": "The evidence supports that mobile data can be relatively affordable and that mobile-native habits are common, but it does not show that these factors make mobile acquisition and retention more practical than desktop web for the first version. C5, C6, C10, and C18 support low-data, mobile-friendly usage patterns, yet X3 and X7 show the evidence does not compare product performance across launch modes. This makes the practical advantage of mobile-first plausible but not firmly established. [C5, C6, C10, C18; X3, X7]",
+              "claim_ids": [
+                "C5",
+                "C6",
+                "C10",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X3",
+                "X7"
+              ]
+            },
+            {
+              "assumption_id": "A5",
+              "verdict": "weakened",
+              "reasoning": "The barriers and startup risks do not overturn the mobile-first thesis, but they do reduce confidence in the strength of the conclusion. C12, C13, C14, C15, and C16 show meaningful constraints in access, infrastructure, and startup survival, and X5-X6 explain why these risks may matter more than the form factor choice. The evidence supports that mobile-first remains plausible, but not that the cited barriers are safely secondary. [C12, C13, C14, C15, C16; X5, X6]",
+              "claim_ids": [
+                "C12",
+                "C13",
+                "C14",
+                "C15",
+                "C16"
+              ],
+              "challenge_ids": [
+                "X5",
+                "X6"
+              ]
+            }
+          ],
+          "thesis_verdict": "weakened",
+          "revised_statement": "The evidence still favors starting with mobile-first for a new consumer app in Nigeria as the default strategy, because Nigeria is broadly mobile-centered and mobile-native usage is widespread. However, the case is weaker than the original thesis claimed: the evidence does not establish the target segment, does not compare mobile-first against desktop-first outcomes, and does not show that the app’s workflow is mobile-suitable. Mobile-first is a reasonable default, not a proven universal rule. [C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13, C14, C15, C16, C17, C18, C19, C20; X1, X2, X3, X4, X5, X6, X7]",
+          "changes": [
+            {
+              "from": "The thesis treated mobile-first as a high-confidence conclusion for a new consumer app startup in Nigeria.",
+              "to": "The evidence supports mobile-first as a reasonable default, but with materially lower confidence.",
+              "reason": "The stress test exposed missing evidence on target segment fit, workflow complexity, and head-to-head performance comparisons.",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X1",
+                "X3",
+                "X4",
+                "X7"
+              ]
+            },
+            {
+              "from": "The thesis implied that broad mobile dominance in Nigeria is enough to justify mobile-first.",
+              "to": "Broad mobile dominance is supportive but not sufficient on its own.",
+              "reason": "C9 shows that ownership/access does not automatically translate into meaningful digital engagement, weakening the inference from national mobile usage to startup adoption.",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C9",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X2"
+              ]
+            },
+            {
+              "from": "The thesis assumed the app’s core use case can likely be handled well on mobile.",
+              "to": "The app may still need desktop web if it involves complex onboarding, file handling, or admin-heavy workflows.",
+              "reason": "The evidence is silent on the product’s task complexity and does not establish mobile suitability for the specific workflow.",
+              "claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X4"
+              ]
+            },
+            {
+              "from": "The thesis treated access and startup risks as secondary caveats.",
+              "to": "Access, infrastructure, and startup-environment risks materially reduce confidence in the mobile-first recommendation.",
+              "reason": "C12-C16 show structural constraints that may affect reach, retention, and execution regardless of interface choice.",
+              "claim_ids": [
+                "C12",
+                "C13",
+                "C14",
+                "C15",
+                "C16"
+              ],
+              "challenge_ids": [
+                "X5",
+                "X6"
+              ]
+            }
+          ],
+          "unresolved": [
+            "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+            "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+            "Does the app’s core workflow require desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+            "How severe are low-end device, connectivity, and power constraints among the intended users?"
+          ]
+        },
+        "warnings": []
+      },
+      {
+        "stage": "conclusion",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "started_at": "2026-11-15T15:40:48.848Z",
+        "duration_ms": 5187,
+        "input_refs": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "X1",
+          "X2",
+          "X3",
+          "X4",
+          "X5",
+          "X6",
+          "X7"
+        ],
+        "output": {
+          "final_statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the conclusion is materially weakened by the lack of evidence on the startup’s specific target segment, the app’s workflow complexity, and any head-to-head comparison of mobile-first versus desktop-first outcomes [X1, X3, X4, X7].",
+          "confidence": "medium",
+          "confidence_rationale": "The evidence strongly supports national mobile prevalence and mobile-native behavior, but the stress test shows the key inference is still indirect: it does not prove the target users are mobile-first, nor that the product works better on mobile than desktop. Several risk claims also cut against overconfidence, so the recommendation is supported but not decisively proven [C1, C3, C7, C8, C17, C20; C9, C12, C13, C14, C15, C16; X1-X7].",
+          "key_supporting_claim_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C17",
+            "C19",
+            "C20"
+          ],
+          "key_challenging_claim_ids": [
+            "C9",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "uncertainties": [
+            "The evidence does not identify the startup’s actual target segment, so national mobile dominance may not apply to the intended users.",
+            "The evidence does not compare acquisition, activation, retention, or monetization for mobile-first versus desktop-first launches in Nigeria.",
+            "The evidence does not show whether the app’s core workflow is mobile-suitable or desktop-better.",
+            "Access constraints such as low-end devices, connectivity, and power reliability may materially affect mobile engagement in the target segment."
+          ],
+          "next_validation_steps": [
+            {
+              "step": "Interview 15-20 likely users in the target segment about their primary device for this category and their willingness to complete the core workflow on mobile.",
+              "resolves": "Target segment device mix and whether mobile is actually the default channel for this product category."
+            },
+            {
+              "step": "Prototype the core onboarding and main task flow in both mobile and desktop web, then run a small usability test with 8-10 users per version.",
+              "resolves": "Whether the workflow is mobile-suitable or desktop-better."
+            },
+            {
+              "step": "Run a cheap landing-page test in Nigeria with separate mobile-first and desktop-first variants and compare signup completion rates.",
+              "resolves": "Head-to-head acquisition and activation performance."
+            },
+            {
+              "step": "Check device/connectivity constraints in the intended user segment with a short survey or field interviews focused on phone quality, data affordability, and power access.",
+              "resolves": "How much access constraints may limit mobile engagement."
+            }
+          ]
+        },
+        "warnings": []
+      },
+      {
+        "stage": "what_changed",
+        "model": null,
+        "started_at": "2026-11-15T15:40:54.035Z",
+        "duration_ms": 1,
+        "input_refs": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "X1",
+          "X2",
+          "X3",
+          "X4",
+          "X5",
+          "X6",
+          "X7"
+        ],
+        "output": {
+          "initial": {
+            "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web. Nigeria’s user base is heavily mobile-centered, with high smartphone and mobile subscription penetration, strong mobile internet usage, and widespread use of mobile-native apps like WhatsApp, Facebook, TikTok, and mobile streaming services [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20].",
+            "confidence": "high"
+          },
+          "final": {
+            "statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the conclusion is materially weakened by the lack of evidence on the startup’s specific target segment, the app’s workflow complexity, and any head-to-head comparison of mobile-first versus desktop-first outcomes [X1, X3, X4, X7].",
+            "confidence": "medium"
+          },
+          "verdict": "weakened",
+          "challenged": [
+            {
+              "challenge_id": "X7",
+              "text": "The evidence does not compare conversion, retention, or monetization outcomes for mobile-first versus desktop-first launches in Nigeria. Without head-to-head product performance data, the claim that mobile-first is the better initial build choice remains an inference from usage patterns, not a demonstrated result.",
+              "severity": "critical"
+            },
+            {
+              "challenge_id": "X1",
+              "text": "A1 is too broad: the evidence shows Nigeria is mobile-heavy overall, but it does not establish that the startup’s actual target users are ordinary smartphone consumers rather than a segment that works on desktop or needs cross-device workflows. The supplied evidence is silent on the target segment’s device mix, so the mobile-first conclusion could fail for categories like productivity, finance, creator tools, or B2B-adjacent consumer products.",
+              "severity": "major"
+            },
+            {
+              "challenge_id": "X2",
+              "text": "C9 weakens the leap from phone ownership to app usage: only 13% of Nigerian microenterprises use the internet for business activities despite 81% owning mobile phones. That gap suggests device ownership and broad mobile access do not automatically translate into meaningful digital engagement, so the thesis may overstate how far mobile penetration alone predicts adoption for a new app.",
+              "severity": "major"
+            },
+            {
+              "challenge_id": "X3",
+              "text": "The mobile-traffic and app-usage evidence can be explained by consumption habits, not necessarily by superior product-market fit for a new startup. C1, C4, C5, C6, C17, and C18 show people already use mobile for social, messaging, streaming, and lightweight browsing; that does not prove a new app will outperform a desktop web launch. The same evidence could simply reflect that existing incumbents shaped user behavior, while a new product might still need desktop for onboarding, account setup, or complex tasks.",
+              "severity": "major"
+            },
+            {
+              "challenge_id": "X4",
+              "text": "A3 is not established by the evidence. WhatsApp, Facebook, TikTok, and streaming apps are inherently mobile-friendly, but that does not show the startup’s own workflow can be compressed into mobile without loss. The evidence is silent on task complexity, form entry, multi-window use, file handling, or admin functions that often make desktop web the better first interface.",
+              "severity": "major"
+            },
+            {
+              "challenge_id": "X5",
+              "text": "C12 and C13 point to structural access constraints—limited broadband, inadequate devices, digital illiteracy, lack of local content, and low electrification. Those risks cut both ways, but they especially weaken a mobile-first thesis if the app assumes modern smartphones, stable connectivity, or frequent charging. The evidence does not show that the mobile user base is uniformly reachable or that mobile-first solves these constraints.",
+              "severity": "major"
+            },
+            {
+              "challenge_id": "X6",
+              "text": "C14, C15, and C16 show Nigeria’s startup environment is fragile: cybercrime, inflation, high operating costs, funding constraints, FX pressure, and low survival rates. That means the thesis may be too confident about execution advantages from choosing mobile-first; the bigger failure mode may be market execution, trust, payments, or retention, none of which the evidence shows are improved by mobile-first versus desktop web.",
+              "severity": "major"
+            }
+          ],
+          "assumptions": [
+            {
+              "assumption_id": "A1",
+              "text": "The startup is a consumer app whose primary users are ordinary Nigerian smartphone users, not a niche desktop-heavy professional segment.",
+              "verdict": "unresolved",
+              "reasoning": "The evidence supports that Nigeria is broadly mobile-heavy, but it does not identify the startup’s actual target segment. The stress test correctly notes the evidence is silent on whether the intended users are ordinary smartphone consumers or a desktop-heavy/workflow-heavy niche. Claims C1, C3, C7, C8, C17, and C20 support national mobile prevalence, but they do not settle segment fit. [C1, C3, C7, C8, C17, C20; X1]",
+              "claim_ids": [
+                "C1",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X1"
+              ]
+            },
+            {
+              "assumption_id": "A2",
+              "text": "High mobile penetration and mobile internet usage translate into higher initial reach and engagement for a consumer app than desktop web would.",
+              "verdict": "weakened",
+              "reasoning": "Mobile penetration and mobile internet usage do indicate a strong mobile environment, but the leap to higher initial reach and engagement for a new consumer app is less secure than the original thesis implied. C1, C2, C3, C7, C8, C17, C19, and C20 support mobile dominance, yet C9 shows that device ownership does not automatically translate into digital business use, which weakens the inference from access to engagement. The evidence supports mobile as the more likely default channel, but not a strong claim that it will necessarily outperform desktop web for initial reach in every case. [C1, C2, C3, C7, C8, C9, C17, C19, C20; X2, X3]",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C9",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X2",
+                "X3"
+              ]
+            },
+            {
+              "assumption_id": "A3",
+              "text": "The app’s core use case can function well on mobile without requiring desktop-first workflows.",
+              "verdict": "unresolved",
+              "reasoning": "The evidence shows strong mobile-native usage patterns for messaging, social, and streaming, but it does not establish that the startup’s own workflow can be handled well on mobile. The stress test is persuasive that the evidence is silent on task complexity, file handling, multi-window use, onboarding, and admin functions. C4, C5, C6, C17, and C18 support mobile-friendly consumer habits, but they do not prove the app’s workflow is mobile-suitable. [C4, C5, C6, C17, C18; X4]",
+              "claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X4"
+              ]
+            },
+            {
+              "assumption_id": "A4",
+              "text": "Lower data costs and mobile-native habits make mobile acquisition and retention more practical than desktop web for the first product version.",
+              "verdict": "weakened",
+              "reasoning": "The evidence supports that mobile data can be relatively affordable and that mobile-native habits are common, but it does not show that these factors make mobile acquisition and retention more practical than desktop web for the first version. C5, C6, C10, and C18 support low-data, mobile-friendly usage patterns, yet X3 and X7 show the evidence does not compare product performance across launch modes. This makes the practical advantage of mobile-first plausible but not firmly established. [C5, C6, C10, C18; X3, X7]",
+              "claim_ids": [
+                "C5",
+                "C6",
+                "C10",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X3",
+                "X7"
+              ]
+            },
+            {
+              "assumption_id": "A5",
+              "text": "The barriers cited in the evidence—device access, digital literacy, and startup operating risks—do not outweigh the market advantage of mobile-first distribution.",
+              "verdict": "weakened",
+              "reasoning": "The barriers and startup risks do not overturn the mobile-first thesis, but they do reduce confidence in the strength of the conclusion. C12, C13, C14, C15, and C16 show meaningful constraints in access, infrastructure, and startup survival, and X5-X6 explain why these risks may matter more than the form factor choice. The evidence supports that mobile-first remains plausible, but not that the cited barriers are safely secondary. [C12, C13, C14, C15, C16; X5, X6]",
+              "claim_ids": [
+                "C12",
+                "C13",
+                "C14",
+                "C15",
+                "C16"
+              ],
+              "challenge_ids": [
+                "X5",
+                "X6"
+              ]
+            }
+          ],
+          "changes": [
+            {
+              "from": "The thesis treated mobile-first as a high-confidence conclusion for a new consumer app startup in Nigeria.",
+              "to": "The evidence supports mobile-first as a reasonable default, but with materially lower confidence.",
+              "reason": "The stress test exposed missing evidence on target segment fit, workflow complexity, and head-to-head performance comparisons.",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X1",
+                "X3",
+                "X4",
+                "X7"
+              ]
+            },
+            {
+              "from": "The thesis implied that broad mobile dominance in Nigeria is enough to justify mobile-first.",
+              "to": "Broad mobile dominance is supportive but not sufficient on its own.",
+              "reason": "C9 shows that ownership/access does not automatically translate into meaningful digital engagement, weakening the inference from national mobile usage to startup adoption.",
+              "claim_ids": [
+                "C1",
+                "C2",
+                "C3",
+                "C7",
+                "C8",
+                "C9",
+                "C17",
+                "C19",
+                "C20"
+              ],
+              "challenge_ids": [
+                "X2"
+              ]
+            },
+            {
+              "from": "The thesis assumed the app’s core use case can likely be handled well on mobile.",
+              "to": "The app may still need desktop web if it involves complex onboarding, file handling, or admin-heavy workflows.",
+              "reason": "The evidence is silent on the product’s task complexity and does not establish mobile suitability for the specific workflow.",
+              "claim_ids": [
+                "C4",
+                "C5",
+                "C6",
+                "C17",
+                "C18"
+              ],
+              "challenge_ids": [
+                "X4"
+              ]
+            },
+            {
+              "from": "The thesis treated access and startup risks as secondary caveats.",
+              "to": "Access, infrastructure, and startup-environment risks materially reduce confidence in the mobile-first recommendation.",
+              "reason": "C12-C16 show structural constraints that may affect reach, retention, and execution regardless of interface choice.",
+              "claim_ids": [
+                "C12",
+                "C13",
+                "C14",
+                "C15",
+                "C16"
+              ],
+              "challenge_ids": [
+                "X5",
+                "X6"
+              ]
+            }
+          ],
+          "unresolved": [
+            "What is the target user segment’s actual device and usage mix for this specific app category in Nigeria?",
+            "Are there Nigeria-specific comparisons of mobile-first versus desktop-first acquisition, activation, retention, and monetization for similar consumer apps?",
+            "Does the app’s core workflow require desktop-better capabilities such as complex input, file handling, or multi-tab administration?",
+            "How severe are low-end device, connectivity, and power constraints among the intended users?",
+            "The evidence does not identify the startup’s actual target segment, so national mobile dominance may not apply to the intended users.",
+            "The evidence does not compare acquisition, activation, retention, or monetization for mobile-first versus desktop-first launches in Nigeria.",
+            "The evidence does not show whether the app’s core workflow is mobile-suitable or desktop-better.",
+            "Access constraints such as low-end devices, connectivity, and power reliability may materially affect mobile engagement in the target segment."
+          ]
+        },
+        "warnings": []
+      }
+    ],
+    "error": null
+  }
+}
