@@ -1,0 +1,48 @@
+name: Run the study
+# Starts when the RUN file changes, or by hand from the Actions tab.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [RUN]
+permissions:
+  contents: write
+concurrency:
+  group: run-study
+  cancel-in-progress: false
+env:
+  # The version of Crux under test. Crux was written before the sprint.
+  CRUX_COMMIT: 359a6f47805b97c594a59a431125730b4520e983
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out Crux at the pinned commit
+        uses: actions/checkout@v4
+        with:
+          repository: Mhiah/crux
+          ref: ${{ env.CRUX_COMMIT }}
+          path: crux
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Crux's dependencies
+        working-directory: crux
+        run: npm ci
+      - name: Run the study (live SERV and Tavily calls)
+        working-directory: crux
+        run: npx tsx ../scripts/run.ts
+        env:
+          VET_ROOT: ${{ github.workspace }}
+          SERV_API_KEY: ${{ secrets.SERV_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      - name: Save results to the repo
+        if: always()
+        run: |
+          git config user.name "Mhiah"
+          git config user.email "192190660+Mhiah@users.noreply.github.com"
+          git add results
+          git diff --cached --quiet || git commit -m "results: add study runs [skip ci]"
+          git push

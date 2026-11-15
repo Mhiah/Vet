@@ -1,0 +1,14 @@
+[
+  { "id": "W1", "tier": "well_evidenced", "question": "Should a US startup launch a 15-minute ultrafast grocery delivery service in 2026?" },
+  { "id": "W2", "tier": "well_evidenced", "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?" },
+  { "id": "W3", "tier": "well_evidenced", "question": "Should a small online retailer in the US offer buy now, pay later at checkout to increase sales?" },
+  { "id": "W4", "tier": "well_evidenced", "question": "Should a new company launch a subscription meal-kit delivery business in the US?" },
+  { "id": "C1", "tier": "contested", "question": "Should a mid-sized software company adopt a four-day work week?" },
+  { "id": "C2", "tier": "contested", "question": "Should a B2B SaaS startup switch from per-seat pricing to usage-based pricing?" },
+  { "id": "C3", "tier": "contested", "question": "Should a European fintech company expand into Nigeria in 2026?" },
+  { "id": "C4", "tier": "contested", "question": "Should a large company require employees to work from the office five days a week?" },
+  { "id": "T1", "tier": "thin_evidence", "question": "Should a startup launch a subscription service for cultivated-meat pet food in Kenya?" },
+  { "id": "T2", "tier": "thin_evidence", "question": "Should a startup sell a paid AI bookkeeping tool to market traders in Sierra Leone?" },
+  { "id": "T3", "tier": "thin_evidence", "question": "Should a hardware startup launch a smart water bottle for competitive esports players in Southeast Asia?" },
+  { "id": "T4", "tier": "thin_evidence", "question": "Should a company build a paid AI tutoring app for distance-learning university students in Nigeria?" }
+]
