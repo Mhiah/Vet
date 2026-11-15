@@ -1,0 +1,49 @@
+{
+  "id": "W3",
+  "tier": "well_evidenced",
+  "question": "Should a small online retailer in the US offer buy now, pay later at checkout to increase sales?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:56:07.987Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A small US online retailer should offer BNPL at checkout to increase sales volume, but must carefully evaluate whether the higher merchant fees (1.5–7% vs. 1–3% for cards) will preserve or erode profitability given their specific cost structure and customer base.",
+        "confidence_rationale": "Strong evidence supports sales lift (C4, C5, C6, C7 from research sources) and growing consumer adoption (C15, C16), but the thesis hinges on profitability, which the evidence does not clearly establish. C1 and C11 explicitly state that BNPL increases sales but does not necessarily increase profits. C2 and C12 document higher merchant costs, but whether these offset the sales gain depends on retailer-specific margins and customer composition—unknowns not addressed in the supplied evidence."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 3,
+          "alternative_explanation": 1,
+          "missing_evidence": 2,
+          "risk": 1,
+          "contradictory_evidence": 1
+        },
+        "severities": {
+          "critical": 1,
+          "major": 7
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "low",
+        "statement": "A small US online retailer should offer BNPL at checkout only after conducting a retailer-specific financial and operational analysis. While research evidence supports that BNPL can increase sales volume by 6–10% (C4, C6, C7), the evidence explicitly states that sales lift does not guarantee profitability (C1, C11). The decision hinges on whether the retailer's gross margins can absorb BNPL fees (1.5–7%, significantly higher than card fees at 1–3%) while remaining profitable on incremental sales—a calculation that requires the retailer's actual margin data, customer demographics, product mix, current abandonment rate, and operational costs. Without these inputs, offering BNPL cannot be justified as a default strategy.",
+        "confidence_rationale": "The stress test revealed that the initial thesis rested on six unsupported or weakened assumptions (A1–A6). Most critically, C1 and C11 explicitly state that BNPL increases sales without necessarily increasing profits, directly contradicting the profitability premise. X1 shows that for a small retailer with typical thin margins, even a 9–10% sales lift could be entirely consumed by BNPL fees at the high end (7%). X2 identifies selection bias in the research studies (which analyzed major retailers), X3–X4 show the BNPL effect varies sharply by customer demographics and product mix (unknowns for this retailer), X5 shows no quantification of abandonment reduction, X6 shows operational costs are entirely unmeasured, and X7–X8 introduce regulatory and market maturity risks. The evidence supports that BNPL can lift sales in certain contexts, but does not establish that it will be profitable for this retailer or that the observed effects will transfer to a small retailer with unknown characteristics. Confidence is low because the decision cannot be made without retailer-specific data that the evidence does not provide."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A small online retailer should likely offer BNPL at checkout, as evidence shows it increases purchase incidence (9 percentage points) and purchase amounts (10 percent), with effects persisting over time. However, the decision depends critically on the retailer's product mix, customer demographics, and margin structure, since BNPL fees (1.5–7 percent) are substantially higher than card processing costs (1–3 percent), and sales increases do not automatically translate to higher profits.",
+        "confidence_rationale": "Strong evidence supports that BNPL drives sales volume increases (C4, C5, C6, C7), and adoption is growing (C13, C14, C15). However, confidence is tempered by three factors: (1) the profitability question remains unresolved—C11 explicitly states BNPL does not necessarily raise profits despite lowering cart abandonment; (2) the effect is weaker for older and higher-income customers (C9) and strongest on low-ticket items (C10), making retailer-specific outcomes highly variable; and (3) the cost disadvantage is substantial and consistent (C2, C12), requiring sufficient margin and volume to offset."
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "W1",
+  "tier": "well_evidenced",
+  "question": "Should a US startup launch a 15-minute ultrafast grocery delivery service in 2026?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:53:09.340Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A US startup should not launch a 15-minute ultrafast grocery delivery service in 2026, as the business model faces severe unit economics challenges, intense competition from well-capitalized incumbents, and customer demand that does not justify the operational costs required to sustain the service.",
+        "confidence_rationale": "The evidence strongly supports this negative thesis through multiple converging lines of challenge: C3, C4, and C7 establish that the 15-minute model is economically unviable due to high operating costs and poor unit economics; C8 confirms pricing cannot support the model; C11 shows only 8.5% of customers actually want 15-minute delivery; C21, C29, and C30 show that Instacart and other incumbents are capturing the market with superior resources; and C26 and C27 document recent failures of 15-minute startups. The supporting demand signals (C1, C2, C5, C6, C19, C23) are outweighed by the operational and competitive realities."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 3,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "missing_evidence": 2,
+          "risk": 1
+        },
+        "severities": {
+          "major": 6,
+          "minor": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A US startup should not launch a 15-minute ultrafast grocery delivery service in 2026 without first validating that unit economics have materially improved since 2021-2023 and that customer demand in target dense urban cores exceeds 15-20%. The business model faces significant structural challenges: only 8.5% of Americans currently expect 15-minute delivery (C11), Jokr lost $159 per order in 2021 (C4), and recent entrants Buyk and Fridge No More exited the market (C26, C27). However, the evidence does not definitively rule out success if a startup pursues a partnership model with existing retailers (rather than independent dark stores), targets ultra-dense urban cores where order density absorbs fixed costs, and operates in lower-cost labor markets outside NYC. The decision hinges on whether technological advances have reduced fulfillment costs by 20-30% and whether Instacart's September 2026 Gopuff partnership proves profitable.",
+        "confidence_rationale": "The initial high-confidence thesis was significantly weakened by the stress test. While the evidence strongly documents past failures (C4, C26, C27) and current low customer demand (C11), critical assumptions were undermined: C31 contradicts C8's claim that sub-$2 pricing is non-viable; C5 and C6 suggest demand is expanding, not static; and the evidence does not rule out partnership-based entry strategies or success in lower-cost labor markets. The thesis conflated NYC-specific regulation with nationwide barriers and treated 2021 unit economics as structurally unchanging despite lack of current data. Medium confidence reflects that the business model remains high-risk and most startups would likely fail, but the evidence does not conclusively prove impossibility by 2026 under different operational assumptions."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A US startup should not launch a 15-minute ultrafast grocery delivery service in 2026 without a differentiated model and substantial capital. While consumer demand for fast delivery exists and the market is growing, the unit economics are broken: startups lose $159+ per order, cannot charge viable fees on small baskets, and face high fixed costs that only work in dense urban cores. Established competitors (Instacart, Walmart, Target) now dominate the space with better fulfillment networks and customer loyalty, and multiple well-funded entrants (Buyk, Fridge No More, Jokr) have already failed or shut down despite significant investment.",
+        "confidence_rationale": "The evidence converges strongly on the core challenge: unsustainable unit economics (C4, C8, C22) combined with proven market failure (C26, C27) and entrenched competition (C21, C29, C30). Supporting claims about market size (C1, C6, C32) and some consumer willingness (C13, C23) are outweighed by the gap between willingness to pay and actual viable pricing, and by the fact that only 8.5% of consumers expect 15-minute delivery (C11). The regulatory burden (C14–C16) adds fixed costs in key markets. High confidence reflects multiple independent failure signals rather than a single source."
+      }
+    }
+  ]
+}

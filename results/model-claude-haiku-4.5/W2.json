@@ -1,0 +1,49 @@
+{
+  "id": "W2",
+  "tier": "well_evidenced",
+  "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:54:41.082Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A new consumer app startup in Nigeria should prioritize mobile development before desktop web, given Nigeria's mobile-first market structure with 75% smartphone penetration, 163+ million internet users primarily on mobile networks, and demonstrated user preference for mobile-optimized apps like WhatsApp and music streaming services.",
+        "confidence_rationale": "The thesis is supported by converging evidence from multiple reliable sources: official government data (C7, C8) on Nigeria's mobile subscriber base and internet access; industry reports (C1, C2, C3) on mobile traffic dominance and smartphone penetration growth; and research (C9, C10) showing mobile data affordability. The evidence consistently points to mobile as the primary internet access method. However, confidence is not absolute because the evidence does not directly address desktop web's role in a startup's growth strategy or whether a mobile-first approach affects long-term success (C14, C15, C16 show startup failure is driven by other factors)."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "alternative_explanation": 1,
+          "missing_evidence": 3,
+          "contradictory_evidence": 1,
+          "risk": 1
+        },
+        "severities": {
+          "major": 7,
+          "minor": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A new consumer app startup in Nigeria should prioritize mobile development, but only after validating that its target customer segment is mobile-primary, that its business model does not require desktop-first features (e.g., seller onboarding, account management, complex data entry), and that it can optimize for low-bandwidth conditions and address mobile-specific payment and cybersecurity risks. Mobile-first is rational for consumer apps targeting smartphone users (75% penetration, 163+ million internet users, low data costs at $2.38/GB), but the evidence does not support it as universally optimal. The startup must account for the gap between device ownership and productive internet usage (only 13% of microenterprises use internet despite 81% owning phones), barriers like digital illiteracy and device costs that constrain the addressable market regardless of platform, and the possibility that 10–20% of the target segment uses desktop and represents meaningful revenue.",
+        "confidence_rationale": "The evidence strongly supports mobile as a primary platform for consumer apps in Nigeria (C1, C2, C3, C7, C8, C10, C17 from official and industry sources). However, the stress test identified six major weaknesses: (1) device ownership does not equal productive internet usage (C9); (2) survivor bias in successful app examples (X2); (3) missing evidence on desktop user segment size and value (X3); (4) barriers like digital illiteracy and device costs apply equally to mobile and web (X4); (5) no evidence that mobile-first reduces startup failure risk compared to other documented challenges (X5); and (6) no evidence on whether mobile-first is universally optimal or context-dependent by business model (X6). The revised statement is conditional on validation steps that have not yet been performed. Confidence is medium rather than high because the conclusion depends on startup-specific factors (target segment, business model, technical constraints) that are not addressed in the evidence."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A new consumer app startup in Nigeria should prioritize mobile development before desktop web. Mobile accounts for the majority of internet traffic, smartphone penetration is 75% and growing, mobile data is relatively affordable, and successful Nigerian apps (WhatsApp, Facebook, TikTok, Audiomack, Boomplay) are mobile-first. However, the startup should design for low-bandwidth scenarios (following Opera Mini's model) and plan desktop expansion once product-market fit is achieved, as desktop web remains relevant for business users and future market expansion.",
+        "confidence_rationale": "Multiple independent sources (industry reports, government data, news) consistently show mobile dominance in Nigeria's internet ecosystem. The convergence of high smartphone penetration (C3), large mobile subscriber base (C7, C20), mobile-first traffic patterns (C1, C2), and successful mobile-first app precedents (C4, C5, C6, C17) creates strong support. The main uncertainties—target user segment, specific app category, and competitive positioning—do not materially weaken the mobile-first recommendation, though they affect execution details."
+      }
+    }
+  ]
+}

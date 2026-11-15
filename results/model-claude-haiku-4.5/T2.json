@@ -1,0 +1,50 @@
+{
+  "id": "T2",
+  "tier": "thin_evidence",
+  "question": "Should a startup sell a paid AI bookkeeping tool to market traders in Sierra Leone?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:49:43.767Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A startup should not sell a paid AI bookkeeping tool to market traders in Sierra Leone, because the target market lacks the financial resources, digital literacy, internet access, and trust in financial services required to adopt and sustain such a product.",
+        "confidence_rationale": "The evidence strongly documents barriers to adoption (C13, C15, C16, C17, C25) and customer constraints (C2, C3, C21), supported by official government and industry sources (S1, S4, S5, S10, S20). However, confidence is medium rather than high because the evidence does not directly measure willingness-to-pay, actual demand for AI bookkeeping specifically, or the viability of alternative business models (e.g., subsidized, freemium, or B2B2C approaches). The evidence also does not quantify the addressable market segment within traders who might overcome these barriers."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "alternative_explanation": 1,
+          "missing_evidence": 3,
+          "contradictory_evidence": 1,
+          "risk": 1
+        },
+        "severities": {
+          "major": 6,
+          "minor": 1,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A startup should not pursue a paid AI bookkeeping tool for market traders in Sierra Leone without first conducting trader-specific research. While sector-wide evidence documents substantial barriers—low digital literacy (C16: 8.7/100), limited device access (C13), cash-dominant payments (C8), and low trust in financial services (C20: 74%)—the evidence does not prove these barriers apply uniformly to traders or that they are insurmountable. Critical unknowns remain: trader-specific income distribution and price sensitivity, whether traders perceive record-keeping as a priority problem, actual internet reliability in trading hubs, and whether alternative models (freemium, subsidized, offline-first) could succeed. The presence of competitor HelloBooks (C28) suggests some market viability, but the evidence does not clarify whether HelloBooks is profitable or serving a niche. A go/no-go decision requires trader-specific validation before product development.",
+        "confidence_rationale": "The evidence strongly documents sector-wide barriers to digital adoption and financial inclusion, supported by official government and industry sources (S1, S4, S5, S10, S20). However, confidence remains medium because the stress test identified six major weaknesses: (1) the evidence aggregates across the informal sector without isolating traders as a distinct subgroup; (2) affordability barriers do not rule out low-cost or freemium models; (3) digital literacy and device access barriers are not quantified for traders specifically; (4) HelloBooks' presence suggests some market viability, contradicting the 'unviable' conclusion; (5) distrust of financial services does not logically transfer to distrust of a standalone record-keeping tool; and (6) the evidence does not measure whether traders perceive record-keeping as a priority problem or would pay for a solution. The revised conclusion is more cautious: the barriers are real, but the addressable market segment and its size remain unquantified."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A startup should not sell a paid AI bookkeeping tool to market traders in Sierra Leone without substantial prior validation. While the market has a genuine need for better record-keeping (C1, C12, C23), the target customer segment faces severe structural barriers: 10% literacy constraints (C3), overwhelming cash-based transactions (C8, C14), extremely low digital financial literacy (C16), minimal mobile money adoption (C18, C19), pervasive distrust of financial institutions (C20), and limited internet access (C15, C25). These constraints make paid adoption unlikely unless preceded by foundational digital literacy and trust-building work.",
+        "confidence_rationale": "The evidence strongly supports that traders in Sierra Leone need bookkeeping solutions, but equally strongly demonstrates that paid digital tools face adoption barriers that are structural rather than marginal. The combination of low digital literacy (8.7/100), high distrust (74% lack trust), cash-dominant payment systems, and limited device/internet access creates a hostile environment for a paid SaaS product. No claims contradict this assessment; the absence of positive adoption evidence is itself telling."
+      }
+    }
+  ]
+}

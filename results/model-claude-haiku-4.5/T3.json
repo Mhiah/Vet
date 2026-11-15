@@ -1,0 +1,50 @@
+{
+  "id": "T3",
+  "tier": "thin_evidence",
+  "question": "Should a hardware startup launch a smart water bottle for competitive esports players in Southeast Asia?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:51:15.178Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A hardware startup should not launch a smart water bottle for competitive esports players in Southeast Asia, because while the region shows strong esports interest and the target demographic (young, tech-savvy gamers) has disposable income, the product category faces significant barriers: existing smart water bottles have documented usability and reliability issues, pricing ($50–$100) is prohibitively high relative to traditional alternatives ($5–$20), and there is no evidence that esports players—as a distinct segment—have demand for hydration tracking during competition.",
+        "confidence_rationale": "The thesis is grounded in strong market data (C4–C6, C21, C23–C26 from industry reports and research) showing Southeast Asian esports growth and young, spending-capable audiences. However, confidence is limited because: (1) product-specific risks (C1–C3, C14–C16) come from weak sources (company blogs, news reports) rather than rigorous research; (2) no evidence directly addresses esports players' hydration needs or willingness to adopt smart bottles during competition; (3) the price-sensitivity of the market (C22, C21 emphasizing mobile dominance) is inferred rather than directly stated for hardware; and (4) the competitive landscape (C13) is mentioned but not analyzed for barriers to entry."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 4,
+          "alternative_explanation": 1,
+          "missing_evidence": 1,
+          "contradictory_evidence": 1,
+          "risk": 1
+        },
+        "severities": {
+          "major": 7,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 2,
+          "contradicted": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A hardware startup should not launch a smart water bottle for competitive esports players in Southeast Asia without first validating esports-specific hydration demand and price tolerance. While Southeast Asia shows strong esports interest (C4–C6, C24) and the target demographic—young, tech-savvy gamers—has demonstrated spending on gaming-related activities (C23, C25, C26), the business case remains unproven. The core barrier is the absence of evidence that esports players have distinct demand for hydration tracking during competitive play, which is sedentary and short-duration, unlike the endurance sports where smart bottle demand is established. Secondary barriers include unclear price sensitivity for smart bottles among esports players (despite premium hardware spending in gaming), and product-category reliability issues that may be isolated rather than systemic (C1–C2 are anecdotal; C20 shows newer products are accurate). Success would require esports-specific differentiation (tournament integration, streaming compatibility) and direct validation of player demand before committing to launch.",
+        "confidence_rationale": "The conclusion is grounded in strong market data on Southeast Asian esports growth and young, high-spending audiences (C4–C6, C23–C26 from industry reports and research). However, confidence is limited by: (1) the complete absence of evidence on esports-specific hydration needs or adoption intent—the core demand question remains unanswered; (2) product-category risks (C1–C2) come from a single company/blog review, not independent research, and are partially contradicted by C20's demonstration of accuracy in newer products; (3) price sensitivity is inferred from platform economics (C21–C22) rather than directly measured for hardware accessories; and (4) the competitive landscape (C13) is mentioned but not analyzed. The stress test weakened several key assumptions (A1, A2, A5, A6) but did not falsify the core claim that esports-specific demand is unproven."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A smart water bottle launch for competitive esports players in Southeast Asia is moderately supported by market fundamentals but faces significant execution and product-market fit risks. The region shows strong esports growth (C5, C6) with a young, digitally-engaged audience (C23) and rising technology adoption (C11), but the target segment's willingness to pay for premium hydration hardware remains unvalidated. Product quality concerns (C1, C2) and a steep price premium over traditional bottles (C15) create adoption barriers, while the dispersed audience (C7, C9) may favor digital engagement over hardware-dependent solutions.",
+        "confidence_rationale": "Supporting claims establish genuine market demand for esports and smart devices in Southeast Asia, but critical gaps remain: no evidence that esports players specifically value hydration tracking, no pricing validation for this segment, and documented product reliability issues in existing offerings. The confidence is medium rather than low because the underlying market (young, tech-savvy, spending-capable esports fans) is real and growing; it is medium rather than high because the leap from general esports interest to smart bottle adoption is unvalidated."
+      }
+    }
+  ]
+}

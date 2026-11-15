@@ -1,0 +1,50 @@
+{
+  "id": "C2",
+  "tier": "contested",
+  "question": "Should a B2B SaaS startup switch from per-seat pricing to usage-based pricing?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:44:38.754Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A B2B SaaS startup should consider transitioning toward usage-based or hybrid pricing rather than remaining on pure per-seat pricing, but should implement a hybrid model (fixed base + usage component) rather than pure usage-based pricing to balance customer demand for cost predictability with the revenue growth and retention benefits of usage alignment.",
+        "confidence_rationale": "Strong evidence supports the inadequacy of pure per-seat pricing (C15, C25, C26) and demonstrates adoption and growth benefits of usage-based models (C30, C32, C33, C11, C12, C27, C28). However, critical tensions exist: C22 and C21 (BCG, industry source) warn that usage-based pricing loses favor at scale due to unpredictability; C17, C14, C6, C7 document real risks for early-stage companies; and C34 shows only 7.5% of SaaS companies use pure usage-based as primary model. The strongest evidence points to hybrid models (C16, C32, C35) as the pragmatic middle ground, but the startup's specific context (stage, product type, customer base) is unknown, limiting confidence in a universal recommendation."
+      },
+      "stress_test": {
+        "challenges": 9,
+        "kinds": {
+          "weak_assumption": 3,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 5,
+          "critical": 4
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 1,
+          "supported": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A B2B SaaS startup should evaluate a transition toward usage-based or hybrid pricing only after validating three critical conditions: (1) the product's value demonstrably scales with usage rather than being fixed per user, (2) the startup has operational maturity and technical infrastructure to implement reliable usage metering without excessive complexity, and (3) target customers have variable usage patterns or the startup is mature enough to absorb revenue forecasting volatility. For most early-stage startups, a hybrid model (fixed base + usage component) is preferable to pure usage-based pricing. However, if product value is fixed per user, customers demand absolute cost certainty, or the startup lacks operational maturity, optimizing per-seat pricing or raising prices within the existing model may be more prudent than switching models.",
+        "confidence_rationale": "The evidence strongly supports that per-seat pricing has limitations (C15, C25, C26) and that usage-based and hybrid models show growth and retention benefits (C30, C32, C33, C11, C12, C27, C28). However, critical uncertainties and contradictions weaken confidence: (1) C23 contradicts the urgency premise by showing churn is improving, not worsening; (2) C21 and C22 (high-credibility BCG sources) warn usage-based pricing loses favor at scale due to unpredictability, directly contradicting the thesis; (3) C17 and C14 document that early-stage companies struggle with usage-based volatility, but the startup's stage is unknown; (4) C38 shows usage-based pricing can increase volatility when products lack repeat usage, but whether this applies to the startup is unknown; (5) A2 (operational maturity) is entirely unsupported by evidence, yet C6, C7, C8 document real implementation risks; (6) the startup's product category, customer segment, and whether usage correlates with value are completely unknown (X8, X9). The recommendation is conditional and context-dependent rather than universally applicable, justifying medium confidence."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A B2B SaaS startup should consider switching to hybrid pricing (fixed base + usage component) rather than pure usage-based pricing, contingent on: (1) the product's value scaling with usage, (2) customer demand for cost predictability, and (3) the startup's ability to forecast and manage revenue volatility. Pure usage-based pricing alone carries significant risks for early-stage companies, though it shows strong growth metrics when combined with a subscription floor.",
+        "confidence_rationale": "The evidence strongly supports hybrid models and identifies real customer demand for flexible pricing (C4, C5, C32, C35), but contradicts itself on pure usage-based viability. Growth data favors usage-based (C30, C33) yet adoption remains low (C34) and BCG warns it loses favor at scale (C22). The startup's specific product type, customer segment, and revenue maturity are critical unknowns that determine whether the switch makes sense."
+      }
+    }
+  ]
+}

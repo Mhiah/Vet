@@ -1,0 +1,49 @@
+{
+  "id": "C1",
+  "tier": "contested",
+  "question": "Should a mid-sized software company adopt a four-day work week?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:43:08.373Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day work week if it restructures work processes, maintains pay, secures leadership commitment, and can measure productivity—but only after addressing customer availability and workload compression risks specific to its business model.",
+        "confidence_rationale": "Strong research and official sources (S1, S6, S9, S10, S12) consistently show productivity gains, reduced burnout, and high continuation rates (C3, C15, C16, C17, C18, C23, C26, C27, C33, C34). However, critical implementation conditions are required (C2, C4, C40, C41), measurement barriers are significant (C5), and customer-facing risks are documented (C8, C9, C10, C29). The evidence supports adoption under specific conditions, not universally."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 3,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 1,
+          "missing_evidence": 1,
+          "risk": 1
+        },
+        "severities": {
+          "major": 7,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "low",
+        "statement": "A mid-sized software company should consider adopting a four-day work week only after conducting a rigorous pre-adoption assessment of its specific conditions: establishing baseline productivity measurement, verifying leadership commitment with mechanisms to prevent unpaid overtime, assessing customer availability requirements and staffing cost-feasibility, validating that profit margins can absorb increased HR costs while maintaining pay, and designing workflow restructuring with clear success metrics. The evidence supports benefits under proper conditions—including productivity gains, reduced burnout, and high continuation rates in trials—but does not validate that mid-sized software companies can simultaneously meet all implementation conditions, nor does it address sector-specific risks for knowledge workers.",
+        "confidence_rationale": "The stress test revealed critical gaps between the evidence base and the company's specific context. While research and official sources (S1, S6, S9, S10, S12) consistently show productivity gains and high continuation rates under controlled trials, the evidence does not quantify costs for mid-sized software companies, does not provide pre-adoption tests for leadership commitment, does not address measurement infrastructure barriers that affect 43% of HR leaders, and does not validate that software companies' work patterns match the construction and mixed-sector trials cited. Survivorship bias in continuation rates (C31, C32 acknowledge some firms abandoned the experiment) and qualified productivity outcomes (C20, C21 show stability or potential loss, not guaranteed gains) further weaken confidence. The revised statement shifts from prescriptive adoption to conditional consideration pending company-specific validation, reflecting the evidence's inability to support a high-confidence recommendation without additional data."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day workweek if it can commit to structural changes—meeting restructuring, deep-work periods, and workload rebalancing—and has the measurement capability to track productivity and customer impact. Evidence shows strong gains in retention, burnout reduction, and often productivity for knowledge workers, but success depends critically on leadership commitment and avoiding workload compression into fewer days.",
+        "confidence_rationale": "Multiple high-quality sources (government trials, systematic reviews, peer-reviewed research) consistently report positive outcomes on retention, burnout, and productivity for knowledge workers. However, confidence is medium rather than high because: (1) success is heavily conditional on implementation quality and structural change, not automatic; (2) measurement barriers are cited by 43% of HR leaders as a top obstacle; (3) customer-facing and 24/7 operations pose distinct challenges not fully resolved in the evidence; and (4) some organizations have abandoned the model, indicating context-dependency."
+      }
+    }
+  ]
+}

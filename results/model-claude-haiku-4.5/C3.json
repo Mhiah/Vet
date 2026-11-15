@@ -1,0 +1,50 @@
+{
+  "id": "C3",
+  "tier": "contested",
+  "question": "Should a European fintech company expand into Nigeria in 2026?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:46:35.475Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A European fintech company should expand into Nigeria in 2026, but only with a focused strategy targeting high-growth segments (remittances, SME payments, mobile money) and substantial operational resilience for regulatory complexity, infrastructure gaps, and competitive intensity.",
+        "confidence_rationale": "Strong evidence supports market demand (C4, C14, C21, C22, C24, C39) and adoption momentum (C15, C26, C29), with regulatory improvement signals (C37, C38). However, this is offset by significant operational risks (C2, C5, C10, C27, C28), low overall adoption rates (C11, C12, C13, C17), intense competition (C9 shows 492 approved digital lenders), regulatory complexity (C6, C7, C8), and recent fintech failures (C31, C32, C34, C35). The evidence supports expansion into specific niches but not a broad-market entry."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 3,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "missing_evidence": 2,
+          "risk": 1
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "contradicted": 1,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "low",
+        "statement": "A European fintech company should not expand into Nigeria in 2026 without first resolving critical uncertainties about unit economics, regulatory outcomes, and market saturation. If expansion is pursued, it must be limited to a highly specialized niche (e.g., B2B cross-border payments for SMEs or diaspora remittances via agency partnerships) with substantial capital reserves (>$50M) for regulatory compliance, infrastructure workarounds, and customer acquisition. The company must establish deep local regulatory expertise and partnerships before entry, validate unit economics in a comparable emerging market, and secure evidence that the CBN's stated regulatory improvements have materialized. Broad-market entry or reliance on remittances as a primary revenue driver is not supported by the evidence, given IMTO licensing restrictions (C7), market saturation (C9, C31, C34), structural adoption barriers (C17, C11, C12, C13), and persistent infrastructure and trust deficits (C2, C10, C27, C28).",
+        "confidence_rationale": "The stress test revealed that five of six key assumptions (A1, A2, A3, A4, A6) are weakened or contradicted by the evidence. A5 remains unresolved. Critical evidence gaps exist on unit economics, regulatory outcomes, and the viability of the agency model for remittances. The evidence shows structural barriers (low adoption despite MTN's scale per C17, persistent infrastructure gaps per C10 and C28, market saturation per C9 and C31, and trust deficits per C27 and C28) that are not addressable by capital or European compliance standards alone. Unverified figures in C21, C22, C24 undermine the market demand thesis. Recent well-funded fintech failures (C31, C34) suggest that capital is insufficient to overcome structural market problems. The thesis's initial medium confidence was based on assumptions that the stress test has substantially weakened."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A European fintech company should expand into Nigeria in 2026, but only if it targets high-growth segments (remittances, SME cross-border payments, mobile money) with strong operational resilience and regulatory compliance. The market shows genuine demand and transaction growth, but faces severe infrastructure gaps, regulatory complexity, low consumer adoption outside urban centers, and elevated operational risk from fraud and service failures.",
+        "confidence_rationale": "Supporting claims show real market momentum (C15, C26, C29) and regulatory improvement (C37, C38, C20), but are substantially offset by evidence of low adoption rates (C11, C12, C13), infrastructure constraints (C2, C10), regulatory fragmentation (C6), and recent fintech failures (C31, C32, C34). The market is growing but remains immature and risky. Confidence is not higher because adoption metrics contradict transaction volume claims, and the company's specific capabilities and risk tolerance are unknown."
+      }
+    }
+  ]
+}

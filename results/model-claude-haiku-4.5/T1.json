@@ -1,0 +1,49 @@
+{
+  "id": "T1",
+  "tier": "thin_evidence",
+  "question": "Should a startup launch a subscription service for cultivated-meat pet food in Kenya?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:48:07.581Z",
+      "model": "claude-haiku-4-5-20251001",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A startup should not launch a subscription service for cultivated-meat pet food in Kenya at this time, despite favorable market growth conditions, because the technology remains unproven at scale, pricing barriers are severe, regulatory pathways are unclear, and consumer acceptance outside niche segments is uncertain.",
+        "confidence_rationale": "The evidence strongly supports market opportunity (C1, C2, C4, C5, C10) and identifies Kenya as a dynamic growth point with rising premium product demand (C6, C7). However, this is substantially offset by critical barriers: cultivated meat has not been produced at scale (C23), pricing remains prohibitively high due to technical complexity (C24, C29), long-term safety data is absent (C25), regulatory approval is limited globally (C32), and consumer acceptance faces significant headwinds (C30, C18). The medium confidence reflects that while the market fundamentals are sound, the technology and market readiness gaps are substantial enough to make launch inadvisable now, though this could change with technological breakthroughs."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "missing_evidence": 3,
+          "risk": 1
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A startup should carefully evaluate launching a subscription service for cultivated-meat pet food in Kenya rather than categorically avoid it, because Kenya's market shows favorable growth conditions (27% import growth, 15.11% projected growth by 2027) and an early-adopter segment exists (44.9% of surveyed consumers with no concerns). However, success requires: (1) partnerships with local manufacturers (Loop Pet Food, De Heus Kenya) to access production and cold-chain infrastructure; (2) clarification of Kenya's regulatory pathway, which may be lighter than developed-market standards; (3) targeting premium early adopters rather than mass-market consumers; and (4) achieving cost reductions to 1.5–2× premium conventional pet food pricing within 2–3 years. The technology remains unproven at global scale, long-term safety data is absent, and regulatory approval timelines are uncertain, but these barriers may be surmountable for a niche premium service if the startup pursues partnerships and avoids reputational damage to the broader cultivated-meat category.",
+        "confidence_rationale": "The stress test weakened several key assumptions but did not overturn the core conclusion. Market fundamentals remain strong (C1, C2, C4, C5, C10), and early-adopter demand is credible (C15, C6, C7). However, critical uncertainties remain unresolved: Kenya's specific regulatory pathway is unknown (X4), subscription adoption rates in Kenya are unaddressed (X6), competitive positioning of local producers is unclear (X5), and willingness-to-pay for cultivated-meat pet food in Kenya is unquantified (X1). The revised thesis is more conditional and realistic than the initial blanket rejection, but confidence remains medium because success depends on resolving multiple unvalidated assumptions about Kenya's regulatory environment, local partnerships, and early-adopter market size."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A startup should not launch a subscription service for cultivated-meat pet food in Kenya at this time. While Kenya's pet food market is growing (15% projected CAGR to 2027) and consumers show some openness to premium products, cultivated meat faces insurmountable near-term barriers: it has not been produced at scale, regulatory approval remains uncertain and geographically limited, production costs are prohibitively high, and long-term safety data for pets does not exist. Local competitors are already scaling conventional production, and the technology will likely remain too expensive relative to Kenya's price-sensitive market for years.",
+        "confidence_rationale": "The conclusion is strongly supported by multiple independent sources documenting that cultivated meat technology is immature (C23), cost-prohibitive (C24, C29), lacks safety evidence for pets (C25, C26), and faces severe regulatory barriers (C28, C31, C32). These are not market-timing issues but fundamental technological and regulatory gaps. Kenya's market growth (C1–C5, C10) and consumer interest in premium products (C6, C7) are real but insufficient to overcome these barriers. The high confidence reflects consensus across research sources on the technology's current limitations, not uncertainty about market attractiveness."
+      }
+    }
+  ]
+}
