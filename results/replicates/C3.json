@@ -1,0 +1,129 @@
+{
+  "id": "C3",
+  "tier": "contested",
+  "question": "Should a European fintech company expand into Nigeria in 2026?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:35:51.048Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "The evidence supports a cautious yes: a European fintech company should consider expanding into Nigeria in 2026 if it enters with a tightly localized, compliance-heavy, infrastructure-aware model focused on payments, remittances, SME lending, or other high-demand use cases. The market shows strong transaction growth and clear demand, but adoption frictions, operational instability, and regulatory complexity are material enough that a broad or lightly resourced entry would be high risk.",
+        "confidence_rationale": "The case for entry is supported by multiple official and industry claims showing strong demand and usage growth: improved financial inclusion and transaction efficiency (C1), major growth drivers in mobile banking/SME lending/remittances (C4), very large and rising e-payment volumes (C26, C29, C30), and a market shaped by digital payments, smartphone penetration, and unbanked demand (C14, C15). However, the evidence also shows substantial headwinds: poor connectivity, high costs, failed transactions, low adoption in some channels, fraud, weak redress, infrastructure gaps, and trust issues (C2, C5, C10, C11, C12, C13, C27, C28). Regulatory and competitive complexity is also significant, though some of the strongest regulatory detail comes from company/blog sources and should be weighted less (C6, C7, C8, C20, C37, C38). Overall, the evidence is strong enough to support a conditional positive thesis, but not strong enough to justify an unqualified expansion recommendation."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 1
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is a cautious, conditional yes: a European fintech company should consider Nigeria in 2026 only if it enters with a narrow, compliance-heavy model and a clear plan for local infrastructure, support, and regulatory handling. The evidence shows strong transaction growth and demand in payments, remittances, and SME-related use cases, but it also shows serious adoption frictions, trust and infrastructure problems, and unresolved questions about whether a new foreign entrant can capture profitable share on a 2026 timeline. A broad or lightly resourced expansion is not supported by the record.",
+        "confidence_rationale": "The record contains multiple official and industry signals of market activity and demand, but the stress test exposed major gaps on feasibility, profitability, licensing, and contestable share. The strongest counterevidence is also official: low adoption in some channels, poor user experience, and persistent fraud/reliability issues. That makes a conditional positive conclusion supportable, but not a strong one."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A European fintech company should consider expanding into Nigeria in 2026 only if it has a clear wedge in high-demand use cases such as mobile banking, SME lending, remittances, or payments infrastructure, and is prepared for substantial execution and compliance risk. The evidence points to strong transaction growth and large unmet demand, but also persistent adoption frictions, fraud/service-quality issues, and a complex regulatory environment. On balance, this looks like a selective, risk-managed expansion opportunity rather than a broad-market entry play.",
+        "confidence_rationale": "The case for demand is supported by multiple official and industry claims showing rapid e-payment growth, major transaction volumes, and growth drivers in mobile banking, SME lending, and remittances (C4, C14, C15, C26, C29, C39). The case against is also strong: official claims highlight low adoption in parts of the market, infrastructure and trust problems, and operational risks (C2, C5, C10, C11, C12, C13, C27, C28), while company/blog claims add regulatory and competitive complexity (C6, C7, C8, C9, C31, C37, C38). Because the evidence is mixed and some figures are unverified, the answer is best framed as conditional rather than definitive."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:36:30.464Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A European fintech company should consider expanding into Nigeria in 2026 only if it has a strong compliance, reliability, and localization plan; the evidence points to a large and growing payments/remittances opportunity, but also to material adoption frictions, infrastructure problems, and regulatory complexity that make a simple market-entry play too risky. The strongest initial position is conditional optimism: Nigeria looks attractive for payments, SME lending, and remittances, but not as a low-friction expansion market. ",
+        "confidence_rationale": "The case for expansion is supported by multiple official and industry claims showing strong transaction growth, unmet demand, and future growth drivers (C4, C14, C15, C19, C20, C26, C29, C39). However, the evidence also repeatedly shows adoption barriers and operating risks—poor connectivity, high data and electricity costs, failed transactions, fraud, weak redress, fragmented interoperability, and low adoption in some channels (C2, C5, C10, C11, C12, C13, C27, C28). Regulatory complexity is also a real concern, though the strongest regulatory claims come from company/blog sources and should be weighted less heavily (C6, C7, C8, C37, C38). Overall, the evidence supports a cautious yes rather than a broad yes or no."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 1,
+          "alternative_explanation": 2,
+          "contradictory_evidence": 1,
+          "risk": 2,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A European fintech company should expand into Nigeria in 2026 only if it has a narrow segment focus, strong local partnerships or distribution, and a compliance- and reliability-first operating model. The evidence supports a sizable and growing market in payments, remittances, and related digital finance use cases, but it also shows meaningful adoption frictions, infrastructure problems, fraud/trust issues, and competitive pressure that make a broad or low-friction entry too risky. On the supplied record, the best-supported answer is a conditional yes rather than a general yes.",
+        "confidence_rationale": "The conclusion is supported by multiple official and industry claims showing transaction growth and demand drivers (C4, C14, C15, C19, C20, C26, C29, C39), but it is constrained by repeated evidence of low adoption, infrastructure constraints, and user trust problems (C2, C5, C10, C11, C12, C13, C27, C28). Confidence is not high because the record is silent on unit economics, segment-level defensibility, and whether a European entrant has a real local advantage, while several regulatory claims come from weaker company/blog sources (C6, C7, C8, C37, C38)."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A European fintech company should consider expanding into Nigeria in 2026 only if it has a strong risk-management, compliance, and localization plan; the market shows clear demand and scale, but execution risk is high. The strongest support for entry is the rapid growth in electronic payments and the large remittance/SME-payment opportunity (C26, C29, C4, C14, C39), while the strongest reasons for caution are persistent reliability, trust, and adoption frictions plus regulatory/compliance complexity (C27, C28, C2, C5, C6, C8, C10, C11, C13). On balance, the evidence supports a selective, phased entry rather than a broad launch.",
+        "confidence_rationale": "The claims consistently show both substantial market demand and substantial operational/regulatory friction, but several high-value market-size and growth claims come from industry or company/blog sources, and some figures are explicitly unverified in the supplied material. That makes the direction of the answer fairly clear, but the optimal entry mode and timing remain uncertain."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:37:06.979Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A European fintech company should consider expanding into Nigeria in 2026 only if it enters with a tightly localized, compliance-heavy, and reliability-focused model; the evidence points to a large and growing payments/remittances opportunity, but also to material adoption frictions, infrastructure problems, and regulatory complexity that make a broad or lightly managed entry too risky. The strongest case is in digital payments, SME lending, and remittances, not in assuming mass-market adoption is already mature.",
+        "confidence_rationale": "The evidence is strong that Nigeria has meaningful fintech demand and transaction growth: official and industry claims point to rising e-payments volumes, major drivers such as mobile banking/SME lending/remittances, and large remittance and payments activity (C4, C14, C26, C29, C39). But the same official sources also document serious frictions—poor connectivity, high data and electricity costs, failed transactions, fraud, weak redress, interoperability gaps, and low adoption in some channels (C2, C5, C10, C11, C12, C13, C27, C28). Regulatory and competitive complexity is also material, though some of the most specific regulatory claims come from company/blog sources and should be weighted less (C6, C7, C8, C20, C37, C38). Overall, the evidence supports a cautious pro-expansion thesis, but not a blanket recommendation; confidence is medium because several market-sizing and regulatory details are either weakly sourced or unverified (C16, C21-C24, C30, C36, C37)."
+      },
+      "stress_test": {
+        "challenges": 6,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "risk": 2,
+          "missing_evidence": 1
+        },
+        "severities": {
+          "major": 4,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "supported": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: a European fintech company should only consider expanding into Nigeria in 2026 if it has a very specific product, a verified compliance path, and a strong plan for local operational resilience. The evidence supports meaningful payments/remittance activity and some growth in digital transactions, but it also shows persistent adoption frictions, infrastructure problems, fraud/redress issues, macro volatility, and intense competition. On the supplied record, that makes a broad or lightly managed entry look too risky, and even a tightly localized entry remains unproven rather than clearly feasible.",
+        "confidence_rationale": "The record contains strong official evidence of both opportunity and friction, so the direction of the conclusion is well supported. Confidence is not high because the most important decision inputs for an actual expansion—product-specific licensing, foreign-entry constraints, unit economics, and capturable market share—are not established in the supplied evidence, and several regulatory details come from weaker company/blog sources."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A European fintech company should consider expanding into Nigeria in 2026 only if it has a clear product-market fit in payments, remittances, SME lending, or infrastructure-enabled services and can absorb substantial execution and compliance risk. The evidence points to a large and growing digital payments market and strong demand drivers, but also persistent adoption frictions, operational instability, fraud/trust issues, and a complex regulatory environment. On balance, this looks like a selective-entry market rather than a broad-based expansion market.",
+        "confidence_rationale": "The conclusion is supported by multiple official and industry claims showing both strong demand/adoption signals (C1, C4, C14, C15, C19, C20, C26, C29) and material risks (C2, C5, C10, C11, C13, C27, C28, C31, C6, C8). Confidence is not high because several claims are from company/blog sources, some figures are flagged as unverified, and the evidence does not quantify unit economics, regulatory costs, or competitive intensity well enough to make a definitive go/no-go decision."
+      }
+    }
+  ]
+}

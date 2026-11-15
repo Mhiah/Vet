@@ -1,0 +1,135 @@
+{
+  "id": "W1",
+  "tier": "well_evidenced",
+  "question": "Should a US startup launch a 15-minute ultrafast grocery delivery service in 2026?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:43:00.694Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "The evidence supports a cautious negative thesis: a US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a very dense, highly localized market, unusually strong capital backing, and a differentiated operating model. Demand for grocery e-commerce and fast delivery is real, but the supplied evidence shows repeated failures, thin margins, high fixed costs, and intensifying competition from incumbents and platform partners [C1, C2, C3, C4, C7, C14, C22, C26, C27, C29, C30, C33].",
+        "confidence_rationale": "The evidence is fairly consistent across source types: multiple industry, research, and official sources point to demand growth, but the strongest and most directly relevant claims emphasize structural difficulty in making 15-minute grocery delivery profitable [C3, C4, C7, C14, C22, C26, C27]. Competition is also worsening, including from Walmart/Target strengths and Instacart-style partnerships that can replicate fast delivery without a pure-play startup model [C17, C18, C21, C29, C30]. Consumer interest exists, but willingness to wait longer and pay modest premiums suggests the market does not clearly require 15-minute delivery specifically [C11, C12, C13, C23, C24, C25]."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "contradictory_evidence": 2,
+          "alternative_explanation": 2,
+          "weak_assumption": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 7,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 2,
+          "supported": 2,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: generally no, a US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptional local density, strong capital, and a differentiated operating model. The supplied evidence supports real demand for grocery delivery and fast fulfillment, but it more strongly supports structural difficulty: high operating costs, thin margins, regulatory burden in at least some major markets, and intense competition from incumbents and platform-linked alternatives. The main caveat is that the evidence does not prove universal unviability; a very dense micro-market or a partnership/automation-heavy model could still work.",
+        "confidence_rationale": "The conclusion is supported by multiple industry, research, and official sources pointing in the same direction on costs, competition, and limited willingness to pay for 15-minute speed specifically. Confidence is not high because the stress test exposed important gaps: no direct 2026 break-even economics, no city-specific feasibility analysis, and no strong evidence that standalone pure-play is the only viable structure."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Probably not as a broad, standalone national launch in 2026. The evidence supports real demand for grocery e-commerce and faster delivery, but it also shows that 15-minute models have repeatedly struggled with unit economics, dense-market dependence, and intense competition from much larger players; a launch is only plausibly attractive in a few dense urban pockets with strong order density, premium pricing, and a retailer/fulfillment partner. The best-supported path is a narrow pilot or partnership-led rollout rather than a full-scale startup bet.",
+        "confidence_rationale": "The claims are fairly consistent: demand and consumer interest are real (C1, C2, C19, C23, C24), but multiple independent risk claims point to the same structural problems—high fixed costs, low margins, weak willingness to pay for 15-minute service, and strong incumbents (C3, C4, C7, C8, C9, C11, C14, C17, C18, C22, C26, C27, C29, C30). The main uncertainty is whether a specific city, operating model, or partner can overcome those constraints, but the supplied evidence does not show that at national scale."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:43:34.978Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "The evidence supports a cautious negative thesis: a US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a very dense urban footprint, unusually strong unit economics, and a differentiated operating model. Demand for grocery e-commerce and fast delivery is real, but the supplied evidence more strongly shows that 15-minute grocery delivery has repeatedly struggled with high fixed costs, thin margins, regulatory labor costs, and intense competition from larger incumbents and retailer-partnered models [C1, C2, C3, C4, C7, C14, C17, C18, C22, C26, C27, C30, C33].",
+        "confidence_rationale": "Confidence is high because multiple independent sources point in the same direction: consumer demand exists [C1, C2, C19, C23, C24], but the core business model is repeatedly described as economically fragile or failing under real-world conditions [C3, C4, C7, C8, C22, C26, C27]. Competition is also intensifying from large platforms and retailer-linked fulfillment networks [C17, C18, C21, C30]. The main uncertainty is not whether demand exists, but whether a startup can overcome the structural cost and competition problems; the evidence supplied does not establish that it can [C29, C32, C33]."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 5,
+          "minor": 1,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 1,
+          "supported": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: probably no, not as a standalone broad-market launch in 2026. The evidence shows real consumer demand for grocery delivery and some willingness to pay, but it more strongly shows that 15-minute grocery delivery has repeatedly run into high fixed costs, thin margins, labor/compliance burdens in some jurisdictions, and intense competition from larger incumbents and retailer/platform-linked models [C1, C2, C3, C4, C7, C14, C17, C18, C21, C22, C26, C27, C30, C33]. A launch could still make sense if it is tightly limited to very dense urban areas and backed by superior unit economics, automation, or a retailer/platform partnership; the supplied evidence does not establish those conditions are present.",
+        "confidence_rationale": "The conclusion is supported by multiple independent claims pointing in the same direction: demand exists, but the business model is structurally difficult and competition is strong. Confidence is not high because the record is silent on the startup’s actual geography, partnership structure, and unit economics, and those factors could materially change the answer [X1, X2, X4, X6, X7]."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a very dense urban launch market, unusually low fulfillment costs, and a clear path to repeat purchasing. The evidence suggests demand for grocery e-commerce and fast delivery is real, but the 15-minute model has repeatedly struggled with unit economics, high fixed costs, and intense competition from larger players and retailer-partnered networks (C1, C2, C3, C4, C7, C8, C9, C14, C17, C18, C21, C22, C26, C27, C30, C33).",
+        "confidence_rationale": "The supplied claims are consistent on the main decision point: consumer interest in grocery delivery is broad, but the ultrafast 15-minute format is structurally hard to make profitable and is facing stronger competition by 2026. Multiple independent claims point to the same risks—high operating costs, low margins, dense-core dependence, and failures/shutdowns—while the demand-side claims mostly support grocery delivery in general rather than the 15-minute niche (C1, C2, C3, C4, C7, C11, C12, C13, C22, C26, C27)."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:44:11.081Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "The evidence supports a cautious negative thesis: a US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a very dense urban footprint, unusually strong unit economics, and a differentiated operating model. Demand for online grocery and fast delivery is real, but the supplied evidence shows the 15-minute model has repeatedly struggled with high fixed costs, thin margins, regulation, and intense competition from larger incumbents and retailer-partnered networks [C1, C2, C3, C7, C14, C17, C18, C22, C26, C27, C30, C33].",
+        "confidence_rationale": "The evidence is fairly consistent across multiple source types: market demand is growing [C1, C2, C5, C19, C23, C24], but the core business model is repeatedly described as structurally difficult because of high operating costs, density requirements, low margins, and competitive pressure [C3, C4, C7, C8, C9, C22, C26, C27]. Official regulation in New York City also raises labor and compliance costs [C14, C15, C16]. The main uncertainty is that some evidence is from news or company/industry sources rather than primary financial data, and one competition claim is explicitly unverified [C29]. Even so, the balance of evidence strongly favors caution against launching a standalone 15-minute service."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 4,
+          "minor": 1,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 2,
+          "supported": 3
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: generally no, a US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a partner-based or otherwise light-asset model, very dense local demand, and clearly superior unit economics. The supplied evidence shows real demand for grocery delivery and fast fulfillment, but it also repeatedly points to high fixed costs, density dependence, regulatory burden in some metros, and strong competition from incumbents and retailer-linked networks [C1, C2, C3, C7, C14, C17, C18, C21, C22, C30]. The main caveat is that the evidence does not prove every 15-minute model is uneconomic; it leaves open that a narrowly targeted, well-capitalized, partner-enabled launch could work in select dense neighborhoods.",
+        "confidence_rationale": "Confidence is medium because the record is consistent on the core structural risks, but it is not decisive on the key 2026 economics question. The stress test weakens the blanket standalone framing by showing that retailer-partnered or light-asset models may avoid some of the worst cost issues, and the evidence does not provide direct pro forma data for a 2026 entrant. So the conclusion is well supported as a cautious default, but not as a universal rule for every possible operating model or market."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A US startup should not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has a very dense urban launch market, unusually low fulfillment costs, and a clear path to repeat purchases or retailer partnerships. The demand side is real—grocery ecommerce is growing, many consumers use digital grocery, and some value delivery—but the strongest evidence points to structural unit-economics and competition problems that have already hurt similar operators. The better-supported move is a narrower, partnership-led or same-day model rather than betting on a broad 15-minute rollout.",
+        "confidence_rationale": "The claims are fairly consistent: multiple sources support demand growth and consumer interest (C1, C2, C5, C19, C23, C24), but more and stronger claims highlight severe cost, density, pricing, and competitive pressures (C3, C4, C7, C8, C9, C14-C18, C22, C26, C27, C29, C30). The conclusion is therefore well supported, though it depends on market density and operating model."
+      }
+    }
+  ]
+}

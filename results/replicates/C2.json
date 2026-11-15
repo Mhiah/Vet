@@ -1,0 +1,132 @@
+{
+  "id": "C2",
+  "tier": "contested",
+  "question": "Should a B2B SaaS startup switch from per-seat pricing to usage-based pricing?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:33:54.215Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "A B2B SaaS startup should not switch wholesale from per-seat pricing to pure usage-based pricing on the evidence provided; the stronger initial thesis is to consider a hybrid or selective usage-based approach only when value clearly scales with consumption and customers can tolerate variable bills. The evidence points to growing market experimentation with usage-based models and some fit advantages, but it also consistently flags lower predictability, budget volatility, and customer resistance to unpredictable spend.",
+        "confidence_rationale": "The evidence is directionally consistent but not decisive. Multiple sources support the case that usage-based pricing can better align price with value in some products and that adoption/experimentation is rising (C3, C10, C11, C12, C25, C26, C27, C28, C35, C36). However, several sources also warn that usage-based pricing is less predictable, can create sticker shock and budget volatility, and may be less favored as firms scale (C6, C7, C14, C17, C18, C21, C22, C38). The evidence does not establish that a typical B2B SaaS startup will improve outcomes by fully switching, and it includes signals that hybrid models may be the safer fit (C16, C32, C35)."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "risk": 2,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "critical": 2,
+          "major": 6
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: do not switch wholesale from per-seat pricing to pure usage-based pricing on the supplied evidence alone. The record supports only a conditional move toward usage-based or hybrid pricing if the product’s value clearly scales with consumption, buyers can tolerate variable bills, and the company can meter and explain usage reliably. Otherwise, the evidence more strongly favors keeping per-seat pricing or testing a hybrid/selective model first.",
+        "confidence_rationale": "The conclusion is supported by multiple claims that usage-based pricing can better align price with value in some cases, but also by repeated warnings about volatility, predictability, sticker shock, and customer resistance. The stress test materially weakened the core assumption that this startup’s value is consumption-linked, and the evidence remains mostly market-level rather than startup-specific. That makes a conditional recommendation well supported, but not a high-confidence one."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "The best-supported answer is: switch only if your product’s value and cost to serve scale with customer usage, and preferably do so as a hybrid rather than a pure usage-based model. The claims consistently support usage-based or hybrid pricing when headcount is a poor proxy for value, when AI or variable infrastructure costs make fixed pricing less viable, and when you want better alignment with customer value (C15, C16, C26, C29, C35, C36). However, the evidence also warns that pure usage-based pricing increases revenue volatility, forecasting difficulty, and customer budget unpredictability, so it is a weaker default for early-stage or predictability-sensitive businesses (C6, C7, C14, C17, C18, C21, C22, C38).",
+        "confidence_rationale": "Multiple independent claims point in the same direction: usage-based pricing is growing, often fits AI/variable-cost products, and is commonly implemented as a hybrid rather than a pure model (C10, C11, C12, C27, C28, C32, C35, C36). The main counterweight is a strong and repeated set of risks around volatility and predictability (C6, C14, C17, C21, C22, C38), which does not negate the switch but narrows the best answer to conditional adoption and hybrid design."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:34:29.049Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A B2B SaaS startup should not make a blanket switch from per-seat to pure usage-based pricing; the stronger initial thesis is to move only if the product’s value and cost structure scale with customer usage, and otherwise prefer a hybrid model or retain seats. The evidence points to usage-based pricing as increasingly common and sometimes better aligned with value, but it also consistently shows higher revenue unpredictability, customer budget volatility, and weaker fit when buyers want cost predictability or when value does not track usage [C3, C4, C5, C6, C7, C14, C15, C16, C17, C18, C21, C22, C35, C36, C37, C38].",
+        "confidence_rationale": "The evidence is fairly consistent across multiple sources: several claims support the appeal of usage-based pricing for alignment and growth [C15, C16, C26, C28, C30, C32, C33, C35, C36], while a larger set highlights material downsides in predictability, budgeting, and customer acceptance [C6, C7, C8, C14, C17, C18, C21, C22, C38]. Adoption data also suggests usage-based pricing is growing but not dominant, which supports a selective rather than universal recommendation [C3, C10, C11, C12, C27, C34]. The main limitation is that the evidence is mostly industry/company reporting rather than primary research, and it does not provide startup-specific causal proof that switching will improve outcomes in a given case."
+      },
+      "stress_test": {
+        "challenges": 6,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 1
+        },
+        "severities": {
+          "major": 5,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A B2B SaaS startup should not automatically switch from per-seat pricing to pure usage-based pricing. The best-supported conclusion from the record is that pricing should be chosen conditionally: usage-based or hybrid pricing is more defensible when customer value and the startup’s costs scale with usage, while seat pricing remains reasonable when buyers want predictability or when usage volatility would hurt forecasting. The evidence does not support a universal recommendation for either model, and it is silent on whether this specific startup would benefit from switching.",
+        "confidence_rationale": "The record contains consistent support for both the appeal of usage-based pricing (better value alignment, market growth, AI/usage-intensive fit) and its drawbacks (volatility, forecasting difficulty, customer predictability concerns). However, most evidence is broad market reporting or company/blog material, and the stress test shows the key startup-specific causal question is unanswered: whether switching would improve conversion, churn, margin, or forecasting for this particular business."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: switch only if your product’s value and cost both scale with customer usage, and preferably do so as a hybrid rather than a pure usage-based model. The claims suggest usage-based pricing is increasingly common and can better align price with value for variable or AI-heavy products, but it also brings predictability, budgeting, and forecasting problems that many buyers dislike. If your customers strongly demand cost predictability or your usage is not tightly tied to delivered value, staying with per-seat pricing or moving to a hybrid is better supported than a full switch.",
+        "confidence_rationale": "The evidence is directionally consistent but mostly comes from industry reports and company/blog sources rather than independent primary research. There is strong support for both the upside of usage-based pricing (fit with variable value, growth, adoption) and the downside (volatility, predictability, sticker shock), so the decision depends heavily on product economics and customer buying behavior that are not directly observed in the claims."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:35:11.629Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "The evidence supports switching away from pure per-seat pricing only selectively: a B2B SaaS startup should move to usage-based pricing when customer value clearly scales with consumption or when headcount is a poor proxy for value, but the strongest initial default is a hybrid model rather than a full switch. Pure usage-based pricing appears attractive for alignment and growth in some segments, yet it also brings material predictability, forecasting, and customer-budget risks that make it a poor universal replacement for per-seat pricing.",
+        "confidence_rationale": "This is strongly supported by multiple independent claims: usage-based pricing is increasingly adopted and often better aligned with value in AI/consumption-heavy products (C10, C11, C12, C25, C26, C28, C29, C35, C36), while several sources warn it is the least predictable option and can create volatility, sticker shock, and forecasting problems (C6, C7, C8, C14, C17, C18, C21, C22, C38). Customer-side evidence also points both ways: buyers want adaptable pricing and dislike paying extra per user in some cases (C4, C5, C20), but they also demand cost predictability (C18, C22). The evidence is enough to support a clear initial position favoring selective adoption or hybrid pricing over a blanket switch, though many supporting figures come from company/blog or industry-report sources rather than primary research."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 5,
+          "critical": 1,
+          "minor": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The evidence does not support a blanket switch from per-seat to usage-based pricing for a typical B2B SaaS startup. The best-supported position is conditional: switch only if customer value clearly scales with consumption, buyers will tolerate variable bills, and the company can meter and explain usage reliably; otherwise, per-seat pricing or a hybrid model may be safer. The record also suggests usage-based pricing is growing, but that trend alone is not enough to justify switching for this specific startup.",
+        "confidence_rationale": "The conclusion is well supported by multiple claims on both sides: adoption and value-alignment arguments favor usage-based or hybrid pricing (C15, C16, C25, C26, C28, C35, C36), while several stronger cautionary claims highlight predictability, volatility, and customer-budget risks (C6, C7, C14, C17, C18, C21, C22, C38). Confidence is not high because the supplied evidence is silent on the startup’s actual product economics, usage pattern, buyer segment, and operational readiness, which are decisive for the pricing decision."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A B2B SaaS startup should not switch wholesale from per-seat to pure usage-based pricing by default. The best-supported option is to consider a hybrid or selective usage-based model when value delivered scales with consumption, customer usage is variable, or the product is AI/infrastructure-intensive; otherwise, per-seat pricing may still be preferable for predictability and simpler buying. The evidence also suggests usage-based pricing is increasingly common, but it brings real risks in forecasting, budget volatility, and customer sticker shock.",
+        "confidence_rationale": "Multiple independent claims point in the same direction: usage-based pricing is growing and can fit products where value scales with usage (C3, C4, C5, C9, C10, C11, C12, C15, C16, C26, C27, C28, C30, C32, C35, C36), while several claims warn about predictability and volatility problems (C6, C7, C8, C14, C17, C18, C21, C22, C38). The strongest synthesis is not a universal switch but a conditional move toward hybrid or usage-linked pricing when the product and buyer economics support it."
+      }
+    }
+  ]
+}

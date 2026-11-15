@@ -1,0 +1,133 @@
+{
+  "id": "W2",
+  "tier": "well_evidenced",
+  "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:44:42.659Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web. Nigeria’s user base is overwhelmingly mobile-centered—mobile traffic is significant, smartphone penetration is high and rising, mobile subscriptions and internet access are large, and the most-used consumer apps are mobile-native or mobile-heavy [C1, C2, C3, C4, C5, C7, C8, C17, C20].",
+        "confidence_rationale": "The core conclusion is supported by multiple independent trend and adoption claims from industry, official, and research sources showing strong mobile usage and access in Nigeria [C1, C2, C3, C7, C8, C17, C20]. The main caveat is that some evidence also shows meaningful constraints—digital exclusion, device costs, and startup operating risks—which affect execution but do not overturn the mobile-first direction [C12, C13, C14, C15, C16]."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 2,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 6,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "supported": 1,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The evidence supports mobile-first as the default starting point for a new Nigerian consumer app, but only if the target users are mainly smartphone-first and the product fits mobile-native use cases. Nigeria’s market is strongly mobile-centered, with large mobile subscriptions, high internet access via mobile networks, and heavy use of mobile-heavy consumer apps, but the record does not prove that delaying desktop web is harmless or that this applies equally to every consumer category. So the best-supported answer is: yes, mobile-first is reasonable, but it should be treated as a category-dependent strategy rather than a universal rule.",
+        "confidence_rationale": "The direction is well supported by multiple trend and adoption claims from industry, official, and research sources, especially the large mobile base and mobile-heavy usage patterns [C1, C2, C3, C4, C5, C7, C8, C17, C20]. Confidence is not high because the stress test correctly shows the evidence is mostly about prevalence, not comparative launch performance, and it is silent on whether delaying web hurts acquisition, retention, or monetization [X3, X5, X6, X7]."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes—based on the supplied claims, a new consumer app startup in Nigeria should build mobile-first before desktop web. The strongest support is that Nigeria has very high mobile and smartphone usage, mobile internet traffic is significant, and many key consumer behaviors already center on mobile apps and messaging (C1, C2, C3, C4, C5, C6, C7, C8, C17, C20). The main caveat is that some Nigerian users and businesses still face device, broadband, and digital-literacy constraints, so the best approach is mobile-first rather than mobile-only, with a lightweight web presence or responsive web later if the product needs broader reach (C12, C13, C9).",
+        "confidence_rationale": "The conclusion is strongly supported by multiple independent claims pointing in the same direction: mobile dominates traffic and usage, smartphone penetration is rising, and major consumer apps and services are already mobile-centric in Nigeria (C1-C8, C17, C20). The counterevidence does not overturn the recommendation; it mainly argues for keeping the product accessible and lightweight because some users still face access barriers (C12, C13, C9)."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:45:17.531Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria for mobile first before desktop web. Nigeria’s internet and app usage are strongly mobile-centered, with high smartphone and mobile-subscription penetration, major consumer apps dominated by mobile-first behavior, and relatively cheap mobile data; desktop web should be secondary unless the product specifically targets business workflows or users with stronger desktop access. [C1, C2, C3, C4, C5, C6, C7, C8, C10, C17, C18, C19, C20, C22]",
+        "confidence_rationale": "The core thesis is supported by multiple independent claims showing mobile dominance in traffic and usage, plus broad device and network availability in Nigeria: mobile accounts for more than half of web traffic in African markets and Nigeria has a significant share of that traffic [C1, C2]; smartphone penetration is rising sharply [C3, C19]; Nigeria has very large mobile and internet access bases [C7, C8, C20]; and leading consumer apps are already heavily mobile-centered [C4, C5, C6, C17, C18]. The main caveat is that some evidence points to broader digital exclusion and startup risk [C12, C13, C14, C15, C16], but those do not outweigh the mobile-first demand signals for a consumer app. Confidence is high because the evidence is convergent, though not definitive for every consumer segment."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 3
+        },
+        "severities": {
+          "major": 7,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: yes, mobile should be the default first build for a new consumer app startup in Nigeria, but only as a default rather than a universal rule. The supplied evidence shows strong mobile usage, rising smartphone adoption, large mobile subscription and internet-access bases, and many popular consumer apps already centered on mobile [C1, C2, C3, C4, C5, C6, C7, C8, C10, C17, C18, C19, C20]. However, the evidence does not prove mobile-first is best for every app or segment; if the product is workflow-heavy, data-intensive, or aimed at users with stronger desktop access, desktop web may deserve earlier priority [C12, C13, C22].",
+        "confidence_rationale": "The conclusion is supported by multiple independent trend and adoption claims, including official and research sources, which consistently point toward mobile dominance in Nigeria [C1, C2, C3, C7, C8, C10, C17, C18, C19, C20]. Confidence is not high because the record is indirect: it does not compare mobile-first versus desktop-first outcomes, and it does not establish that the startup’s specific category or target segment is mobile-friendly [X1, X3, X4, X6, X7, X8]."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes—on the supplied evidence, a new consumer app startup in Nigeria should build mobile-first before desktop web. The strongest support is that Nigeria has very high mobile and smartphone adoption, mobile internet traffic is substantial, and many leading consumer behaviors and apps are already mobile-centric (C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20). The main caveat is that this is a general consumer-app recommendation: if the product is aimed at business users, low-end device constraints, or requires broad discoverability on the open web, a web-first or parallel web strategy could still be justified (C9, C12, C13, C18).",
+        "confidence_rationale": "The conclusion is strongly supported by multiple independent claims pointing in the same direction: mobile dominates traffic and usage, smartphone penetration is rising, and major consumer apps in Nigeria are already mobile-first. The counterclaims do not overturn the recommendation; they mainly qualify execution by highlighting access, device, and infrastructure constraints rather than arguing for desktop web first. The evidence is less specific about the startup’s exact category, so the recommendation is strongest for mainstream consumer apps."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:45:55.170Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes: the evidence supports building a new consumer app startup in Nigeria for mobile first before desktop web. The strongest basis is that Nigeria’s internet and app usage are heavily mobile-centered, while desktop/web access is comparatively less central for consumers; a desktop web version can follow after the mobile product proves demand. ",
+        "confidence_rationale": "The case is supported by multiple independent claims showing mobile dominance in traffic and usage (C1, C2, C3, C4, C5, C6, C7, C8, C17, C18, C19, C20). There is also evidence that many Nigerian users have mobile phones and internet access, while business internet use among microenterprises remains low (C9), which reinforces mobile as the more immediate consumer channel. The main counterweight is that some citizens and businesses still face device, broadband, and infrastructure constraints (C12, C13), but these do not overturn the mobile-first direction; they mainly argue for lightweight, low-data design. Confidence is high because the evidence is consistent across industry, official, and research sources, though it does not directly compare conversion or retention outcomes for mobile-first versus desktop-first startups."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "weak_assumption": 1,
+          "risk": 2,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 6,
+          "minor": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "supported": 2,
+          "weakened": 2,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a qualified default: the supplied evidence supports building a new consumer app startup in Nigeria mobile-first before desktop web, because consumer internet use, smartphone adoption, and major app usage are strongly mobile-centered (C1, C2, C3, C4, C5, C6, C7, C8, C17, C18, C19, C20). However, the record does not prove mobile is superior for conversion, retention, or payments in every consumer category, so this is a strong starting assumption rather than a universal rule. A lightweight, low-data mobile experience is the safest interpretation; the timing and necessity of desktop web remain unresolved.",
+        "confidence_rationale": "The evidence consistently points to mobile prevalence across industry, official, and research sources, which supports a mobile-first default. The stress test meaningfully weakens the stronger claim that mobile is always the best first channel, because the record lacks direct comparisons of device-level conversion, retention, or payment completion and is category-blind. That leaves a solid directional conclusion but not a fully settled strategy for every consumer app."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes—based on the supplied claims, a new consumer app startup in Nigeria should build mobile-first before desktop web. The strongest support is that Nigeria has very high mobile and smartphone adoption, mobile traffic is significant, and key consumer behaviors already center on mobile apps and mobile-friendly services (C1, C2, C3, C4, C5, C6, C7, C8, C17, C20). The main caveat is that this is a general consumer-app recommendation: if the target users are primarily microenterprises, low-connectivity users, or workflows that require long-form desktop tasks, a web-first or mobile-plus-web approach may be better (C9, C12, C13).",
+        "confidence_rationale": "The claims consistently point in the same direction: mobile usage, smartphone penetration, and mobile subscriptions are all high, while consumer app behavior is already concentrated in mobile-native channels. The counterclaims do not overturn the conclusion; they mainly indicate access and device-quality constraints that argue for lightweight design, not for prioritizing desktop web over mobile."
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "T2",
+  "tier": "thin_evidence",
+  "question": "Should a startup sell a paid AI bookkeeping tool to market traders in Sierra Leone?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:39:26.712Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a narrowly targeted, low-friction product for market traders who already handle enough digital or semi-digital transactions to benefit from bookkeeping. The evidence suggests a real need for better record keeping and financial organization in Sierra Leone’s informal sector, but it also shows major adoption barriers—cash dependence, low digital literacy, weak internet/device access, and low trust in financial services—so a paid AI bookkeeping tool is more likely to work if it is simple, mobile-first, and priced for very low willingness to pay.",
+        "confidence_rationale": "The case for demand is fairly strong: poor record keeping is described as a major barrier to growth and formalisation (C1), informal firms are heavily cash-based and often unregistered (C4, C8, C10, C23, C24), and official sources recommend improving bookkeeping capacity and financial inclusion (C26, C27). But the evidence also shows substantial friction: low digital financial literacy and trust (C16, C17, C20), limited internet/device access and weak service reliability (C15, C25), and broader constraints on access to finance and digital adoption (C11, C12, C13, C21, C22). Because the evidence supports need but not willingness-to-pay or product-market fit for a paid AI tool specifically, confidence is medium rather than high."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 2,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 1
+        },
+        "severities": {
+          "major": 4,
+          "critical": 3
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 3,
+          "unresolved": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: probably not as a broadly viable paid product, but possibly as a very narrow niche offering. The evidence clearly supports a real bookkeeping problem in Sierra Leone’s informal sector, yet it also shows severe affordability, literacy, trust, and connectivity barriers, and it does not establish that market traders specifically will pay for or prefer an AI bookkeeping tool over simpler alternatives. So the strongest conclusion is that a startup should treat this as an unproven, high-risk hypothesis rather than a clear yes.",
+        "confidence_rationale": "The record strongly supports the existence of bookkeeping pain and weak formal record-keeping, but the stress test exposes major gaps on willingness to pay, trader-specific demand, and whether AI is necessary. Because the evidence is mostly about the broader informal sector and includes several company/blog sources for AI-related claims, confidence is only medium."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A paid AI bookkeeping tool for market traders in Sierra Leone looks plausible, but only as a narrowly designed, low-cost, mobile-first product with very simple workflows and strong offline/cash support. The strongest evidence is that informal businesses have weak record keeping, heavy cash use, low digital/financial literacy, and limited access to formal finance, which creates a real need for bookkeeping help (C1, C9, C10, C11, C12, C15, C23, C24, C25). However, adoption risk is also high because many traders lack devices, internet reliability, trust in financial services, and the skills needed for digital tools, so willingness to pay is still unproven (C13, C15, C16, C17, C20, C21, C22).",
+        "confidence_rationale": "The evidence strongly supports a problem-solution fit: poor records and cash-heavy informal trading are widespread, and multiple official sources point to low bookkeeping quality and low financial inclusion (C1, C9, C10, C23, C24, C25). Confidence is not high because the claims do not directly test whether market traders will pay for an AI tool, nor whether the product can overcome affordability, trust, device, and literacy constraints; the only direct competition/adoption evidence is indirect or from company/blog sources (C13, C15, C16, C20, C28)."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:40:04.956Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "Yes—there is a plausible market for a paid AI bookkeeping tool for market traders in Sierra Leone, because the evidence consistently shows weak record-keeping, heavy cash use, low formal financial inclusion, and explicit policy interest in improving bookkeeping and digital finance [C1, C9, C10, C11, C23, C24, C25]. However, the case is strongest for a low-cost, highly assisted product aimed at traders already feeling pain from poor records, not for a broad self-serve AI product, because digital literacy, device/internet access, trust, and willingness to pay all look constrained [C13, C15, C17, C20].",
+        "confidence_rationale": "The evidence strongly supports unmet need and structural frictions: poor record keeping is described as a major barrier [C1], informal employment and cash dependence are high [C9, C8], formalization and bookkeeping are weak [C10, C23, C24, C25], and policy sources explicitly recommend capacity building in record-keeping and easier financial inclusion [C26, C27]. But the evidence is weaker on actual willingness to pay, product fit, and unit economics for market traders specifically; several supporting figures come from company/blog or secondary sources and some are not directly about traders [C16, C17, C18, C19, C20, C28, C29, C30, C31, C32]. That makes the direction clear but not yet enough to prove a scalable paid product without further validation."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 7,
+          "critical": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet, at least not as a broad paid AI bookkeeping product. The evidence supports a real bookkeeping pain point and weak formalization among informal businesses and petty traders in Sierra Leone [C1, C9, C10, C23, C24, C25], but it does not establish that market traders specifically will pay for software, that they can reliably use a self-serve AI tool, or that AI is better than simpler bookkeeping support [C13, C15, C17, C20, C26, C27, C28, C30]. A startup should treat this as a plausible market for low-cost, highly assisted bookkeeping help, with AI only as a secondary feature if validated.",
+        "confidence_rationale": "The record strongly supports unmet need and structural frictions, but the stress test shows the commercial core is unproven: willingness to pay, trader-specific fit, and AI-specific value are all missing or weakly supported. Several key sources are official or government-backed, which strengthens the need side, but the evidence on adoption and monetization is indirect and some supporting items are company/blog or secondary sources. That makes a cautious negative on the AI-specific paid product more defensible than a confident yes."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "Probably yes, but only as a narrow, low-cost product aimed at traders who already use phones/mobile money and can tolerate some onboarding help. The strongest support is that informal businesses in Sierra Leone have weak record keeping, heavy cash use, low formal-account ownership, and low digital literacy, which creates a real need for simpler bookkeeping support (C1, C9, C10, C11, C12, C23, C24, C25). However, adoption risk is also high because many users lack internet/device access, trust in financial services is low, and AI/digital finance awareness is limited, so the startup should not assume broad self-serve uptake (C13, C15, C16, C17, C20).",
+        "confidence_rationale": "The case for demand is consistent across multiple official and industry claims: poor records, cash dependence, and low formalization all point to a bookkeeping pain point (C1, C9, C10, C12, C23, C24, C25). But the evidence is weaker on willingness to pay, product usability for low-literacy traders, and actual conversion to a paid AI tool; several claims instead highlight adoption barriers and trust issues (C13, C15, C16, C17, C20)."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:40:36.934Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "medium",
+        "statement": "Yes—on the evidence provided, a paid AI bookkeeping tool looks directionally viable for market traders in Sierra Leone, because the target segment has weak record-keeping, heavy cash use, low formal financial inclusion, and low digital finance literacy, all of which create a real need for simpler bookkeeping support [C1, C8, C10, C11, C23, C24, C25]. The strongest caveat is that willingness to pay is not established: the evidence points to need and adoption barriers, but not to price sensitivity, product-channel fit, or whether traders would trust and use a paid AI tool enough to sustain a business [C2, C15, C17, C20, C21].",
+        "confidence_rationale": "The evidence strongly supports unmet need and structural frictions in the market: poor record keeping, cash dependence, low formalization, and weak digital/financial literacy are repeatedly documented by official and industry sources [C1, C8, C10, C11, C23, C24, C25]. That makes a bookkeeping product plausible. Confidence is not high because the evidence does not directly establish willingness to pay, customer acquisition feasibility, or product usability for market traders specifically; several sources also indicate major constraints around internet access, device access, trust, and digital skills [C13, C15, C17, C20, C21]."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 1,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 3
+        },
+        "severities": {
+          "major": 5,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "unresolved": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: yes, but only as a cautious, unproven market hypothesis rather than a validated go-to-market decision. The supplied evidence supports a real need among Sierra Leone’s informal sector for better record-keeping, with heavy cash use, low formalization, and weak digital finance literacy, which makes a bookkeeping product plausible [C1, C8, C10, C11, C23, C24, C25]. However, the evidence does not establish that market traders specifically will pay enough, can reliably use a digital/AI tool, or can be reached through workable distribution channels, so the business case remains materially uncertain [C13, C15, C17, C20, C21, X1, X5, X6].",
+        "confidence_rationale": "Confidence is medium because the evidence consistently supports unmet need and structural frictions, using mostly official and industry sources [C1, C8, C10, C11, C15, C23, C24, C25]. The stress test, however, leaves major unresolved gaps on subgroup fit, willingness to pay, usability, trust, and distribution, which are all necessary for a paid startup to succeed [X1, X2, X3, X4, X5, X6, X7]."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a narrow, low-cost, highly assisted product aimed at market traders who already use phones and have enough cash-flow to pay. The strongest support is that informal businesses in Sierra Leone have weak record keeping, heavy cash use, low formal-account adoption, and low digital/financial literacy, which creates a real need for simpler bookkeeping support (C1, C9, C10, C11, C12, C16, C23, C24, C25). However, the same evidence also suggests major adoption frictions—limited internet/device access, low trust, weak banking access, and cash-preference—so a paid AI tool is more likely to work if it is mobile-first, offline/low-data, very simple, and bundled with human onboarding rather than sold as a self-serve AI product (C13, C15, C17, C20, C21, C22, C30).",
+        "confidence_rationale": "The case for demand is supported by multiple official and semi-official claims showing poor bookkeeping, cash dependence, and low digital maturity among informal businesses. Confidence is not high because the evidence does not directly test willingness to pay, product fit for market traders specifically, or whether a paid AI tool can overcome the strong adoption barriers identified."
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "C1",
+  "tier": "contested",
+  "question": "Should a mid-sized software company adopt a four-day work week?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T18:32:08.464Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A mid-sized software company should consider adopting a four-day work week, but only as a structured operating change rather than a simple day cut. The evidence most strongly supports adoption when the company can redesign meetings, protect deep-work time, and measure productivity and customer impact; otherwise, the risks of workload compression, burnout, and service gaps are substantial.",
+        "confidence_rationale": "The evidence base is broad and converges across research, official, and trial sources that four-day weeks can preserve or improve productivity and well-being in many knowledge-work settings (C11, C15, C16, C19, C20, C21, C23, C25, C26, C27, C42). It also consistently identifies implementation conditions and risks: leadership commitment, autonomy, meeting redesign, and measurement matter, while workload compression and customer-coverage problems can undermine outcomes (C1, C2, C4, C28, C29, C40, C41, C43). The main uncertainty is company-specific fit, especially customer coverage requirements and whether the firm can absorb the operational redesign costs (C7, C8, C9, C13, C14)."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 2,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "critical": 1,
+          "major": 6,
+          "minor": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "unresolved": 1,
+          "supported": 2,
+          "weakened": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should only adopt a four-day work week as a conditional, well-measured experiment, not as a default policy. The evidence supports potential gains in productivity, retention, and well-being, but only when the company can redesign workflows, protect deep-work time, maintain customer coverage, and measure outcomes reliably; otherwise, workload compression, service gaps, and added costs can outweigh the benefits. Because the record does not establish this company’s coverage needs or implementation capacity, the best-supported answer is “maybe, if the operating conditions fit.”",
+        "confidence_rationale": "The evidence base is fairly strong and comes from research, official, and trial sources showing both upside and downside. Confidence is not high because the key company-specific fit questions remain unresolved: customer coverage requirements, measurement quality, and implementation costs. The stress test also shows that positive trial results may not generalize cleanly to a mid-sized software company."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A mid-sized software company should consider adopting a four-day work week only if it can redesign work around it rather than simply compressing the same workload into fewer days. The strongest evidence suggests potential upside for knowledge-work settings—better retention, lower burnout, and sometimes stable or improved productivity—but the main failure modes are weak leadership commitment, poor measurement, customer-coverage gaps, and workload intensification. If the company cannot restructure meetings, protect deep-work time, and monitor productivity and customer impact, it should not adopt yet.",
+        "confidence_rationale": "The supplied claims are fairly consistent: multiple research, official, and pilot sources support benefits for knowledge workers and multiple sources warn about implementation risks. The answer depends mainly on whether the company can make the operational changes that the claims say are necessary, which is directly addressed by the evidence. Remaining uncertainty is about the company’s specific workload, customer coverage needs, and ability to measure output, but the general decision logic is well supported."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T18:32:43.129Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A mid-sized software company should consider adopting a four-day work week, but only if it redesigns work around the shorter schedule rather than simply compressing five days into four. The evidence suggests the model can improve productivity, retention, burnout, and hiring appeal for knowledge-work settings, while the main failure modes are weak leadership commitment, poor measurement, customer-coverage gaps, and workload intensification.",
+        "confidence_rationale": "The evidence base is broad and convergent across research, official, and industry sources: multiple studies and official reports support productivity, retention, and well-being gains (C11, C15, C16, C17, C18, C19, C20, C21, C23, C25, C26, C27, C42), while several sources identify consistent implementation risks and boundary conditions (C1, C2, C4, C7, C8, C9, C13, C14, C28, C29, C31, C32, C40, C41, C43). The main uncertainty is not whether benefits are possible, but whether this specific company can execute the organizational changes and absorb any customer-coverage or cost impacts."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "risk": 3,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 4,
+          "supported": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company may be a candidate for a four-day work week, but only under fairly strict conditions: it should be genuinely knowledge-work heavy, able to redesign workflows rather than simply compress five days into four, able to measure output and service quality, and able to preserve customer coverage without material cost or service harm. The supplied evidence supports potential gains in productivity, retention, burnout, and hiring appeal, but it also shows meaningful risks, mixed permanence, and unresolved questions about fit, margins, and coverage. So the best-supported answer is conditional rather than a blanket yes.",
+        "confidence_rationale": "The evidence is broad and mostly convergent on both benefits and risks, but the stress test exposed major company-specific unknowns: customer-coverage needs, measurement capability, and cost tolerance. The record supports adoption as a plausible option, not as a clearly superior default for all mid-sized software firms."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "A mid-sized software company should consider adopting a four-day work week only if it can redesign work rather than simply compress the same workload into fewer days. The strongest evidence suggests potential upside for knowledge-work settings—better retention, lower burnout, and sometimes stable or improved productivity—but the main failure modes are weak leadership commitment, poor measurement, customer-coverage gaps, and workload intensification (C2, C3, C11, C15, C19, C20, C26, C27, C31, C32, C40, C41, C43).",
+        "confidence_rationale": "The supplied claims are broadly consistent: multiple research, official, and pilot sources point to productivity/retention benefits in knowledge-work contexts, while multiple sources also identify clear implementation risks and boundary conditions. The answer is therefore best framed as a conditional yes rather than a blanket recommendation, with strong support for both the upside and the caveats."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T18:33:20.479Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "A mid-sized software company should consider adopting a four-day work week, but only as a structured redesign rather than a simple day cut. The evidence most strongly suggests it can improve productivity, retention, burnout, and hiring appeal for knowledge-work settings, while the main failure modes are weak leadership commitment, poor workload redesign, and customer-coverage gaps.",
+        "confidence_rationale": "The evidence base is broad and converges across research, official, and pilot sources: productivity and retention benefits appear in multiple sources (C11, C15, C16, C20, C21, C23, C27, C33, C38), while risks are also consistently identified (C1, C4, C13, C28, C31, C32, C40, C41, C43). For a mid-sized software company specifically, the knowledge-work fit is favorable, and the main caveat is that success depends on operational redesign rather than merely compressing the same workload (C2, C4, C40, C41)."
+      },
+      "stress_test": {
+        "challenges": 8,
+        "kinds": {
+          "weak_assumption": 1,
+          "contradictory_evidence": 1,
+          "alternative_explanation": 1,
+          "risk": 2,
+          "missing_evidence": 3
+        },
+        "severities": {
+          "major": 6,
+          "critical": 2
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 5
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company may be a candidate for a four-day work week, but only if it can redesign workflows, preserve customer/incident coverage, and enforce workload limits with credible measurement. The supplied evidence supports possible gains in productivity, retention, burnout, and hiring appeal, but those benefits are conditional and not guaranteed. The biggest unresolved question is whether this specific company can absorb the schedule change without service degradation or offsetting costs.",
+        "confidence_rationale": "The record contains substantial support from research, official, and pilot sources for both benefits and risks, but the stress test exposes major company-specific unknowns: workload mix, coverage needs, implementation costs, and leadership discipline. Because the evidence is directionally positive yet not decisive for this particular mid-sized software company, confidence is moderate rather than high."
+      },
+      "one_shot": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should consider adopting a four-day work week only if it can redesign work around it rather than simply compressing five days into four. The best-supported case is positive for knowledge-work settings: multiple claims report stable or improved productivity, lower burnout/absenteeism, and better retention or hiring appeal, but the main failure modes are weak leadership commitment, poor measurement, customer-coverage gaps, and workload intensification (C2, C3, C11, C15, C16, C17, C18, C20, C21, C23, C25, C26, C27, C42). If the company has customer-facing coverage needs or cannot measure productivity well, the evidence suggests caution or a pilot rather than a full rollout (C5, C7, C8, C9, C28, C29, C31, C32, C40, C41).",
+        "confidence_rationale": "The claims lean toward benefits for software/knowledge work, but they also show meaningful implementation risks and sector-specific constraints. Confidence is not high because several supporting claims come from company/blog or news sources, some figures are unverified in the prompt, and the evidence is mixed on whether the model works without careful redesign and measurement."
+      }
+    }
+  ]
+}
