@@ -104,3 +104,50 @@ print(json.dumps({k: v for k, v in out.items() if k != "repeats"}, indent=1))
 if reps:
     print(json.dumps({k: v for k, v in out["repeats"].items() if k != "rows"}, indent=1))
     for r in out["repeats"]["rows"]: print(r["id"], "first", r["first"], "final", r["final"], "one", r["one_shot"], r["verdicts"])
+
+# 7. Second, independent scorer (a separate AI reviewer given only the rubric and the blinded briefs)
+p2 = os.path.join(HERE, "scores_second.json")
+if os.path.exists(p2):
+    s1 = json.load(open(os.path.join(HERE, "scores.json"))); s2 = json.load(open(p2)); key = json.load(open(os.path.join(HERE, "key.json")))
+    ids = sorted(key)
+    agree = {}
+    for i, c in enumerate(CRIT + ["oversold"]):
+        a = [s1[b][i] for b in ids]; b_ = [s2[b][i] for b in ids]
+        agree[c] = {"exact": round(sum(x == y for x, y in zip(a, b_)) / len(ids), 2), "within_1": round(sum(abs(x - y) <= 1 for x, y in zip(a, b_)) / len(ids), 2),
+                    "mean_first": round(st.mean(a), 2), "mean_second": round(st.mean(b_), 2)}
+    def ranks(v):
+        o = sorted(range(len(v)), key=lambda i: v[i]); r = [0.0] * len(v); i = 0
+        while i < len(o):
+            j = i
+            while j + 1 < len(o) and v[o[j + 1]] == v[o[i]]: j += 1
+            for k in range(i, j + 1): r[o[k]] = (i + j) / 2 + 1
+            i = j + 1
+        return r
+    def corr(x, y):
+        mx, my = st.mean(x), st.mean(y)
+        den = (sum((a - mx) ** 2 for a in x) * sum((b - my) ** 2 for b in y)) ** 0.5
+        return round(sum((a - mx) * (b - my) for a, b in zip(x, y)) / den, 2) if den else None
+    t1 = [sum(s1[b][:5]) for b in ids]; t2 = [sum(s2[b][:5]) for b in ids]
+    rows2 = [{"id": b, **key[b], **dict(zip(CRIT + ["oversold"], s2[b]))} for b in ids]
+    byq2 = collections.defaultdict(dict)
+    for r in rows2: byq2[r["question"]][r["method"]] = r
+    d2 = [sum(v["crux"][k] for k in CRIT) - sum(v["one_shot"][k] for k in CRIT) for v in byq2.values()]
+    d2n = [sum(v["crux"][k] for k in no_trace) - sum(v["one_shot"][k] for k in no_trace) for v in byq2.values()]
+    lab2 = collections.defaultdict(list)
+    for r in rows2:
+        d = next(x for x in runs if x["id"] == r["question"])
+        lab2[d["crux"]["conclusion"]["confidence"] if r["method"] == "crux" else d[r["method"]]["confidence"]].append(r["honest_confidence"])
+    out["second_scorer"] = {
+        "agreement": agree,
+        "total_score_rank_correlation": corr(ranks(t1), ranks(t2)),
+        "by_method": {m: {**{k: round(st.mean(r[k] for r in rows2 if r["method"] == m), 2) for k in CRIT},
+                          "total_of_25": round(st.mean(sum(r[k] for k in CRIT) for r in rows2 if r["method"] == m), 1),
+                          "without_traceability_of_20": round(st.mean(sum(r[k] for k in no_trace) for r in rows2 if r["method"] == m), 1),
+                          "oversold": sum(r["oversold"] for r in rows2 if r["method"] == m)} for m in ["plain", "one_shot", "crux"]},
+        "crux_vs_one_shot_total": {"higher": sum(x > 0 for x in d2), "equal": sum(x == 0 for x in d2), "lower": sum(x < 0 for x in d2), "p": sign_p(sum(x > 0 for x in d2), sum(x < 0 for x in d2))},
+        "crux_vs_one_shot_without_traceability": {"higher": sum(x > 0 for x in d2n), "equal": sum(x == 0 for x in d2n), "lower": sum(x < 0 for x in d2n), "p": sign_p(sum(x > 0 for x in d2n), sum(x < 0 for x in d2n))},
+        "honest_confidence_score_by_label": {k: {"mean": round(st.mean(v), 2), "n": len(v)} for k, v in lab2.items()},
+        "oversold_briefs": [f'{r["question"]}/{r["method"]}' for r in rows2 if r["oversold"]],
+    }
+    json.dump(out, open(os.path.join(HERE, "checks.json"), "w"), indent=1)
+    print(json.dumps(out["second_scorer"], indent=1))

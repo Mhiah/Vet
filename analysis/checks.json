@@ -404,5 +404,105 @@
     ]
    }
   ]
+ },
+ "second_scorer": {
+  "agreement": {
+   "honest_confidence": {
+    "exact": 0.56,
+    "within_1": 1.0,
+    "mean_first": 4,
+    "mean_second": 3.7
+   },
+   "counter_evidence": {
+    "exact": 0.81,
+    "within_1": 1.0,
+    "mean_first": 3.74,
+    "mean_second": 3.56
+   },
+   "traceability": {
+    "exact": 0.41,
+    "within_1": 1.0,
+    "mean_first": 3.59,
+    "mean_second": 3
+   },
+   "cruxes": {
+    "exact": 0.67,
+    "within_1": 1.0,
+    "mean_first": 4.11,
+    "mean_second": 3.78
+   },
+   "next_steps": {
+    "exact": 0.93,
+    "within_1": 1.0,
+    "mean_first": 4.96,
+    "mean_second": 4.89
+   },
+   "oversold": {
+    "exact": 0.93,
+    "within_1": 1.0,
+    "mean_first": 0.11,
+    "mean_second": 0.11
+   }
+  },
+  "total_score_rank_correlation": 0.93,
+  "by_method": {
+   "plain": {
+    "honest_confidence": 2.67,
+    "counter_evidence": 2.78,
+    "traceability": 1,
+    "cruxes": 3.89,
+    "next_steps": 4.89,
+    "total_of_25": 15.2,
+    "without_traceability_of_20": 14.2,
+    "oversold": 2
+   },
+   "one_shot": {
+    "honest_confidence": 3.44,
+    "counter_evidence": 4,
+    "traceability": 4,
+    "cruxes": 3.56,
+    "next_steps": 4.78,
+    "total_of_25": 19.8,
+    "without_traceability_of_20": 15.8,
+    "oversold": 1
+   },
+   "crux": {
+    "honest_confidence": 5,
+    "counter_evidence": 3.89,
+    "traceability": 4,
+    "cruxes": 3.89,
+    "next_steps": 5,
+    "total_of_25": 21.8,
+    "without_traceability_of_20": 17.8,
+    "oversold": 0
+   }
+  },
+  "crux_vs_one_shot_total": {
+   "higher": 8,
+   "equal": 1,
+   "lower": 0,
+   "p": 0.0078
+  },
+  "crux_vs_one_shot_without_traceability": {
+   "higher": 8,
+   "equal": 1,
+   "lower": 0,
+   "p": 0.0078
+  },
+  "honest_confidence_score_by_label": {
+   "medium": {
+    "mean": 4.14,
+    "n": 22
+   },
+   "high": {
+    "mean": 1.8,
+    "n": 5
+   }
+  },
+  "oversold_briefs": [
+   "W3/one_shot",
+   "W1/plain",
+   "W2/plain"
+  ]
  }
 }
