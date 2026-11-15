@@ -37,7 +37,9 @@ type PlainBrief = {
 
 const ROOT = process.env.VET_ROOT ?? path.resolve(process.cwd(), "..");
 const DRY = process.env.VET_DRY_RUN === "1";
-const OUT = path.join(ROOT, DRY ? "dry-run" : "results");
+// VET_SET=controls runs controls.json and writes to results/controls/, apart from the main question set.
+const SET = process.env.VET_SET ?? "";
+const OUT = path.join(ROOT, DRY ? "dry-run" : "results", SET);
 
 /** The conclusion schema without evidence IDs: the plain condition has no evidence to cite. */
 const root = CONCLUSION_SCHEMA.schema as { properties: Record<string, unknown> };
@@ -62,7 +64,7 @@ async function main() {
     if (DRY) throw new Error("VET_DRY_RUN is for sample data only: unset the API keys or set CRUX_MOCK=1.");
     throw new Error("SERV_API_KEY and TAVILY_API_KEY are both required: this evaluation never runs on mock data.");
   }
-  const all = JSON.parse(await readFile(path.join(ROOT, "questions.json"), "utf8")) as Question[];
+  const all = JSON.parse(await readFile(path.join(ROOT, SET ? `${SET}.json` : "questions.json"), "utf8")) as Question[];
   const only = process.argv.slice(2);
   const questions = only.length ? all.filter((q) => only.includes(q.id)) : all;
   await mkdir(OUT, { recursive: true });
