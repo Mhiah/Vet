@@ -1,0 +1,11 @@
+{
+ "W1": ["ultrafast|ultra-fast|15-minute|15 minute|quick commerce|q-commerce|rapid delivery|instant delivery|instant grocery", "u\\.s\\.|united states|us |american|new york|gopuff|getir|jokr|gorillas|buyk|fridge no more|instacart|doordash"],
+ "W2": ["mobile|smartphone|app", "nigeria"],
+ "W3": ["bnpl|buy now|pay later", "u\\.s\\.|united states|american|us |retailer|merchant|consumers"],
+ "C1": ["four-day|four day|4-day|32-hour", "software|tech|it compan|engineer|developer"],
+ "C2": ["usage-based|usage based|consumption|pay-as-you-go|per-seat|seat-based", "saas|software"],
+ "C3": ["fintech", "nigeria"],
+ "T1": ["cultivated|cultured|lab-grown|cell-based", "kenya"],
+ "T2": ["bookkeeping|record.keeping|accounting|records", "sierra leone"],
+ "T3": ["water bottle|hydration|smart bottle", "esports|e-sports|gamer|gaming"]
+}

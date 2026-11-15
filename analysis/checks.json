@@ -1,0 +1,408 @@
+{
+ "trend_permutation_p": {
+  "plain": 0.0833,
+  "one_shot": 0.119,
+  "first_answer": 0.0238,
+  "final_answer": null
+ },
+ "sign_tests": {
+  "rubric_total_crux_vs_one_shot": {
+   "higher": 7,
+   "equal": 2,
+   "lower": 0,
+   "p": 0.0156
+  },
+  "rubric_without_traceability": {
+   "higher": 8,
+   "equal": 1,
+   "lower": 0,
+   "p": 0.0078
+  },
+  "confidence_first_to_final": {
+   "fell": 5,
+   "same": 4,
+   "rose": 0,
+   "p": 0.0625
+  }
+ },
+ "rubric_without_traceability_of_20": {
+  "plain": 15,
+  "one_shot": 16.78,
+  "crux": 18.67
+ },
+ "honest_confidence_score_by_label": {
+  "medium": {
+   "mean": 4.32,
+   "n": 22
+  },
+  "high": {
+   "mean": 2.6,
+   "n": 5
+  }
+ },
+ "challenge_backing": {
+  "challenges": 68,
+  "cite_any_claim": 58,
+  "cite_a_claim_against_the_answer": 31,
+  "weakened_assumptions": 31,
+  "weakened_with_a_challenge_citing_against_evidence": 19
+ },
+ "direct_claim_share": {
+  "per_question": {
+   "C1": 0.02,
+   "C2": 0.11,
+   "C3": 0.26,
+   "T1": 0.0,
+   "T2": 0.09,
+   "T3": 0.0,
+   "W1": 0.24,
+   "W2": 0.59,
+   "W3": 0.36
+  },
+  "by_group": {
+   "well_evidenced": 0.4,
+   "contested": 0.13,
+   "thin_evidence": 0.03
+  }
+ },
+ "evidence_volume": {
+  "well_evidenced": {
+   "claims": [
+    33,
+    22,
+    25
+   ],
+   "sources": [
+    20,
+    20,
+    20
+   ]
+  },
+  "contested": {
+   "claims": [
+    43,
+    38,
+    39
+   ],
+   "sources": [
+    20,
+    20,
+    20
+   ]
+  },
+  "thin_evidence": {
+   "claims": [
+    35,
+    32,
+    26
+   ],
+   "sources": [
+    20,
+    20,
+    20
+   ]
+  }
+ },
+ "repeats": {
+  "runs_per_question_including_first": [
+   4
+  ],
+  "total_pipeline_runs": 36,
+  "labels": {
+   "first": {
+    "high": 18,
+    "medium": 18
+   },
+   "one_shot": {
+    "medium": 20,
+    "high": 16
+   },
+   "final": {
+    "medium": 36
+   }
+  },
+  "verdicts": {
+   "weakened": 36
+  },
+  "mean_by_group": {
+   "first": {
+    "well_evidenced": 2.92,
+    "contested": 2.58,
+    "thin_evidence": 2
+   },
+   "one_shot": {
+    "well_evidenced": 2.92,
+    "contested": 2.42,
+    "thin_evidence": 2
+   },
+   "final": {
+    "well_evidenced": 2,
+    "contested": 2,
+    "thin_evidence": 2
+   }
+  },
+  "questions_where_label_varied_across_runs": {
+   "first": 2,
+   "one_shot": 3,
+   "final": 0
+  },
+  "moves": {
+   "high->medium": 18,
+   "medium->medium": 18
+  },
+  "rows": [
+   {
+    "id": "C1",
+    "tier": "contested",
+    "first": [
+     "high",
+     "high",
+     "high",
+     "high"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "high",
+     "high",
+     "medium"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "C2",
+    "tier": "contested",
+    "first": [
+     "high",
+     "medium",
+     "high",
+     "high"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "high",
+     "high",
+     "medium",
+     "high"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "C3",
+    "tier": "contested",
+    "first": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "T1",
+    "tier": "thin_evidence",
+    "first": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "T2",
+    "tier": "thin_evidence",
+    "first": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "T3",
+    "tier": "thin_evidence",
+    "first": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "W1",
+    "tier": "well_evidenced",
+    "first": [
+     "high",
+     "high",
+     "high",
+     "high"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "medium",
+     "high",
+     "high",
+     "high"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "W2",
+    "tier": "well_evidenced",
+    "first": [
+     "high",
+     "high",
+     "high",
+     "high"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "high",
+     "high",
+     "high",
+     "high"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   },
+   {
+    "id": "W3",
+    "tier": "well_evidenced",
+    "first": [
+     "high",
+     "medium",
+     "high",
+     "high"
+    ],
+    "final": [
+     "medium",
+     "medium",
+     "medium",
+     "medium"
+    ],
+    "one_shot": [
+     "high",
+     "high",
+     "high",
+     "high"
+    ],
+    "verdicts": [
+     "weakened",
+     "weakened",
+     "weakened",
+     "weakened"
+    ]
+   }
+  ]
+ }
+}

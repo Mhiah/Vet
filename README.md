@@ -22,15 +22,23 @@ Nine questions were run, three per evidence group. Two results pull in opposite 
 | One-shot with evidence | 21.8 | 1 of 9 |
 | Stress-tested | 23.4 | 0 of 9 |
 
-**But the stress test erased the confidence signal.** The stress-tested method reported medium confidence on all nine questions and judged its own first answer "weakened" all nine times. Before the stress test, its first answer was high on the well-evidenced questions and medium on the thin-evidence ones. Afterwards the label was the same everywhere, so it tells the reader nothing about which briefs to rely on.
+**But the stress test flattened the confidence label.** Each question was run four times (a first run, then three repeats on the same evidence). In all 36 runs the stress-tested method reported medium confidence and judged its own first answer "weakened". Before the stress test, the same method's first answer followed the evidence: high in 11 of 12 runs on well-evidenced questions, 7 of 12 on contested ones and 0 of 12 on thin-evidence ones. Afterwards the label was the same everywhere, so it tells the reader nothing about which briefs to rely on.
 
-![The confidence label each method gave for each question](report/figure1.png)
+![The confidence label each method gave for each question in the first run](report/figure1.png)
 
-**No method ever said "low".** Out of 36 confidence labels, 10 were high, 26 were medium and none was low, including on the questions chosen because direct evidence is scarce.
+| Mean confidence (1 low, 2 medium, 3 high) | Well-evidenced | Contested | Thin evidence |
+| --- | --- | --- | --- |
+| One-shot with evidence | 2.92 | 2.42 | 2.00 |
+| Stress-tested: first answer | 2.92 | 2.58 | 2.00 |
+| Stress-tested: final answer | 2.00 | 2.00 | 2.00 |
 
-The stress test raised 68 challenges, 67 of them rated major or critical, but only 8 were contradictory evidence. The rest were weak assumptions, alternative explanations, missing evidence and risks: objections that can be raised against almost any recommendation. A critic that always wins is not informative, and a rubric that scores one brief at a time rewards the hedged wording without noticing that the label never changes.
+**No method ever said "low".** Out of 117 confidence labels, 36 were high, 81 were medium and none was low, including on the questions chosen because direct evidence is scarce.
 
-This is a small study: nine questions, one run each, one model. It shows a pattern worth testing, not a settled effect. The report sets out the limits in full.
+**The rubric rewarded the flattening.** The rubric's "honest confidence" score averaged 4.3 for briefs labelled medium and 2.6 for briefs labelled high. Scoring one brief at a time, a careful-sounding "medium" looks honest every time. Only looking across the whole set shows that the label never changes.
+
+**The stress test was not inventing objections, but it never lost.** Of its 68 challenges in the first run, 31 cited evidence that cuts against the answer. Yet 12 of the 31 assumptions it marked as weakened had no such evidence behind the challenge, even though the stress-tested method is told to weaken an assumption only when evidence backs the challenge.
+
+This is a small study: nine questions and one model. The repeat runs show the pattern is stable for these questions, not that it holds for others. It shows a pattern worth testing, not a settled effect. The report sets out the limits in full.
 
 ## The question
 
@@ -91,7 +99,10 @@ scripts/run.ts         the harness: three briefs per question
 results/               one JSON file per question, written by the run
 analysis/blind.py      renders the briefs under random IDs for blind scoring
 analysis/scores.json   the blind scores; key.json maps IDs back to methods
-analysis/analyze.py    computes every number in the report (summary.json)
+analysis/analyze.py    computes the main tables (summary.json)
+analysis/checks.py     robustness checks: exact tests, repeat runs, evidence checks (checks.json)
+scripts/replicate.ts   repeats the reasoning on saved evidence, with no new searches
+results/replicates/    the repeat runs
 analysis/figure.py     draws the figure
 report/                the report (PDF and LaTeX source) and the figure
 RUN                    the question IDs the last run covered
@@ -119,6 +130,7 @@ To rebuild the tables and figure from the saved runs:
 
 ```bash
 python3 analysis/analyze.py
+python3 analysis/checks.py
 python3 analysis/figure.py
 ```
 
@@ -128,7 +140,7 @@ On GitHub, the same run starts from the Actions tab (**Run the study**) once `SE
 
 ## Limits
 
-- **Small sample.** Nine questions, one run each. The results show direction, not precise effect sizes.
+- **Small sample.** Nine questions. Each was run four times, but the repeats reuse the same evidence and model, so they show stability, not generality.
 - **One model, one domain.** Everything runs on one model through SERV, on business and strategy questions. Other models and other kinds of decisions may behave differently.
 - **The evidence groups are the author's call.** Which questions count as well-evidenced, contested or thin was decided by judgement before the runs, not by an independent panel.
 - **The rubric has no expert panel behind it.** It was written by the author, not by domain experts.
