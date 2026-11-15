@@ -1,0 +1,46 @@
+name: Repeat runs on saved evidence
+# Starts when the REPLICATE file changes, or by hand from the Actions tab.
+# REPLICATE holds the number of repeats, optionally followed by question ids.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [REPLICATE]
+permissions:
+  contents: write
+concurrency:
+  group: run-study
+  cancel-in-progress: false
+env:
+  CRUX_COMMIT: 359a6f47805b97c594a59a431125730b4520e983
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Mhiah/crux
+          ref: ${{ env.CRUX_COMMIT }}
+          path: crux
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - working-directory: crux
+        run: npm ci
+      - name: Repeat the reasoning on saved evidence (SERV calls only, no web searches)
+        working-directory: crux
+        run: npx tsx ../scripts/replicate.ts $(cat ../REPLICATE 2>/dev/null || true)
+        env:
+          VET_ROOT: ${{ github.workspace }}
+          SERV_API_KEY: ${{ secrets.SERV_API_KEY }}
+      - name: Save results to the repo
+        if: always()
+        run: |
+          git config user.name "Mhiah"
+          git config user.email "192190660+Mhiah@users.noreply.github.com"
+          git add results
+          git diff --cached --quiet || git commit -m "results: add repeat runs [skip ci]"
+          git pull --rebase
+          git push
