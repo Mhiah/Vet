@@ -1,5 +1,6 @@
 name: Run the study
 # Starts when the RUN file changes, or by hand from the Actions tab.
+# RUN lists the question ids to run, separated by spaces; an empty RUN means all of them.
 on:
   workflow_dispatch:
   push:
@@ -33,7 +34,7 @@ jobs:
         run: npm ci
       - name: Run the study (live SERV and Tavily calls)
         working-directory: crux
-        run: npx tsx ../scripts/run.ts
+        run: npx tsx ../scripts/run.ts $(cat ../RUN 2>/dev/null || true)
         env:
           VET_ROOT: ${{ github.workspace }}
           SERV_API_KEY: ${{ secrets.SERV_API_KEY }}
