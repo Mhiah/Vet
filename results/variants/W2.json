@@ -1,0 +1,70 @@
+{
+  "id": "W2",
+  "tier": "well_evidenced",
+  "question": "Should a new consumer app startup in Nigeria build for mobile before desktop web?",
+  "first_answer": "high",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 1,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:38:00.442Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the evidence does not prove that this is best for every consumer app category, nor does it compare mobile-first against desktop-first outcomes for the target segment; if the product is workflow-heavy, desktop may be better [X1, X4, X7].",
+        "confidence_rationale": "The conclusion is supported by multiple independent industry, official, and research claims showing strong mobile prevalence in Nigeria, but the stress test exposed major gaps: no target-segment device mix, no head-to-head launch comparison, and no evidence that the app’s workflow is mobile-suitable. Those gaps materially weaken the strength of the recommendation, so the answer is directionally clear but not high-confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default rather than a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the evidence does not establish that this is best for every consumer app category or every target segment, and it does not compare mobile-first versus desktop-first outcomes for the specific product type [X1, X3, X4, X7].",
+        "confidence_rationale": "The conclusion is supported by multiple independent industry, official, and research claims showing strong mobile prevalence in Nigeria, but the stress test exposed major gaps: no target-segment evidence, no workflow-suitability evidence, and no head-to-head performance comparison. Those gaps prevent a high-confidence universal recommendation, even though the default mobile-first direction remains better supported than desktop-first.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default starting strategy rather than a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, this conclusion depends on the app targeting ordinary consumer smartphone users and having a workflow that works well on mobile; the evidence is silent on those product-specific conditions and does not compare mobile-first against desktop-first outcomes [X1, X4, X7].",
+        "confidence_rationale": "The record directly supports a mobile-heavy Nigerian market, but the stress test exposed important gaps: no target-segment device mix, no head-to-head launch comparison, and no evidence that the specific app workflow is mobile-suitable. Counterevidence and risks (especially C9, C12-C16) weaken the inference from national mobile dominance to a guaranteed product decision, so the best-supported answer is plausible but not high-confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "Yes, as a default starting point, the evidence supports building a new consumer app in Nigeria mobile-first before desktop web. The strongest support is that Nigeria is broadly mobile-centered, with high mobile traffic, high smartphone and mobile subscription penetration, and widespread mobile-native app use [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, this is not proven for every app category: if the target users are desktop-heavy, or the product needs complex workflows, file handling, or admin-heavy tasks, desktop web could be the better first build [X1, X4, X7].",
+        "confidence_rationale": "The record directly supports a mobile-first default through multiple independent industry, official, and research claims about Nigeria’s mobile usage and access patterns [C1, C2, C3, C7, C8, C17, C19, C20]. Stress testing found important gaps: no head-to-head mobile-vs-desktop launch comparison, no evidence about the specific target segment, and no proof that the app’s workflow is mobile-suitable [X1, X3, X4, X7]. That makes the conclusion well-supported as a default, but not strong enough for high confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:38:20.893Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default, not as a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web when the target users are ordinary smartphone consumers and the core workflow is mobile-suitable. The strongest support is Nigeria’s broad mobile dominance and mobile-native usage patterns [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20], while the main caveat is that the record does not prove this is best for every consumer app category or for desktop-heavy workflows [X1, X4, X7].",
+        "confidence_rationale": "The conclusion is supported by multiple independent trend and official claims showing strong mobile prevalence in Nigeria, but the stress test exposes a major gap: no direct evidence compares mobile-first versus desktop-first outcomes for the target segment or app category. That makes the recommendation plausible and evidence-backed, but not high-confidence or universal.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default rather than a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. However, the conclusion is conditional on the target users being ordinary smartphone consumers and the product workflow being usable on mobile; the evidence does not compare mobile-first versus desktop-first outcomes for this specific category, and it does not show that mobile is best for complex or workflow-heavy products [X1, X3, X4, X7].",
+        "confidence_rationale": "The evidence strongly supports the general market condition that Nigeria is mobile-heavy, but the stress test exposed major gaps: no target-segment device mix, no head-to-head launch comparison, and no proof that the app’s workflow is mobile-suitable. That makes mobile-first the best-supported default, but not a high-confidence universal conclusion.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "Yes, but only as a default starting strategy rather than a universal rule: the supplied evidence supports building a new consumer app in Nigeria mobile-first before desktop web, because Nigeria is broadly mobile-centered and mobile-native usage is widespread [C1, C2, C3, C4, C5, C6, C7, C8, C17, C19, C20]. That conclusion depends on the app targeting ordinary consumer smartphone users and having a workflow that works well on mobile; the evidence is silent on whether the specific product is desktop-heavy or requires complex tasks that would favor web first [X1, X4, X7].",
+        "confidence_rationale": "The record strongly supports Nigeria’s overall mobile dominance, but it does not directly compare mobile-first versus desktop-first outcomes for the target app category. Stress testing found important gaps: the target segment is unspecified, workflow complexity is unknown, and the evidence does not show that mobile access translates into better conversion or retention for this product. Those gaps weaken the conclusion from high to medium confidence, though they do not overturn the mobile-first default [C1, C3, C7, C8, C9, C17, C20; X1, X2, X3, X4, X7].",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "Yes, as a default starting point, the evidence supports building a new consumer app in Nigeria mobile-first before desktop web. The strongest support is broad mobile dominance in traffic, subscriptions, and app usage, plus official and research evidence that Nigerians heavily use mobile-native services and mobile data is relatively affordable [C1, C2, C3, C4, C5, C6, C7, C8, C10, C17, C19, C20]. However, this conclusion depends on the app being aimed at ordinary consumer smartphone users and not a desktop-heavy or workflow-heavy segment; the record is silent on head-to-head launch performance and on whether the app’s core workflow is mobile-suitable [X1, X4, X7].",
+        "confidence_rationale": "The record consistently supports mobile as the dominant environment in Nigeria, but the stress test exposed important gaps: no direct comparison of mobile-first vs desktop-first outcomes, no evidence about the target segment’s device mix, and no proof that the specific app workflow fits mobile well. Those gaps do not overturn the default mobile-first recommendation, but they prevent a high-confidence conclusion.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

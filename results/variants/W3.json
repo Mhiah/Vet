@@ -1,0 +1,70 @@
+{
+  "id": "W3",
+  "tier": "well_evidenced",
+  "question": "Should a small online retailer in the US offer buy now, pay later at checkout to increase sales?",
+  "first_answer": "high",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 2,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:38:44.634Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: the evidence supports that BNPL can raise sales metrics, but it also raises merchant fees and does not establish that profit improves. The case is strongest if the retailer sells lower-ticket items to promotion-sensitive customers and has enough margin to absorb higher payment costs; it is weaker for older, higher-income, or higher-ticket customer mixes, especially if margins are thin.",
+        "confidence_rationale": "The record consistently supports a directional sales lift from BNPL adoption (C4, C5, C7, C11) and consistently shows higher merchant costs (C1, C2, C3, C12). However, the key decision variable—whether a small retailer’s incremental profit is positive after fees and other costs—is not answered, and the stress test highlights limited generalizability from the cited retailer study plus customer-mix dependence (C8, C9, C10, C11).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: the evidence supports that BNPL can raise conversion and basket size, but it also raises merchant fees and does not clearly improve profit. The case is strongest if the retailer sells lower-ticket items to promotion-sensitive customers and has enough margin to absorb materially higher payment costs; it is weaker for older, higher-income, or higher-ticket customer mixes, especially if margins are thin. Based on the supplied record alone, the best answer is not a blanket yes, but a cautious “maybe, after a margin and customer-mix check.”",
+        "confidence_rationale": "The evidence is fairly consistent that BNPL can lift sales metrics (C4, C5, C7, C11) and that merchant costs are higher than cards/bank payments (C1, C2, C3, C12). However, the record does not establish profit impact for a small retailer, and the strongest sales evidence may not generalize well because it comes from a major retailer and appears concentrated in lower-ticket, promotion-sensitive segments (C6, C8, C9, C10, X7).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should consider offering BNPL at checkout only if it has evidence that its customers and product mix resemble the higher-response segments and that its margins can absorb higher payment costs. The supplied evidence supports that BNPL can lift sales metrics, especially for lower-ticket, promotion-sensitive shoppers, but it also shows materially higher merchant fees and does not establish that those sales gains translate into profit. The case is weaker if the retailer serves older, higher-income, or higher-ticket customers, or if margins are already thin.",
+        "confidence_rationale": "The record directly supports both sides of the decision: multiple research and official sources indicate BNPL can increase purchase incidence/spending (C4, C5, C7, C25) and that effects are stronger in certain segments (C8, C10), while official and industry sources show higher merchant costs and warn that BNPL does not necessarily raise profits (C1, C2, C3, C11, C12). Stress testing identified important generalization and profitability uncertainties, and the evidence is silent on the retailer-specific margin, returns, fraud, and support-cost impacts needed for a definitive yes/no.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: it is most defensible if the retailer sells lower-ticket items to promotion-sensitive customers and has enough margin to absorb higher payment fees. The evidence supports that BNPL can raise purchase incidence and spending, but it also shows materially higher merchant costs and does not establish that profits improve. The case is weaker if the retailer’s customers are older or higher-income, or if the assortment is mostly higher-ticket items.",
+        "confidence_rationale": "The record directly supports a sales-lift effect from BNPL adoption (C4, C5, C7, C11) and also directly supports higher merchant costs and profit uncertainty (C1, C2, C3, C11, C12). However, the key decision variable for a small retailer—whether incremental sales exceed fees and any added operational costs—is not answered in the evidence, and generalization from the cited studies to this retailer’s customer mix and product mix is uncertain (C6, C8, C9, C10, X7).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:39:05.856Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: the evidence supports a likely lift in sales metrics for some merchants, but it also shows materially higher merchant fees and does not establish that profit improves. The case is strongest if the retailer’s customers are promotion-sensitive, relatively younger, and buying lower-ticket items; it is weaker if the customer base is older or higher-income, the assortment is higher-ticket, or margins are thin. On the supplied record, the safest conclusion is to test BNPL only after checking unit economics and customer mix rather than assuming it will increase profit.",
+        "confidence_rationale": "The evidence is fairly consistent that BNPL can raise purchase incidence/spend and that merchant costs are higher, but the key business question—whether a small retailer’s incremental profit is positive—remains unresolved. The strongest studies are directionally supportive, yet generalization is uncertain because one study is retailer-specific and the observed lift appears concentrated in low-ticket, promotion-sensitive segments. That leaves a solid directional answer but not a high-confidence profit recommendation.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: the evidence supports that BNPL can raise purchase incidence and spending, but it also raises merchant fees and does not establish a profit improvement. The case is strongest if the retailer sells lower-ticket items to promotion-sensitive customers and has enough margin to absorb higher payment costs; it is weaker for older, higher-income, or higher-ticket customer mixes, especially if margins are thin.",
+        "confidence_rationale": "The record consistently supports a sales-lift effect from BNPL adoption (C4, C5, C7, C11) and consistently supports higher merchant costs (C1, C2, C3, C12). However, the key business question—whether a small retailer’s incremental profit is positive after fees and other costs—remains unresolved, and the strongest study evidence may not generalize cleanly to a small retailer’s customer mix or product mix (C6, C8, C9, C10).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should consider offering BNPL at checkout only if its customer mix and product mix resemble the higher-response segments in the evidence and its margins can absorb higher payment costs. The record supports that BNPL can raise purchase incidence and spending, especially for lower-ticket, promotion-sensitive shoppers, but it also shows materially higher merchant fees and does not establish that profits improve. The case is weaker for older, higher-income, or higher-ticket customer mixes, and the evidence is silent on whether added fraud, returns, or support costs would change the economics.",
+        "confidence_rationale": "The evidence consistently supports a sales lift from BNPL adoption and consistently shows higher merchant costs, but it does not directly answer the key profit question for a small retailer. Stress testing identified meaningful generalization limits: the strongest lift appears concentrated in specific customer and product segments, and the supplied sources do not quantify merchant-side implementation costs beyond fees. That makes the direction of effect fairly clear, but the decision threshold remains conditional rather than settled.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A small online retailer in the US should offer BNPL at checkout only conditionally: it is most defensible if the retailer sells lower-ticket items to promotion-sensitive customers and has enough margin to absorb higher payment fees. The evidence suggests BNPL can raise purchase incidence and spending, but it also raises merchant costs and does not establish that profits improve, so the sales lift alone is not enough to justify adoption. The case is weaker for older, higher-income, or higher-ticket customer mixes, and the evidence is silent on whether small-retailer implementation costs, returns, or customer-service burdens would offset the lift.",
+        "confidence_rationale": "The record directly supports both sides: multiple claims show sales lift from BNPL adoption (C4, C5, C7, C11, C25) while official and industry sources show materially higher merchant fees and note that profits do not necessarily improve (C1, C2, C3, C12). Stress testing found important unresolved issues rather than decisive contrary evidence: customer-mix fit, transferability from a major retailer study, and unmeasured merchant-side costs remain uncertain (C6, C8, C9, C10, C11, C18, C19, C22). That makes a conditional recommendation well supported, but not strong enough for high confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

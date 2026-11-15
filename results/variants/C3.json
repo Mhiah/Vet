@@ -1,0 +1,70 @@
+{
+  "id": "C3",
+  "tier": "contested",
+  "question": "Should a European fintech company expand into Nigeria in 2026?",
+  "first_answer": "medium",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 0,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:34:33.291Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A European fintech company should treat Nigeria in 2026 as a conditional, high-friction expansion opportunity rather than a straightforward yes. The supplied evidence supports meaningful payments activity and demand in mobile banking, SME lending, remittances, and digital payments, but it also shows low adoption indicators, persistent infrastructure and trust problems, and unresolved compliance and unit-economics questions. Expansion is best supported only if the company has a clear niche, strong localization and compliance capacity, and a plan to absorb operational frictions.",
+        "confidence_rationale": "The conclusion is supported by stronger official evidence on transaction growth, market activity, and adoption frictions (C4, C10, C11, C12, C13, C20, C26, C27, C28, C29) and is stress-tested against weaker company/blog claims and missing profitability data. Confidence is not high because the record does not establish licensing timelines, approval probability, CAC, fraud losses, or whether growth translates into attractive unit economics, which are central to the decision.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: a European fintech company should not treat Nigeria in 2026 as a simple yes/no expansion; it is a conditional, high-friction opportunity that only makes sense with a clear wedge, strong compliance capacity, and a plan to absorb infrastructure, trust, and support problems. The evidence supports meaningful payments activity and some demand in mobile banking, SME lending, remittances, and digital payments, but it also shows low adoption indicators, persistent service and trust frictions, and unresolved questions about licensing feasibility and unit economics. On balance, the record supports cautious, segment-specific entry rather than broad expansion.",
+        "confidence_rationale": "The conclusion is supported by stronger official evidence on transaction growth, adoption frictions, and market drivers (C4, C10, C11, C12, C13, C26, C27, C28, C29) and is reinforced by the stress test. Confidence is not high because the record is silent on the most decision-critical issues: CAC, fraud losses, payback period, licensing timelines, and which segment is actually open and profitable for a new entrant.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A European fintech company should treat Nigeria in 2026 as a conditional expansion opportunity, not a straightforward yes. The record supports meaningful payments activity and demand in mobile banking, SME lending, remittances, and digital payments, but it also shows persistent adoption frictions, infrastructure and trust problems, and unresolved compliance and unit-economics questions. Expansion looks most defensible only if the company has a clear segment wedge, strong localization and compliance capacity, and a plan to absorb operational friction.",
+        "confidence_rationale": "The evidence directly supports both sides: official claims show substantial transaction growth and market activity (C4, C14, C15, C26, C29) while official and other claims also document low adoption, service frictions, fraud, and infrastructure problems (C2, C10, C11, C12, C13, C27, C28). Stress testing weakened the demand and localization assumptions and left key feasibility questions unresolved, but it did not produce decisive contrary evidence that would rule out expansion altogether. The main limitation is that profitability, licensing timelines, and segment-specific viability remain unproven in the supplied record.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A European fintech company should treat Nigeria in 2026 as a conditional expansion opportunity, not a straightforward yes. The record supports meaningful payments activity and demand in mobile banking, SME lending, remittances, and digital payments, but it also shows persistent adoption frictions, infrastructure and trust problems, and unresolved compliance and unit-economics questions. Expansion looks reasonable only if the company has a clear segment wedge, strong localization and compliance capacity, and a plan to absorb operational friction.",
+        "confidence_rationale": "The evidence directly supports both sides: official claims show substantial transaction growth and market activity (C4, C14, C15, C26, C29) while official and other claims also document low adoption, poor connectivity, fraud, service failures, and trust issues (C2, C10, C11, C12, C13, C27, C28). Stress testing weakened the optimistic thesis because the record is silent on CAC, fraud losses, payback, and licensing timelines, so the conclusion is best framed as conditional rather than strongly affirmative.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:34:55.566Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: yes, but only conditionally. A European fintech should consider Nigeria in 2026 only if it has a clearly defined wedge, strong compliance capacity, and a plan to absorb major operational frictions; the record supports meaningful payments activity and demand, but it also shows low adoption in parts of the market, infrastructure and trust problems, and unresolved compliance and unit-economics questions. On this record, Nigeria looks like a high-friction expansion opportunity rather than a broadly attractive or low-risk one.",
+        "confidence_rationale": "The conclusion is supported by stronger official evidence on transaction growth, payments activity, and demand drivers (C4, C10, C14, C15, C20, C26, C29) and by official evidence of adoption and reliability problems (C2, C5, C11, C12, C13, C27, C28). Confidence is not high because the record does not resolve the biggest decision drivers: segment choice, licensing timelines, CAC/fraud/payback economics, and whether growth translates into profitable entry; several regulatory and competition claims are also lower-quality company/blog sources (C6, C7, C8, C9, C31, C36, C37, C39).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: yes, but only conditionally. Nigeria appears to offer real fintech activity and demand in payments, remittances, SME lending, and digital transactions, but the evidence also shows low adoption in parts of the market, persistent infrastructure and trust frictions, and unresolved compliance and unit-economics questions. A European fintech should expand only if it has a clearly defined wedge, strong localization and compliance capacity, and a plan to absorb operational risk; the record does not support a blanket, low-risk expansion decision.",
+        "confidence_rationale": "The conclusion is supported by stronger official evidence on transaction growth, market activity, and adoption frictions (C4, C10, C11, C12, C13, C26, C27, C28, C29) than by weaker company/blog claims. Confidence is not high because the record is silent on the most decision-critical issues: segment-specific entry viability, licensing timelines, CAC, fraud losses, retention, and payback period. The stress test materially weakens the case for broad attractiveness, but it does not overturn the conditional-expansion conclusion.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A European fintech company should treat Nigeria in 2026 as a conditional expansion opportunity, not a straightforward yes. The record supports meaningful payments activity and demand in mobile banking, SME lending, remittances, and digital payments, but it also shows persistent adoption frictions, infrastructure and trust problems, and unresolved compliance and unit-economics questions. Expansion looks justified only if the company has a clear niche, strong localization and compliance capacity, and a plan to absorb operational risk.",
+        "confidence_rationale": "The evidence directly supports both sides: official and industry claims show substantial transaction activity and demand signals (C4, C14, C15, C26, C29, C39), while official claims also document low adoption, infrastructure constraints, fraud, and trust issues (C2, C10, C11, C12, C13, C27, C28). Stress testing weakened the optimistic interpretation because the record is silent on CAC, fraud losses, payback, and licensing timelines, and several of the more specific regulatory/competition claims come from lower-reliability company/blog sources (C6, C7, C8, C9, C31, C36, C37, C38).",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A European fintech company should treat Nigeria in 2026 as a conditional expansion opportunity, not a blanket yes. The record supports meaningful payments activity and demand in mobile banking, SME lending, remittances, and digital payments, but it also shows persistent adoption frictions, infrastructure and trust problems, and unresolved compliance and unit-economics questions. Expansion looks most defensible only if the company has a clear segment wedge, strong localization and compliance capacity, and a plan to absorb operational risk.",
+        "confidence_rationale": "The evidence directly supports both sides: official claims show substantial transaction growth and sector activity (C4, C14, C15, C26, C29) while official and other claims also document low adoption, service frictions, fraud, and infrastructure problems (C2, C10, C11, C12, C13, C27, C28). Stress testing weakened the initial thesis because the record is silent on the most decision-critical items—CAC, fraud losses, payback, licensing timelines, and which segment is actually open—so the answer can only be conditional rather than strongly affirmative.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

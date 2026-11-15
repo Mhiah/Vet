@@ -1,0 +1,129 @@
+{
+  "id": "K1",
+  "tier": "control_obvious_yes",
+  "question": "Should a small business keep records of its income and expenses?",
+  "crux_commit": "359a6f47805b97c594a59a431125730b4520e983",
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:32:01.276Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes. The evidence supports a clear initial thesis that a small business should keep records of its income and expenses because doing so helps substantiate deductions, stay compliant, and prepare for audits, while also improving day-to-day financial management [C1, C2, C3, C15, C16, C20, C25].",
+        "confidence_rationale": "Multiple independent claims from official/government and research/industry sources point in the same direction: records are needed to show income and expenses [C1], are generally kept for at least three years [C2], are essential for deductions and compliance [C3], and help with audits and financial control [C15, C16, C20]. The evidence is one-sided, but the absence of contrary evidence is only a gap, not proof."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 2,
+          "alternative_explanation": 2,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 7
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "weakened": 2,
+          "supported": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "Yes, but with a narrower scope: the supplied evidence supports that a small business should keep records of income and expenses, especially in the IRS/government tax context, because records help substantiate deductions, meet recordkeeping expectations, and support day-to-day financial management. The evidence also shows recordkeeping can be time-consuming and burdensome, so it does not prove the same net-benefit conclusion for every business, size, or jurisdiction.",
+        "confidence_rationale": "The conclusion is well supported by multiple official/government and research/industry claims, but the stress test identified real limits: the evidence is IRS-centered, does not quantify the cost-benefit tradeoff, and does not show that the operational benefits are universal. That makes the answer solid for the supplied context, but not fully generalizable."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes. A small business should keep records of income and expenses because the claims consistently indicate this is needed for tax compliance, deduction support, audit readiness, and better day-to-day financial management [C1, C3, C15, C16]. The main condition is that the records should be organized and retained long enough to meet applicable tax guidance; one claim notes the IRS generally suggests three years [C2].",
+        "confidence_rationale": "The supplied claims are strongly one-sided and mutually reinforcing: official and research claims support recordkeeping for compliance, deductions, and financial control, while no counterevidence was provided. Confidence is high, though the exact retention period and any special exceptions depend on the taxpayer’s situation and jurisdiction [C2]."
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:32:31.565Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes. The evidence supports a clear initial thesis that a small business should keep records of its income and expenses because doing so helps substantiate deductions, stay compliant, and prepare for audits, while also improving day-to-day financial management [C1, C3, C15, C16].",
+        "confidence_rationale": "The supplied evidence is consistent across official, research, and industry sources: official guidance says small business owners should keep records showing income and expenses and generally keep them for three years [C1, C2]; industry and research claims add that thorough records are essential for deductions, compliance, cash-flow management, and avoiding audit/penalty risk [C3, C15, C16, C25]. The main limitation is that some supporting claims come from company/blog sources, which are weaker than official or research sources, but they are not necessary for the core conclusion [C17-C24]."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 2,
+          "alternative_explanation": 2,
+          "contradictory_evidence": 1,
+          "risk": 1,
+          "missing_evidence": 1
+        },
+        "severities": {
+          "major": 6,
+          "minor": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "supported": 3,
+          "weakened": 1
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "Yes—based on the supplied record, a small business should generally keep records of its income and expenses. The strongest support comes from official and research/industry claims that records help show income and expenses, substantiate deductions, support compliance, and prepare for audits [C1, C2, C3, C16, C20, C25]. The recommendation is strongest when the business has tax-reporting obligations, wants to claim deductions, or faces meaningful compliance/audit risk; the evidence is less conclusive on how much recordkeeping is worth for very low-volume businesses or those already using outsourced bookkeeping systems.",
+        "confidence_rationale": "The conclusion is supported by multiple official and research/industry claims, and there is no supplied evidence directly arguing against keeping records. Confidence is not high because the record also shows meaningful burden and does not quantify the net benefit across business sizes, industries, or transaction volumes, so the recommendation is general rather than universal [C10, C11, C12, C13, C14, C25]."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes. A small business should keep records of income and expenses because the supplied evidence consistently links recordkeeping to tax compliance, deduction claims, audit readiness, and better financial management [C1, C3, C4, C15, C16, C20, C25]. The main condition is that records should be organized and retained long enough to meet tax and compliance needs; one claim notes the IRS generally suggests three years [C2].",
+        "confidence_rationale": "The claims are highly consistent and all point in the same direction: official guidance, research, and industry sources support keeping records, and no supplied claim argues against it. The only limitation is that the evidence is broad rather than business-type-specific, but that does not materially weaken the conclusion."
+      }
+    },
+    {
+      "repeat": 3,
+      "ran_at": "2026-11-15T19:33:00.366Z",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "first_answer": {
+        "confidence": "high",
+        "statement": "Yes. The evidence supports a clear initial thesis that a small business should keep records of its income and expenses because doing so helps substantiate deductions, stay compliant, and prepare for audits, while also improving day-to-day financial management [C1, C2, C3, C15, C16, C20, C25].",
+        "confidence_rationale": "The supplied evidence is one-sided and consistent across official, research, and industry sources: official/government claims say small business owners should keep records showing income and expenses and generally keep records for three years [C1, C2]; industry and research claims say thorough records are essential for deductions, compliance, cash-flow management, and avoiding audits/penalties [C3, C15, C16, C25]. The main limitation is that several supporting claims come from company/blog or industry sources rather than primary official guidance, but the core conclusion is still strongly supported by the official claims [C1, C2, C10, C11, C12, C25]."
+      },
+      "stress_test": {
+        "challenges": 7,
+        "kinds": {
+          "weak_assumption": 2,
+          "alternative_explanation": 1,
+          "contradictory_evidence": 1,
+          "risk": 1,
+          "missing_evidence": 2
+        },
+        "severities": {
+          "major": 6,
+          "minor": 1
+        }
+      },
+      "reevaluation": {
+        "thesis_verdict": "weakened",
+        "assumptions": {
+          "supported": 2,
+          "weakened": 2
+        }
+      },
+      "final_answer": {
+        "confidence": "medium",
+        "statement": "Yes—based on the supplied record, a small business should keep records of its income and expenses, especially in an IRS-like/U.S. tax context. The strongest support is that official guidance says owners should keep records showing income and expenses and generally retain records for three years, while other evidence says records help substantiate deductions, support compliance and audits, and improve financial management [C1, C2, C3, C15, C16, C20, C25]. The main caveat is that the evidence does not show this is equally worthwhile for every business, particularly very low-transaction firms or businesses outside the IRS context.",
+        "confidence_rationale": "The conclusion is well supported on the core question, but the stress test exposed important scope limits. The evidence is one-sided and includes official support, yet it does not quantify net benefits versus burden, and it is jurisdiction-specific; that prevents a high-confidence claim that recordkeeping is universally optimal for all small businesses."
+      },
+      "one_shot": {
+        "confidence": "high",
+        "statement": "Yes. The best-supported answer is that a small business should keep records of its income and expenses, because the supplied claims consistently link recordkeeping to tax compliance, deduction claims, audit readiness, and better financial management [C1, C3, C4, C6, C7, C15, C16, C20, C25]. The main condition is that records should be organized and retained long enough to meet tax and compliance needs; one supplied claim says the IRS generally suggests three years [C2].",
+        "confidence_rationale": "The evidence is one-sided and converges across official, research, and industry claims: multiple claims say records are needed for compliance, deductions, audits, and decision-making, while no supplied claim argues against keeping records. The only meaningful uncertainty is the exact retention period and how requirements vary by situation, but that does not change the core recommendation [C1-C3, C15-C16, C20, C25]."
+      }
+    }
+  ]
+}

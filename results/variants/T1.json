@@ -1,0 +1,70 @@
+{
+  "id": "T1",
+  "tier": "thin_evidence",
+  "question": "Should a startup launch a subscription service for cultivated-meat pet food in Kenya?",
+  "first_answer": "medium",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 2,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:35:17.824Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not as a full-scale subscription launch yet, but a small pilot or pre-order test could be justified if the startup can validate Kenya-specific demand and regulatory feasibility first. The record supports real pet-food market growth in Kenya and some openness to premium/specialized products, but it also shows major unresolved risks around cultivated-meat cost, scale, safety validation, and regulation. Because the evidence is silent on Kenya-specific willingness to pay, premium-segment size, and pilot unit economics, a cautious test-and-learn approach is better supported than a categorical no-go or a full launch.",
+        "confidence_rationale": "The conclusion is supported by multiple market-demand and risk claims, but the stress test exposed important gaps: Kenya-specific willingness to pay, regulatory status for pet food, and pilot economics are not established. That makes a cautious recommendation more defensible than a hard yes/no, but not high-confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not as a full-scale subscription launch yet, but a small pilot or pre-order test could be justified if the startup can validate Kenya-specific willingness to pay and regulatory feasibility first. The record shows real underlying pet-food demand in Kenya and some openness to premium/specialized products, but it is still silent on the size of the premium segment and on Kenya-specific demand for cultivated-meat pet food. The main reasons for caution are unresolved cost, scale, safety-validation, and regulatory questions, which make a broad subscription commitment premature rather than clearly impossible.",
+        "confidence_rationale": "The evidence supports caution more strongly than a go decision, but the stress test weakened the original categorical no-go. Key uncertainties remain unresolved: Kenya-specific willingness to pay, premium-segment size, unit economics, and the exact regulatory pathway for pet food. Because the record is suggestive but not decisive, confidence is medium rather than high.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A startup should not commit to a full-scale subscription launch for cultivated-meat pet food in Kenya yet, but the evidence does support a narrower pilot or pre-order test if the team can keep volumes small and pricing disciplined. Kenya’s pet-food market appears to be growing and premiumizing, but the cultivated-meat category still faces unresolved cost, scale, safety-validation, and regulatory questions, and the record is silent on Kenya-specific willingness to pay and repeat-purchase behavior (C1, C2, C4, C5, C6, C10, C23, C24, C25, C26, C28, C29, C31).",
+        "confidence_rationale": "The record directly supports both sides: there is real pet-food demand and some openness to premium/specialized products, but the cultivated-meat-specific evidence still shows major commercialization hurdles. Stress testing weakened the categorical no-go because the evidence is silent on Kenya-specific premium-segment size, willingness to pay, and whether a small recurring pilot could work, so the best-supported answer is cautious rather than definitive.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The evidence does not support a confident full-scale subscription launch in Kenya right now, but it also does not justify a categorical no-go. Kenya’s pet-food market is growing and premiumization is real (C1, C2, C4, C5, C6, C10), yet cultivated-meat pet food still faces unresolved cost, scale, safety, and regulatory questions (C23, C24, C25, C26, C28, C29, C31, C32). The best-supported path is a cautious, small pilot or pre-order test aimed at a premium urban segment, with a full subscription launch only if Kenya-specific willingness to pay, repeat purchase, and regulatory clarity are demonstrated.",
+        "confidence_rationale": "The record directly supports both sides: there is credible demand-side evidence for Kenya’s pet-food market and some openness to premium/specialized products, but the cultivated-meat-specific evidence is mostly early-stage and cautionary. Stress testing weakened the strongest reasons to avoid launch outright because the evidence is silent on Kenya-specific willingness to pay, premium segment size, and whether a small pilot subscription could work. That leaves a cautious, conditional recommendation rather than a high-confidence yes or no.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:35:38.346Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The best-supported conclusion is: not a full-scale subscription launch yet, but a small pilot or pre-order test could be justified if the startup can validate Kenya-specific demand, pricing, and regulatory feasibility first. The record supports real pet-food market growth in Kenya and some openness to premium/specialized products, but it also shows major unresolved risks around cultivated-meat cost, scale, safety validation, and broader regulatory uncertainty. Because the evidence is silent on Kenya-specific willingness to pay and the size of the premium segment, the case against a limited test is weaker than the case against a committed subscription rollout.",
+        "confidence_rationale": "The evidence base is mixed but leans cautious: market-demand claims support a niche opportunity, while multiple research claims highlight cost, scale, safety, and regulatory barriers. The stress test weakened the categorical no-go by showing key Kenya-specific gaps, especially around premium-segment size, willingness to pay, and pilot feasibility. That leaves a defensible cautious recommendation, but not a high-confidence one.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported conclusion is that a startup should not commit to a full-scale subscription launch for cultivated-meat pet food in Kenya yet, but a small pilot or pre-order test could be justified if it is tightly scoped. The record supports real underlying pet-food demand in Kenya and some openness to premium/specialized products, but it also shows major unresolved issues around cultivated-meat cost, scale, safety validation, and regulatory clarity. Because the evidence is silent on Kenya-specific willingness to pay, premium-segment size, and pilot unit economics, the case is for cautious testing rather than a categorical no-go.",
+        "confidence_rationale": "The conclusion is supported by multiple demand-side and risk-side claims, but the stress test exposed important gaps: Kenya-specific willingness to pay, regulatory status for pet food, and pilot economics are not established. That makes a cautious recommendation more defensible than a hard yes/no, but not high-confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "The evidence does not support a confident full-scale launch of a subscription service for cultivated-meat pet food in Kenya right now, but it also does not justify a categorical no-go. Kenya’s pet-food market appears to be growing and premiumizing (C1, C2, C4, C5, C6, C10), yet the cultivated-meat category still faces unresolved cost, scale, safety, and regulatory questions (C23, C24, C25, C26, C28, C29, C31, C32). The most evidence-consistent path is a narrow pilot or pre-order test aimed at a premium urban segment, if the startup can validate price, repeat purchase, and regulatory feasibility first.",
+        "confidence_rationale": "Direct evidence supports both sides: there is real but indirect demand evidence for Kenya’s pet-food market, and there is also substantial research evidence that cultivated meat remains costly, unscaled, and regulatorily uncertain (C1, C2, C4, C5, C6, C10, C23, C24, C25, C26, C28, C29, C31, C32). Stress testing weakened the original no-go thesis because the record is silent on Kenya-specific willingness to pay, premium-segment size, and whether a small recurring pilot could work (X1, X3, X5, X6, X8). That leaves a cautious, intermediate conclusion rather than a high-confidence launch recommendation.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The evidence does not support a confident full-scale launch of a subscription service for cultivated-meat pet food in Kenya right now, but it also does not rule out a small pilot or pre-order test. Kenya’s pet-food market is growing and premiumization is visible (C1, C2, C4, C5, C6, C10), yet the cultivated-meat category still faces unresolved cost, scale, safety, and regulatory issues (C23, C24, C25, C26, C28, C29, C31), and the Kenya-specific willingness to pay is unknown. Best-supported answer: proceed only if the startup can test a narrow niche with validated pricing, supply, and regulatory clearance; otherwise, wait.",
+        "confidence_rationale": "The record directly supports both sides: there is real but indirect demand evidence for Kenya (C1, C2, C4, C5, C6, C10) and some cultivated-meat-specific consumer interest (C14, C15), but the strongest evidence also shows major unresolved barriers in cost, scale, safety, and regulation (C23, C24, C25, C26, C28, C29, C31). Stress testing weakened the categorical no-go because the evidence is silent on Kenya-specific willingness to pay, premium-segment size, and whether a small recurring pilot could work, so the safest conclusion is cautious conditionality rather than a hard no or yes.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

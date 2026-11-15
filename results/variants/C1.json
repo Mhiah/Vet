@@ -1,0 +1,70 @@
+{
+  "id": "C1",
+  "tier": "contested",
+  "question": "Should a mid-sized software company adopt a four-day work week?",
+  "first_answer": "high",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 0,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:33:00.795Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should consider a four-day work week only as a conditional pilot, not as a default yes. The evidence supports potential gains in productivity, retention, and well-being, but it also shows real failure modes when work is simply compressed, leadership is not committed, measurement is weak, or customer coverage cannot be maintained. For this specific company, the biggest unresolved question is whether its work and service obligations can be redesigned to fit the model without raising costs or harming customers.",
+        "confidence_rationale": "The record contains substantial support from research and official sources for both benefits and risks, so the broad conditional conclusion is well grounded. Confidence is not high because the stress test exposes major gaps: the evidence is silent on this company’s actual work structure, coverage needs, measurement capability, and transition costs, all of which are decisive for adoption.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should not adopt a four-day work week as a blanket policy; the evidence supports it only as a conditional experiment if the company can redesign work, preserve customer coverage, and measure output reliably. The record shows plausible benefits for productivity, retention, and well-being, but it also shows real failure modes when workload is merely compressed, leadership is not committed, or service coverage is disrupted. For this specific company, the best-supported answer is: consider a pilot only if those operational conditions are met; otherwise, the evidence is too weak to justify adoption.",
+        "confidence_rationale": "The evidence base is broad and mostly points in the same direction, but the stress test exposed major unresolved fit, measurement, coverage, and cost questions for this specific company. Strong support exists for possible benefits and for implementation risks, yet the record does not establish that a mid-sized software firm can satisfy the key conditions needed for success.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day work week only conditionally, not as a blanket policy. The evidence supports possible gains in productivity, retention, and employee well-being, but it also shows the model can fail if leaders are not fully committed, workload is merely compressed, customer coverage is inadequate, or measurement is weak (C1, C2, C4, C7, C8, C9, C13, C14, C28, C41, C43). For this specific company, the decision depends on whether its work is sufficiently knowledge-based and output-measurable, whether it can preserve service levels, and whether transition costs are manageable.",
+        "confidence_rationale": "The record contains substantial direct evidence that four-day weeks can work and can improve outcomes, especially in knowledge-work settings, but it also contains equally direct evidence of important failure modes and boundary conditions. Stress testing weakened the company-specific fit, measurement, coverage, and cost assumptions, and the evidence is silent on whether this particular mid-sized software company can satisfy those conditions. That supports a conditional answer with medium confidence rather than a high-confidence yes or no.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day work week only conditionally, not as a blanket policy. The evidence supports potential gains in productivity, retention, and employee well-being, but it also shows the model can fail if leaders are not committed, work is merely compressed, measurement is weak, or customer coverage is not protected (C1, C2, C4, C7, C8, C9, C13, C14, C28, C41, C43). For this specific company, the best-supported answer is: adopt only if it can redesign workflows, preserve service levels, and measure output reliably; otherwise, do not adopt yet.",
+        "confidence_rationale": "The record contains substantial direct evidence that four-day weeks can work and can also backfire, with stronger support from research and official sources than from company/blog sources (C15, C16, C17, C18, C19, C20, C21, C23, C25, C26, C27, C42 versus C5, C6, C31, C35, C36, C38, C39, C40, C41). However, the key decision variables for a mid-sized software company—customer coverage, measurement quality, transition cost, and fit to its actual work structure—are not established in the record, so the evidence supports a conditional recommendation rather than a high-confidence yes.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:33:29.013Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should not adopt a four-day work week as a blanket policy; the evidence supports it only as a conditional experiment if the company can redesign work, preserve customer coverage, and measure outcomes reliably. The record shows real upside in productivity, retention, and well-being in some trials and reviews, but it also shows meaningful failure modes when workload is merely compressed, leadership is not committed, or service coverage is disrupted. For this specific company, the biggest unresolved question is whether its work and customer obligations are compatible with the model.",
+        "confidence_rationale": "The evidence base is broad and mostly consistent that four-day weeks can work under the right conditions, but the stress test exposes several company-specific unknowns that the record does not resolve: work fit, customer coverage, measurement quality, and transition costs. Because the conclusion is conditional rather than a firm yes/no, confidence is medium rather than high.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should not adopt a four-day work week as a blanket policy; it is a plausible option only if the company can redesign work, preserve customer coverage, and measure output reliably. The supplied evidence supports potential gains in productivity, retention, and well-being, but it also shows meaningful failure modes when workload is merely compressed, leadership is not committed, or service coverage is strained. For this specific company, the best-supported answer is: consider a pilot, not a full rollout, unless the unresolved operational and measurement questions are answered first.",
+        "confidence_rationale": "The record contains substantial support from research and official sources for both benefits and risks, so the conditional conclusion is well grounded. Confidence is not high because the evidence is not specific to this mid-sized software company, and the biggest decision-critical factors—coverage needs, measurement quality, management discipline, and transition costs—remain unresolved.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day work week only conditionally, not as a blanket policy. The evidence supports potential gains in productivity, retention, and employee well-being, but it also shows the model can fail if leaders do not commit, work is merely compressed, customer coverage is inadequate, or measurement is weak (C1, C2, C4, C7, C8, C9, C13, C14, C28, C41, C43). For this specific company, the best-supported answer is: yes, if it is mostly knowledge-work, can redesign workflows and meetings, can preserve service levels, and can track output reliably; otherwise, the evidence does not justify adoption.",
+        "confidence_rationale": "The record contains substantial direct evidence that four-day weeks can work and can also backfire, with stronger support from research and official sources than from company/blog sources (C15, C16, C17, C18, C19, C20, C21, C23, C25, C26, C27, C42 versus C5, C6, C7, C8, C9, C35, C36, C38, C39, C40, C41). However, the evidence is not specific enough to this mid-sized software company’s coverage needs, measurement capability, or transition costs, so the conclusion is conditional rather than definitive.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A mid-sized software company should adopt a four-day work week only conditionally, not as a blanket policy. The evidence supports potential gains in productivity, retention, and well-being, but it also shows the model can fail if leaders do not fully commit, workload is simply compressed, customer coverage is not protected, or measurement is weak (C1, C2, C4, C7, C8, C9, C13, C14, C28, C41, C43).",
+        "confidence_rationale": "The record contains substantial support from research and official sources for both benefits and risks, but it does not establish the company-specific conditions needed to make a firm yes/no recommendation. The strongest evidence is conditional rather than universal, and key decision variables remain unresolved: work structure, customer coverage, measurement capability, and transition costs.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

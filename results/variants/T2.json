@@ -1,0 +1,70 @@
+{
+  "id": "T2",
+  "tier": "thin_evidence",
+  "question": "Should a startup sell a paid AI bookkeeping tool to market traders in Sierra Leone?",
+  "first_answer": "medium",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 4,
+    "verdict_before": "weakened",
+    "verdict_after": "survived"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:35:58.782Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet as a confident yes. The evidence supports a real bookkeeping pain point in Sierra Leone’s informal economy and suggests a large cash-heavy, under-recorded market, but it does not establish willingness to pay, workable day-to-day usability for low-literacy traders, or that an AI layer is necessary. So a startup could test a narrowly targeted bookkeeping offer, but the case for a paid AI bookkeeping tool is still unproven and high risk.",
+        "confidence_rationale": "The record strongly supports unmet need and weak formal record-keeping, but the stress test exposes major gaps on monetization, usability, and product fit. Because the supplied evidence is mostly about pain and constraints rather than actual purchase intent or comparative product performance, the conclusion is plausible but not secure.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported conclusion is: not yet a confident yes for a paid AI bookkeeping tool, but a plausible opportunity for a narrowly targeted bookkeeping product aimed at cash-heavy informal traders. The evidence strongly supports real record-keeping pain and a large informal economy, but it does not establish willingness to pay, workable usability for low-literacy users, or that AI is necessary rather than a simpler alternative. So the startup should treat this as a high-risk market test, not a validated go-to-market decision.",
+        "confidence_rationale": "The record is strong on need and weak on monetization. Official and industry sources consistently show poor record keeping, cash dependence, low formalization, and major digital/infrastructure constraints (C1, C8, C9, C10, C11, C12, C13, C15, C23, C24, C25), but the stress test correctly highlights that none of this proves purchase intent, product usability, or AI-specific fit (X1, X2, X3, X4, X5, X6, X7). That leaves a plausible but unproven business case.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet as a broad paid AI product, but possibly as a narrowly targeted experiment for petty traders and other informal businesses that already struggle with record keeping. The evidence shows real bookkeeping pain and a cash-heavy informal economy in Sierra Leone, but it does not establish willingness to pay, reliable day-to-day usability for low-literacy users, or that AI is necessary rather than a simpler bookkeeping workflow (C1, C8, C10, C23, C24, C25). So the startup should treat this as a high-risk market test, not a clear go/no-go yes.",
+        "confidence_rationale": "The record directly supports unmet need and market size signals, but the stress test exposed major gaps on willingness to pay, usability, and AI necessity. There is no direct evidence that traders will buy the product, and several cited constraints could block adoption or make a simpler alternative better (C11, C13, C15, C17, C20, C22, C25). That makes the conclusion plausible but not strong enough for high confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not as a broad paid AI product, but possibly as a narrowly targeted experiment for cash-heavy petty traders and other informal businesses that already struggle with record keeping. The evidence strongly supports unmet bookkeeping need and a large informal economy (C1, C9, C10, C23, C24, C25), but it does not show willingness to pay, workable day-to-day usability, or that AI is necessary rather than a simpler alternative. So the startup should only proceed if it can test a very low-friction, very low-price offer with this segment and validate actual purchase intent.",
+        "confidence_rationale": "Direct evidence supports the existence of the problem and some segment characteristics, but the record is silent on the key business question: whether traders will pay for the product and use it reliably. Stress testing surfaced major unresolved risks around digital literacy, device/internet access, trust, and the possibility that a non-AI solution would fit better, so the answer is plausible but not proven.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:36:18.501Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The best-supported conclusion is: not yet as a clear yes for a paid AI product. The evidence does support a real bookkeeping problem in Sierra Leone’s informal economy and among petty traders, but it does not establish willingness to pay, workable day-to-day usability for low-literacy users, or that AI is necessary rather than a simpler bookkeeping workflow. So the opportunity is plausible, but the startup should treat it as a high-risk market test and only proceed if it can validate demand with a very low-friction, low-cost offer.",
+        "confidence_rationale": "The record strongly supports unmet need and a cash-heavy informal market, but the stress test exposes the main commercial gaps: no direct evidence of willingness to pay, no proof that users can reliably use an app-based tool, and no evidence that AI adds enough value to justify its complexity. Because the conclusion depends on these missing pieces, confidence is only medium rather than high.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet as a confident yes. The record supports real bookkeeping pain and a large cash-heavy informal economy in Sierra Leone, but it does not establish willingness to pay, reliable day-to-day usability for low-literacy traders, or that AI is necessary rather than a simpler bookkeeping workflow. So a startup could test a narrowly targeted product, but the evidence is insufficient to recommend a paid AI bookkeeping tool as a clearly viable business without further validation.",
+        "confidence_rationale": "The evidence strongly supports unmet need and weak formal record-keeping, but the stress test exposes the main commercial unknowns: willingness to pay, usable delivery in low-connectivity/low-literacy conditions, and whether AI adds value. Because the supplied record is mostly about pain and constraints rather than monetizable demand, the conclusion is plausible but not proven.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet as a broad paid AI product, but possibly as a narrowly targeted experiment for petty traders and other informal businesses that already struggle with record keeping. The evidence supports real bookkeeping pain and a cash-heavy informal economy (C1, C8, C9, C10, C23, C24, C25), but it does not establish willingness to pay, workable day-to-day usability for low-literacy users, or that AI is necessary rather than a simpler bookkeeping workflow. So the startup should only proceed if it can test a very low-friction, very low-price offer with a clearly reachable segment; otherwise the evidence is too thin to justify a full launch.",
+        "confidence_rationale": "Direct evidence consistently supports unmet bookkeeping need and weak formal record keeping, but the stress test exposed major gaps on willingness to pay, usability, and whether AI adds value. The record is strong on pain and constraints, weaker on monetizable demand and product fit, so the conclusion is plausible but not settled.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The best-supported answer is: not yet as a broad paid AI product, but possibly as a narrowly targeted experiment for petty traders and other informal businesses that already struggle with record keeping. The evidence clearly shows a large cash-heavy informal economy with weak bookkeeping and low formal-finance access (C1, C8, C9, C10, C23, C24, C25), but it does not show willingness to pay, workable day-to-day usability, or that AI is necessary rather than a simpler bookkeeping workflow. So the startup should treat this as a high-risk market test, not a confident go-to-market decision, and only proceed if it can keep onboarding very simple, price very low, and avoid dependence on strong internet, device access, or bank integration.",
+        "confidence_rationale": "The record directly supports real bookkeeping pain and a plausible target segment, but the stress test exposed major missing evidence on willingness to pay, usability, and whether AI adds value. There is also meaningful evidence of adoption barriers and infrastructure constraints (C11, C13, C15, C17, C20, C22, C25), so the conclusion cannot be high confidence; however, the evidence is not silent enough to justify low confidence because the need signal is substantial and consistent.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

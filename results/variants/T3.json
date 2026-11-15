@@ -1,0 +1,70 @@
+{
+  "id": "T3",
+  "tier": "thin_evidence",
+  "question": "Should a hardware startup launch a smart water bottle for competitive esports players in Southeast Asia?",
+  "first_answer": "medium",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 1,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:36:38.848Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer esports product in Southeast Asia. At most, it supports a cautious, narrow test of a premium, digitally marketed hydration accessory for a small segment of mobile-first esports players and creators, but even that case is not yet strong enough to recommend a launch. The main blockers are the lack of direct target-user demand evidence, unresolved app/device reliability risk, and unclear willingness to pay and unit economics.",
+        "confidence_rationale": "The record contains credible support for Southeast Asian esports interest and for smart-bottle functionality, but those signals are indirect and do not connect cleanly to competitive esports players buying this product. The stress test materially weakens the launch case by highlighting missing target-user demand, pricing, reliability, and channel-economics evidence. That leaves a cautious, conditional conclusion rather than a strong go/no-go answer.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer esports product in Southeast Asia. At most, it supports a cautious, narrow test of a premium, digitally marketed hydration accessory for a small segment of mobile-first esports players and creators, but even that case is not well proven. The main blockers are the lack of direct target-user demand evidence, unresolved app/device reliability risk, and unclear willingness to pay and unit economics.",
+        "confidence_rationale": "The record contains credible support for Southeast Asian esports interest and for smart-bottle functionality, but those are indirect proxies rather than direct evidence of product-market fit for competitive esports players. The stress test exposed major gaps: no direct willingness-to-pay evidence, no real-world reliability validation, and no proof that the niche can absorb premium pricing. That leaves a cautious, conditional conclusion rather than a strong launch recommendation.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer product for competitive esports players in Southeast Asia. At most, it supports a cautious, narrow test of a premium, digitally marketed hydration accessory for a small mobile-first segment, but that remains unproven because direct target-user demand, willingness to pay, and unit economics are missing. The launch case is further weakened by reliability concerns in the companion-app experience and by strong price sensitivity in the smart-bottle market.",
+        "confidence_rationale": "The record contains real support for Southeast Asian esports demand and for smart-bottle functionality, but that support is indirect and does not connect the product to competitive esports players specifically (C4-C9, C17-C20, C21-C26). The strongest counterevidence is the combination of high cost, hardware constraints, and app/reliability problems (C1-C3, C14-C16, C22), while the stress test shows the key assumptions remain unproven rather than overturned. That makes a cautious no-for-broad-launch / maybe-for-small-pilot conclusion better supported than a strong yes or no.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer product for competitive esports players in Southeast Asia. At most, it supports a cautious, narrow test of a premium, digitally marketed hydration accessory for a small segment of mobile-first players and creators, but that case is not yet strong enough to recommend a full launch. The main conditions are direct target-user willingness to pay, proven real-world app/device reliability, and workable unit economics; those remain unproven in the supplied record.",
+        "confidence_rationale": "There is solid evidence that Southeast Asia has a large, digitally engaged esports audience and that smart bottles can track hydration and sync to phones (C4-C9, C17-C18, C21-C26). But the record is silent on direct demand from competitive esports players for this specific product, and it also shows meaningful risks around price, competition, and app reliability (C1-C3, C14-C16, C22). That makes a narrow test plausible, but not a confident launch recommendation.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:36:58.804Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer esports product in Southeast Asia. At most, it supports a cautious, narrow hypothesis: a premium, digitally marketed hydration accessory for a small segment of mobile-first esports players and creators. Even that narrower case is not well validated because direct target-user demand, willingness to pay, real-world reliability, and unit economics remain unproven.",
+        "confidence_rationale": "The record contains credible support for Southeast Asian esports scale and digital engagement, plus some evidence that smart bottles can track hydration and sync to phones (C4-C9, C17-C18, C21-C26). But the stress test exposes the main weakness: there is no direct evidence that competitive esports players in Southeast Asia want this product, and the pricing/reliability risks are substantial (X1-X8, C14-C16, C22). That makes a cautious negative conclusion on a broad launch well supported, while any narrower launch thesis remains speculative.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer product for competitive esports players in Southeast Asia. At most, it supports a cautious, narrow hypothesis: a premium, digitally marketed hydration accessory for a small mobile-first segment of esports players and creators, but even that is not yet well validated. The biggest blockers are the lack of direct target-user demand evidence, unresolved app/device reliability in real-world use, and unclear willingness to pay and unit economics.",
+        "confidence_rationale": "The record contains credible support for Southeast Asian esports scale and for smart-bottle functionality, but those are indirect proxies rather than direct product-market-fit evidence for competitive esports players. The stress test exposes major gaps on target-user demand, pricing, reliability, and economics, so the conclusion is directionally solid but not strongly proven.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer product for competitive esports players in Southeast Asia. At most, it supports a cautious, narrow test: a premium, digitally marketed hydration accessory for a small mobile-first segment, but even that is only a possibility because direct target-user demand, willingness to pay, and unit economics are not established. The launch case is further weakened by app/reliability concerns and high price sensitivity in the supplied evidence.",
+        "confidence_rationale": "The record contains credible support for Southeast Asian esports scale and digital-first audience behavior, plus some evidence that smart bottles can track hydration and sync to phones (C4-C9, C17-C20, C21-C26). But the stress test exposed a major gap: there is no direct evidence that competitive esports players in Southeast Asia want this product specifically, and the pricing/reliability evidence cuts against a confident launch decision (C1-C3, C14-C16, C22, X1-X8). That makes a cautious, conditional conclusion better supported than a strong go/no-go recommendation.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "The evidence does not support launching a smart water bottle as a broad consumer product for competitive esports players in Southeast Asia. At most, it supports a cautious pilot for a premium, digitally marketed hydration accessory aimed at a narrow, mobile-first subset of players or creators, but that narrower case is still unproven because direct target-user demand, willingness to pay, and unit economics are missing. The launch decision should therefore be “not yet,” unless you can first validate real purchase intent and real-world app/device reliability in the target segment.",
+        "confidence_rationale": "The record contains solid indirect support that Southeast Asia has a large, digitally engaged esports audience and that smart bottles can track hydration and sync to phones (C4-C9, C17-C18, C21-C26). But the stress test surfaces major gaps: no direct evidence of demand from competitive esports players specifically, unresolved reliability concerns from the review, and no evidence on willingness to pay or economics (C1-C3, C14-C16, X1-X8). That makes a cautious no-launch conclusion better supported than a launch recommendation, but not strong enough for high confidence.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}

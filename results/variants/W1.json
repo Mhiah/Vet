@@ -1,0 +1,70 @@
+{
+  "id": "W1",
+  "tier": "well_evidenced",
+  "question": "Should a US startup launch a 15-minute ultrafast grocery delivery service in 2026?",
+  "first_answer": "high",
+  "original_final": "medium",
+  "rule": {
+    "assumptions_reset_to_unresolved": 0,
+    "verdict_before": "weakened",
+    "verdict_after": "weakened"
+  },
+  "repeats": [
+    {
+      "repeat": 1,
+      "ran_at": "2026-11-15T19:37:19.881Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real demand for grocery delivery and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed-cost pressure, and intense competition. So the best-supported answer is: launch only in narrow, well-validated markets or with a materially different operating model; otherwise, the default standalone version looks too risky.",
+        "confidence_rationale": "The record is fairly consistent that demand exists, but the economics are fragile. Confidence is not high because several key uncertainties remain unresolved: the actual launch market, unit economics, customer willingness to pay specifically for 15-minute delivery, and whether partnerships or automation change the cost structure enough to alter the conclusion.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition that make the default standalone model high-risk. This conclusion is strongest at the category level; it could change if the startup is retailer-partnered, automation-heavy, or launching in a uniquely dense market with proven contribution margins.",
+        "confidence_rationale": "The record is fairly consistent that demand exists but economics are difficult, and the re-evaluation weakens any categorical claim that the model cannot work. Confidence is not high because the evidence is indirect on the key decision variables: actual unit economics, local costs, and whether a non-standalone model changes the economics enough to matter.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition for the 15-minute format. This is a category-level judgment, not proof that every 15-minute model fails; retailer-partnered, platform-integrated, or automation-heavy variants could change the economics.",
+        "confidence_rationale": "The record directly supports both sides: demand and growth are real (C1, C2, C5, C6, C19, C23, C24, C33), but so are major structural and competitive risks (C3, C4, C7, C8, C9, C14, C22, C26, C27, C29, C30). Stress testing weakened the strongest assumptions because the evidence is silent on the startup’s actual unit economics, launch market density, and operating model, and some incumbents are still entering the space. That makes the best answer conditional rather than definitive, so medium confidence is more appropriate than high.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence shows real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition in the 15-minute category. The conclusion is strongest for a standalone operator; it is less certain for retailer-partnered, marketplace-integrated, or automation-heavy models.",
+        "confidence_rationale": "The record directly supports both sides: demand and category growth are real (C1, C2, C5, C6, C19, C23, C24, C33), but the operating model has clear cost and competition problems (C3, C4, C7, C8, C9, C14, C22, C26, C27). Stress testing weakened any categorical claim that 15-minute delivery is impossible, because incumbents are entering the space and the evidence is silent on whether better-designed models can change the economics (C20, C21, C30, X2, X4). That leaves a conditional, category-level recommendation rather than a high-confidence yes/no for every possible launch design.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    },
+    {
+      "repeat": 2,
+      "ran_at": "2026-11-15T19:37:40.758Z",
+      "baseline": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition, so the default standalone model remains high-risk rather than broadly attractive. This conclusion is strongest at the category level; it could change if the startup is retailer-partnered, automation-heavy, or launching in a uniquely dense market with proven contribution margins.",
+        "confidence_rationale": "The record is fairly consistent that demand exists but economics are difficult (C1, C2, C3, C4, C7, C8, C9, C11, C12, C14, C22, C26, C27, C33). However, the stress test correctly weakens the claim that failures prove a fatal structural flaw, and the evidence is silent on the startup’s actual unit economics, market density, and operating model. That makes the recommendation solid but conditional rather than definitive.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "rule": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real demand for grocery delivery and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition that make the default standalone model high-risk. This conclusion is strongest at the category level; it could change if the startup is retailer-partnered, automation-heavy, or launching in an unusually dense market with proven contribution margins.",
+        "confidence_rationale": "The record is fairly consistent that demand exists but economics are difficult, and the re-evaluation weakens any categorical claim of nonviability. Confidence is not high because the evidence is indirect on the key decision variables: actual unit economics, local costs, and whether a non-standalone model changes the outcome. The stress test also shows several assumptions are only partially supported or unresolved.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "calibrated": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition that make the default standalone model high-risk. This conclusion is strongest at the category level; it could change if the startup is retailer-partnered, automation-heavy, or launching in a uniquely dense market with proven willingness to pay for 15-minute service.",
+        "confidence_rationale": "The record consistently supports both sides: demand is real and growing (C1, C2, C5, C6, C19, C23, C24, C33), but the economics and competitive environment are repeatedly unfavorable for standalone ultrafast operators (C3, C4, C7, C8, C9, C14, C22, C26, C27). Stress testing weakened the assumption that historical failures fully prove structural impossibility, and the evidence is silent on the startup’s actual unit economics, market density, and operating model, so high confidence is not justified.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      },
+      "both": {
+        "confidence": "medium",
+        "statement": "A US startup should generally not launch a standalone 15-minute ultrafast grocery delivery service in 2026 unless it has exceptionally dense urban demand, strong unit economics, favorable local costs, and a differentiated operating model. The evidence supports real grocery-delivery demand and continued growth in instant delivery, but it also shows repeated losses, shutdowns, high fixed costs, and intense competition for the 15-minute format. So the best-supported answer is: launch only in a narrow, well-validated market with a model that is not just a copy of the failed standalone playbook.",
+        "confidence_rationale": "The record consistently supports both sides of the tradeoff: demand is real (C1, C2, C5, C19, C23, C24, C33), but the economics and competitive pressure are severe (C3, C4, C7, C8, C9, C14, C22, C26, C27, C30). Stress testing weakened the strongest assumptions because the evidence is silent on the startup’s actual unit economics, launch market, and operating model, and it also shows incumbents are still entering the space (C20, C21, C30). That makes the conclusion solid at the category level but not strong enough for high confidence on any specific launch.",
+        "model": "gpt-5.4-mini-2026-03-17"
+      }
+    }
+  ]
+}
