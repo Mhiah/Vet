@@ -8,7 +8,7 @@ Vet is a small study of one proposed fix: make the system form an answer, look f
 
 This is an entry for the [Apart Research AI x Epistemics sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) (13 to 15 November 2026), Track 3: Epistemic Products.
 
-**Read the report:** [`report/Always-Medium-report.pdf`](report/Always-Medium-report.pdf)
+**Read the report:** [`report/Vet-report.pdf`](report/Vet-report.pdf)
 
 ## What it found
 
@@ -36,9 +36,17 @@ Nine questions were run, three per evidence group. Two results pull in opposite 
 
 **The rubric rewarded the flattening.** The rubric's "honest confidence" score averaged 4.3 for briefs labelled medium and 2.6 for briefs labelled high. Scoring one brief at a time, a careful-sounding "medium" looks honest every time. Only looking across the whole set shows that the label never changes.
 
-**The stress test was not inventing objections, but it never lost.** Of its 68 challenges in the first run, 31 cited evidence that cuts against the answer. Yet 12 of the 31 assumptions it marked as weakened had no such evidence behind the challenge, even though the stress-tested method is told to weaken an assumption only when evidence backs the challenge.
+**The stress test never lost.** Counting every run in the study (four per question, a control question and a second model), it judged the first answer "weakened" in 49 of 49 runs, and confidence never rose. It was not inventing objections: 31 of its 68 challenges in the first run cited evidence against the answer. But 12 of the 31 assumptions it marked as weakened had no such evidence behind the challenge.
 
-This is a small study: nine questions and one model. The repeat runs show the pattern is stable for these questions, not that it holds for others. It shows a pattern worth testing, not a settled effect. The report sets out the limits in full.
+**Even an obvious question was weakened.** Asked whether a small business should keep records of its income and expenses, the research found 25 claims, 24 in support and none against. The first answer said high confidence every time. After the stress test it was medium every time.
+
+**A second model lost the link to evidence in a different way.** On Claude Haiku 4.5, with the same evidence, the final label was not always medium (3 low, 6 medium), but it did not follow the evidence either: the thin-evidence questions ended with the highest average confidence. So "always medium" belongs to the main model; losing the evidence gradient after the stress test showed up in both.
+
+**Two fixes were tried and both failed.** Enforcing the "only weaken on real contrary evidence" rule in code, and adding an explicit instruction on how to set the confidence label, left 71 of 72 conclusions at medium.
+
+**A second scorer agreed.** A separate AI reviewer, given only the rubric and the unlabelled briefs, ranked the methods in the same order (15.2, 19.8 and 21.8 of 25) and was within one point of the first scorer on every mark.
+
+This is a small study: nine questions, one main model and one pass on a second. The repeat runs show the pattern is stable for these questions, not that it holds for others. It shows a pattern worth testing, not a settled effect. The report sets out the limits in full.
 
 ## The question
 
@@ -103,6 +111,13 @@ analysis/analyze.py    computes the main tables (summary.json)
 analysis/checks.py     robustness checks: exact tests, repeat runs, evidence checks (checks.json)
 scripts/replicate.ts   repeats the reasoning on saved evidence, with no new searches
 results/replicates/    the repeat runs
+results/controls/      the obvious-answer control question and its repeats
+results/variants/      the two attempted fixes
+results/model-*/       the same reasoning run on another model
+scripts/variants.ts    tests the two fixes on saved records
+scripts/extra.sh       the commands the extra experiments ran
+controls.json          the control question
+analysis/scores_second.json  the second scorer's marks
 analysis/figure.py     draws the figure
 report/                the report (PDF and LaTeX source) and the figure
 RUN                    the question IDs the last run covered
@@ -141,10 +156,10 @@ On GitHub, the same run starts from the Actions tab (**Run the study**) once `SE
 ## Limits
 
 - **Small sample.** Nine questions. Each was run four times, but the repeats reuse the same evidence and model, so they show stability, not generality.
-- **One model, one domain.** Everything runs on one model through SERV, on business and strategy questions. Other models and other kinds of decisions may behave differently.
+- **Two models, one domain.** The main results use one model through SERV; a second was run once per question and behaved differently in detail. All questions are business and strategy questions. Other models and other kinds of decisions may behave differently.
 - **The evidence groups are the author's call.** Which questions count as well-evidenced, contested or thin was decided by judgement before the runs, not by an independent panel.
 - **The rubric has no expert panel behind it.** It was written by the author, not by domain experts.
-- **Scoring is done by one AI model, with imperfect blinding.** The briefs were scored once, under random IDs, by a model from a different family than the one that wrote them. Plain briefs cite no evidence, so they can be recognised, and there is no second scorer or human check. The confidence-label and stress-test results do not depend on scoring.
+- **Scoring is done by AI only, with imperfect blinding.** The briefs were scored under random IDs by two instances of one AI model, from a different family than the model that wrote them. Their agreement shows the scores are repeatable, not that they are right. Plain briefs cite no evidence, so they can be recognised, and there is no human check. The confidence-label and stress-test results do not depend on scoring.
 - **No ground truth.** The study measures whether briefs are honest about their support, not whether their recommendations turn out to be right.
 
 ## Author

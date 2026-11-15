@@ -504,5 +504,186 @@
    "W1/plain",
    "W2/plain"
   ]
+ },
+ "control": {
+  "question": "Should a small business keep records of its income and expenses?",
+  "claims": 25,
+  "claims_against": 0,
+  "plain": "high",
+  "one_shot": [
+   "high",
+   "high",
+   "high",
+   "high"
+  ],
+  "first": [
+   "high",
+   "high",
+   "high",
+   "high"
+  ],
+  "final": [
+   "medium",
+   "medium",
+   "medium",
+   "medium"
+  ],
+  "verdicts": [
+   "weakened",
+   "weakened",
+   "weakened",
+   "weakened"
+  ]
+ },
+ "fix_variants": {
+  "labels": {
+   "baseline": {
+    "medium": 18
+   },
+   "rule": {
+    "medium": 18
+   },
+   "calibrated": {
+    "medium": 17,
+    "high": 1
+   },
+   "both": {
+    "medium": 18
+   }
+  },
+  "assumptions_reset_by_rule": 12,
+  "questions_whose_verdict_became_survived": [
+   "T2"
+  ]
+ },
+ "other_models": {
+  "claude-haiku-4.5": {
+   "model_ids": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "runs": 9,
+   "verdicts": {
+    "weakened": 9
+   },
+   "labels": {
+    "one_shot": {
+     "medium": 5,
+     "high": 4
+    },
+    "first": {
+     "medium": 7,
+     "high": 2
+    },
+    "final": {
+     "low": 3,
+     "medium": 6
+    }
+   },
+   "mean_by_group": {
+    "one_shot": {
+     "well_evidenced": 2.67,
+     "contested": 2,
+     "thin_evidence": 2.67
+    },
+    "first": {
+     "well_evidenced": 2.67,
+     "contested": 2,
+     "thin_evidence": 2
+    },
+    "final": {
+     "well_evidenced": 1.67,
+     "contested": 1.33,
+     "thin_evidence": 2
+    }
+   },
+   "confidence_first_to_final": {
+    "fell": 5,
+    "same": 4,
+    "rose": 0
+   },
+   "rows": [
+    {
+     "id": "C1",
+     "tier": "contested",
+     "first": "medium",
+     "final": "low",
+     "one_shot": "medium",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "C2",
+     "tier": "contested",
+     "first": "medium",
+     "final": "medium",
+     "one_shot": "medium",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "C3",
+     "tier": "contested",
+     "first": "medium",
+     "final": "low",
+     "one_shot": "medium",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "T1",
+     "tier": "thin_evidence",
+     "first": "medium",
+     "final": "medium",
+     "one_shot": "high",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "T2",
+     "tier": "thin_evidence",
+     "first": "medium",
+     "final": "medium",
+     "one_shot": "high",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "T3",
+     "tier": "thin_evidence",
+     "first": "medium",
+     "final": "medium",
+     "one_shot": "medium",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "W1",
+     "tier": "well_evidenced",
+     "first": "high",
+     "final": "medium",
+     "one_shot": "high",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "W2",
+     "tier": "well_evidenced",
+     "first": "high",
+     "final": "medium",
+     "one_shot": "high",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    },
+    {
+     "id": "W3",
+     "tier": "well_evidenced",
+     "first": "medium",
+     "final": "low",
+     "one_shot": "medium",
+     "verdict": "weakened",
+     "model": "claude-haiku-4-5-20251001"
+    }
+   ]
+  }
  }
 }

@@ -151,3 +151,51 @@ if os.path.exists(p2):
     }
     json.dump(out, open(os.path.join(HERE, "checks.json"), "w"), indent=1)
     print(json.dumps(out["second_scorer"], indent=1))
+
+# 8. Control question with an obvious answer (one question, first run plus three repeats)
+pc = os.path.join(ROOT, "results", "controls", "K1.json")
+if os.path.exists(pc):
+    k = json.load(open(pc)); kr = json.load(open(os.path.join(ROOT, "results", "controls", "replicates", "K1.json")))["repeats"]
+    kc = k["crux"]
+    out["control"] = {
+        "question": k["question"],
+        "claims": len(kc["research"]["claims"]), "claims_against": sum(1 for c in kc["research"]["claims"] if c["stance"] == "challenges"),
+        "plain": k["plain"]["confidence"],
+        "one_shot": [k["one_shot"]["confidence"]] + [r["one_shot"]["confidence"] for r in kr],
+        "first": [kc["thesis"]["confidence"]] + [r["first_answer"]["confidence"] for r in kr],
+        "final": [kc["conclusion"]["confidence"]] + [r["final_answer"]["confidence"] for r in kr],
+        "verdicts": [kc["reevaluation"]["thesis_verdict"]] + [r["reevaluation"]["thesis_verdict"] for r in kr],
+    }
+
+# 9. Two attempted fixes, conclusion stage only, on saved first-run records
+vf = sorted(glob.glob(os.path.join(ROOT, "results", "variants", "*.json")))
+if vf:
+    tally = collections.defaultdict(collections.Counter); reset = 0; flipped = []
+    for f in vf:
+        d = json.load(open(f)); reset += d["rule"]["assumptions_reset_to_unresolved"]
+        if d["rule"]["verdict_after"] != d["rule"]["verdict_before"]: flipped.append(d["id"])
+        for rep in d["repeats"]:
+            for name in ["baseline", "rule", "calibrated", "both"]: tally[name][rep[name]["confidence"]] += 1
+    out["fix_variants"] = {"labels": {k: dict(v) for k, v in tally.items()}, "assumptions_reset_by_rule": reset, "questions_whose_verdict_became_survived": flipped}
+
+# 10. Other models: one pass of the reasoning on the same saved evidence
+out["other_models"] = {}
+for folder in sorted(glob.glob(os.path.join(ROOT, "results", "model-*"))):
+    rows = []
+    for f in sorted(glob.glob(os.path.join(folder, "*.json"))):
+        d = json.load(open(f))
+        for r in d["repeats"]:
+            rows.append({"id": d["id"], "tier": d["tier"], "first": r["first_answer"]["confidence"], "final": r["final_answer"]["confidence"], "one_shot": r["one_shot"]["confidence"], "verdict": r["reevaluation"]["thesis_verdict"], "model": r["model"]})
+    if not rows: continue
+    mv = [LEVEL[r["first"]] - LEVEL[r["final"]] for r in rows]
+    out["other_models"][os.path.basename(folder)[6:]] = {
+        "model_ids": sorted(set(r["model"] for r in rows)), "runs": len(rows),
+        "verdicts": dict(collections.Counter(r["verdict"] for r in rows)),
+        "labels": {k: dict(collections.Counter(r[k] for r in rows)) for k in ["one_shot", "first", "final"]},
+        "mean_by_group": {k: {t: round(st.mean(LEVEL[r[k]] for r in rows if r["tier"] == t), 2) for t in TIERS} for k in ["one_shot", "first", "final"]},
+        "confidence_first_to_final": {"fell": sum(x > 0 for x in mv), "same": sum(x == 0 for x in mv), "rose": sum(x < 0 for x in mv)},
+        "rows": rows,
+    }
+json.dump(out, open(os.path.join(HERE, "checks.json"), "w"), indent=1)
+print(json.dumps({k: out.get(k) for k in ["control", "fix_variants"]}, indent=1))
+for m, v in out["other_models"].items(): print(m, json.dumps({k: x for k, x in v.items() if k != "rows"}, indent=1))
